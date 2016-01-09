@@ -1,6 +1,8 @@
 This is a project aiming to upgrade QtWebKit to modern WebKit code base.
 
-## Why do we need QtWebKit when shiny new QtWebEngine is available?
+## Why?
+
+Why do we need QtWebKit when shiny new QtWebEngine is available?
 
 ### Use case 1: Embedded systems
 * WebKit engine tends to use less memory than Chromium because of different design decisions.
@@ -36,3 +38,7 @@ Please write to webkit-qt@lists.webkit.org mailing list in case you are willing 
 * Linux on 32-bit x86 (just needs testing) and other CPU architectures (amount of needed work will vary a lot)
 * Android (?)
 * Other POSIX-compliant operating systems like *BSD
+
+## Contacts
+Mailing list: webkit-qt@lists.webkit.org
+IRC: #qtwebkit on irc.freenode.net
