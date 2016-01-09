@@ -9,6 +9,7 @@
 ### Use case 2: Linux desktop
 * QtWebKit (especially WebKit1 version, i.e. QWebView and friends) is highly customizable on Qt level. This feature makes possible projects like KDEWebKit
 * Some users are not satisfied by ever growing CPU and memory usage of modern browsers, and are even ready to sacrifice some milliseconds of page loading time for lower resource usage. Industry tends to ignore them.
+* It would be better to have a choice of browsers based on different engines on Linux, not just a choice of Chromium skins.
 
 ### Use case 3: Web page processing tools
 * WebKit1 API of QtWebKit provides direct R/W access to DOM from C++ code, allowing to write high-performance tools. 
