@@ -1,9 +1,3 @@
-This is a project aiming to upgrade QtWebKit to modern WebKit code base.
-
-## Why?
-
-Why do we need QtWebKit when shiny new QtWebEngine is available?
-
 ### Use case 1: Embedded systems
 * WebKit engine tends to use less memory than Chromium because of different design decisions.
 * QtWebKit is using Qt to render web content, so if Qt is ported to some platform, it can use browser immediately. Chromium uses different graphics system (Skia) which may require additional porting efforts.
@@ -22,24 +16,3 @@ Why do we need QtWebKit when shiny new QtWebEngine is available?
 
 ### Use case 4: Legacy applications
 * There is a lot of code written with use of QtWebKit API. However, QtWebKit branch currently maintained by Qt Project cannot receive security updates anymore, because it lags too far behind WebKit upstream.
-
-## System requirements
-
-The next configurations are going to be supported:
-
-* OS: Linux (X11 and EGLFS)
-* CPU architectures: x86_64, MIPS
-* Compiler: g++ >= 4.8
-* Qt >= 5.4 (right now 5.2 will probably be enough)
-
-Please write to webkit-qt@lists.webkit.org mailing list in case you are willing to help us to support different platforms. In particular, the next platforms would be nice to have:
-* OS X (>= 10.10)
-* Windows (>= 7) without WebKit 2 API
-* Linux on 32-bit x86 (just needs testing) and other CPU architectures (amount of needed work will vary a lot)
-* Android (?)
-* Other POSIX-compliant operating systems like *BSD
-
-## Contacts
-Mailing list: webkit-qt@lists.webkit.org
-
-IRC: #qtwebkit on irc.freenode.net
