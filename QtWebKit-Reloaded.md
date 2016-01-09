@@ -41,4 +41,5 @@ Please write to webkit-qt@lists.webkit.org mailing list in case you are willing 
 
 ## Contacts
 Mailing list: webkit-qt@lists.webkit.org
+
 IRC: #qtwebkit on irc.freenode.net
