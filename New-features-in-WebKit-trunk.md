@@ -1,5 +1,6 @@
 ### JavaScriptCore
 
+* Fetch API
 * Partial ES6 support (https://webkit.org/blog/4054/es6-in-webkit/)
 * JavaScript now uses C stack
 * FTL JIT - ultimate JIT tier which compiles JS using LLVM (https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
