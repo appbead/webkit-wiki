@@ -2,4 +2,4 @@ Here is a list of "positions" in QtWebKit project which we would like to fill in
 
 ### Build engineer
 
-Someone with CMake experience, knowledge of Perl and/or Python is a plus.
+Someone with CMake and qmake experience, knowledge of Perl and/or Python is a plus.
