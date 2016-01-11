@@ -10,7 +10,7 @@ If you wonder why do we need QtWebKit when shiny new QtWebEngine is available, p
 
 Here is our list of [[open projects|Open Projects]].
 
-Master contains exact mirror of upstream WebKit repository. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
+Master contains exact mirror of upstream WebKit repository at git://git.webkit.org/WebKit.git. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
 
 Development of QtWebKit currently happens in qtwebkit-1 branch. Warning: it can be rebased to master at any time, so please be careful.
 
