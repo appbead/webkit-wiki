@@ -8,11 +8,11 @@ If you wonder why do we need QtWebKit when shiny new QtWebEngine is available, p
 
 ## Interested and ready to help?
 
+Here is our list of [[open projects|Open Projects]].
+
 Master contains exact mirror of upstream WebKit repository. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
 
 Development of QtWebKit currently happens in qtwebkit-1 branch. Warning: it can be rebased to master at any time, so please be careful.
-
-Here is our list of [[open projects|Open Projects]].
 
 ## System requirements
 
@@ -22,6 +22,28 @@ The next configurations are going to be supported:
 * CPU architectures: x86_64, MIPS
 * Compiler: g++ >= 4.8
 * Qt >= 5.4 (right now 5.2 will probably be enough)
+
+## Build requirements
+
+* sqlite >= 3.6.16
+* ICU >= 52.1
+* ruby >= 1.9
+* perl
+* python 2
+* bison
+* flex
+* gperf
+
+I'm using the next command to build QtWebKit:
+
+    WEBKIT_OUTPUTDIR=`pwd`/build/qt-jsc \
+    Tools/Scripts/build-jsc --qt --no-ftl-jit \
+        --release \
+        --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
+
+and this command to run tests:
+
+    Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results-release
 
 ## Contacts
 Mailing list: webkit-qt@lists.webkit.org
