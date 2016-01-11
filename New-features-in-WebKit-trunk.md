@@ -6,6 +6,8 @@
 * FTL JIT - ultimate JIT tier which compiles JS using LLVM (https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
     * New B3 backend for FTL is in development, it does not depend on LLVM and is much faster and more portable
 * WebAssembly support is in development
+* Various performance improvements
+* Imropoved Inspector and other tooling
 
 ### WebCore
 
