@@ -8,3 +8,4 @@ You will need some experience with CMake and qmake build systems, knowledge of P
 * Improve Qt-specific parts of build system to follow best practices
 * Identify and port missing features of old qmake-based build system to CMake, e.g., -fdebug-types-section and force_static_libs_as_shared. Upstream changes which are not specific to Qt.
 * Refactor CMake files to minimize amount of Qt-specific code (work with upstream)
+* Analyze scripts which were used for QtWebkit testing in past, compare with what WebKit project uses today, restore/reimplement Qt-specific bits were appropriate
