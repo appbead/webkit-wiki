@@ -43,7 +43,7 @@ I'm using the next command to build QtWebKit:
 
 and this command to run tests:
 
-    Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results-release
+    Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results
 
 ## Contacts
 Mailing list: webkit-qt@lists.webkit.org
