@@ -1,4 +1,4 @@
-Please write to webkit-qt@lists.webkit.org mailing list in case you are willing to help QtWebKit project!
+**Please write to webkit-qt@lists.webkit.org mailing list and join #qtwebkit on irc.freenode.net in case you are willing to help QtWebKit project!**
 
 Here is a list of things that will greatly help QtWebKit project and will help you to learn more about it before diving deeper:
 
