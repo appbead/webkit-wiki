@@ -4,7 +4,15 @@ This is a project aiming to upgrade QtWebKit to modern WebKit code base.
 
 ## Why?
 
-If you wonder why do we need QtWebKit when shiny new QtWebEngine is available, please look at our [use cases list](Use-cases-of-QtWebKit)
+If you wonder why do we need QtWebKit when shiny new QtWebEngine is available, please look at our [[use cases list|Use cases of QtWebKit]]
+
+## Interested and ready to help?
+
+Master contains exact mirror of upstream WebKit repository. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
+
+Development of QtWebKit currently happens in qtwebkit-1 branch. Warning: it can be rebased to master at any time, so please be careful.
+
+Here is our list of [[open projects|Open Projects]].
 
 ## System requirements
 
