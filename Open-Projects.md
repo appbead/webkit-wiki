@@ -21,3 +21,10 @@ In particular, the next platforms are very desirable to have support for:
 * Windows (>= 7) without WebKit 2 API (MinGW or MSVC >= 2015)
 * Linux on 32-bit x86 (just needs testing) and other CPU architectures (amount of needed work will vary a lot)
 * Other POSIX-compliant operating systems like *BSD, with Clang or GNU toolchain
+
+### Improve documentation
+
+[Webkit Wiki](http://trac.webkit.org/wiki) contains lots of useful information, including old documentation of QtWebKit port. Unfortunately, not all of it is up to date.
+
+* Find out what things are still up-to-date, add links to them, or copy valuable bits here.
+* Fix outdated pages directly on WebKit Wiki (needs discussion)
