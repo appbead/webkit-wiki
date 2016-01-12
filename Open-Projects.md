@@ -28,3 +28,7 @@ In particular, the next platforms are very desirable to have support for:
 
 * Find out what things are still up-to-date, add links to them, or copy valuable bits here.
 * Fix outdated pages directly on WebKit Wiki (needs discussion)
+
+### Help to fix JavaScriptCore's LLINT and JIT implementations on MIPS architecture
+
+This is somewhat unrelated to Qt part of QtWebKit project, but it is very important for me (annulen)
