@@ -33,7 +33,7 @@ In particular, the next platforms are very desirable to have support for:
 
 Try to find large open-source projects, development communities, commerical or non-commerical organizations which are using QtWebKit right now, and ask them if they are interested in this project and can help.
 
-For example, PhantomJS team is already collaborating.
+For example, PhantomJS team is already contributing to our project.
 
 ### Help to fix JavaScriptCore's LLINT and JIT implementations on MIPS architecture
 
