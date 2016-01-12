@@ -38,3 +38,10 @@ For example, PhantomJS team is already collaborating.
 ### Help to fix JavaScriptCore's LLINT and JIT implementations on MIPS architecture
 
 This is somewhat unrelated to Qt part of QtWebKit project, but it is very important for me (annulen)
+
+### Help to submit port-independent patches to upstream
+
+QtWebKit branch maintained by Qt community has accumulated a number of local patches, some of them, like [this](https://codereview.qt-project.org/#/c/73757/), may fix bugs affecting other ports.
+
+* Find such patches
+* Check if respective bugs can be reproduced in upstream, using e.g. GTK+ port on Linux. If so, contact patch authors and tell them to submit patches to webkit.org
