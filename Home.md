@@ -25,14 +25,16 @@ The next configurations are going to be supported:
 
 ## Build requirements
 
+* CMake >= 2.8.12
+* ninja
 * sqlite >= 3.6.16
 * ICU >= 52.1
 * ruby >= 1.9
-* perl
-* python 2
-* bison
-* flex
-* gperf
+* perl >= 5.10.0
+* python 2.7.x
+* bison >= 2.1
+* flex >= 2.5.34
+* gperf >= 3.0.1
 
 I'm using the next command to build QtWebKit:
 
