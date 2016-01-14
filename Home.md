@@ -20,7 +20,7 @@ The next configurations are going to be supported:
 
 * OS: Linux (X11 and EGLFS)
 * CPU architectures: x86_64, MIPS
-* Compiler: g++ >= 4.8
+* Compiler: g++ >= 4.8 or clang++
 * Qt >= 5.4 (right now 5.2 will probably be enough)
 
 ## Build requirements
