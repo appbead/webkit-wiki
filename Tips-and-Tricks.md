@@ -4,4 +4,4 @@ Script that finds all patches in downstream QtWebKit repo, which were merged aft
 
 List Qt-specific source in format suitable for PlatformQt.cmake:
 
-    find Source/WebCore/ -name qt -type d -exec find {} -name '*.cpp' \;
+    find "$1" -name qt -type d -exec find {} -name '*.cpp' \;
