@@ -37,6 +37,10 @@ Try to find large open-source projects, development communities, commerical or n
 
 For example, PhantomJS team is already contributing to our project.
 
+### Attract funding
+
+If we have funding, on later stages of project (see [Roadmap]) we may consider hiring part-time (or full-time) developer(s) to speed up progress.
+
 ### Help to fix JavaScriptCore's LLINT and JIT implementations on MIPS architecture
 
 This is somewhat unrelated to Qt part of QtWebKit project, but it is very important for me (annulen)
