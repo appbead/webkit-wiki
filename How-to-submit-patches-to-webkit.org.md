@@ -12,6 +12,7 @@ How I (annulen) do it now:
 6. Fix changes in ChangeLog files
 7. Tools/Scripts/webkit-patch upload --request-commit -g HEAD
 
+Some tips:
 * In my setup upstream WebKit is cloned from git://git.webkit.org/WebKit.git, it is my "origin" remote. Master of annulen/webkit is periodically synced with upstream, but tends to be outdated. Mirrot at WebKit/webkit tends to lag behind git.webkit.org, but very slightly.
 * If you are not sure in your patch and you need us to review it before upstream reviewers, at step 7 use
 
