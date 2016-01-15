@@ -7,6 +7,8 @@
 * Announce our progress to potential users: KDEWebKit, PhantomJS, etc. Work with them to fix show-stopper bugs
 * Restore testing infrastructure
 * Fix WebKit1 to the state when it passes most tests
-* Announce our progress to wide community
+* Announce our progress to wide community (Qt intereset, WebKit-dev, contact developers of known QtWebKit-based browsers, etc.)
 * Fix most prominent bugs submitted by users
+* Create preliminary stable branch
+* At this point patches implementing new features may be accepted in "unstable" branch
 * WebKit2 compilation
