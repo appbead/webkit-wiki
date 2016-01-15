@@ -24,4 +24,5 @@ Look at Tools/Scripts/webkit-patch --help and Tools/Scripts/webkit-patch help up
 
 Glossary:
 * Commit Queue (cq): thingy that lands patches for those who don't have committer rights. --request-commit sets cq+ flag on patch.
+* Early Warning System (EWS): system akin to Qt CI, but it runs before (or in parallel to) code review. After patch is landed, it is built on larger number of platforms (https://build.webkit.org/waterfall), and may require rollback.
 * r+, r=me: reviewer has approved your patch
