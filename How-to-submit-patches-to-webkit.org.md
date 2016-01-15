@@ -1,3 +1,5 @@
+Note: WebKit uses Bugzilla as a code review tool, like Gerrit used by Qt Project. Occasionally, it is used for bug reporting, but most issues are created solely for submitting patches.
+
 * https://webkit.org/contributing-code/
 * http://trac.webkit.org/wiki/UsingGitWithWebKit
 * Some information of http://trac.webkit.org/wiki/QtWebKitContrib is still relevant
