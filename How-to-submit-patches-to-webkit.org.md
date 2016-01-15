@@ -19,3 +19,7 @@ Some tips:
     Tools/Scripts/webkit-patch upload --no-review -g HEAD
 
 Look at Tools/Scripts/webkit-patch --help and Tools/Scripts/webkit-patch help upload for more details
+
+Glossary:
+* Commit Queue (cq): thingy that lands patches for those who don't have committer rights. --request-commit sets cq+ flag on patch.
+* r+, r=me: reviewer has approved your patch
