@@ -1,4 +1,5 @@
 * JavaScriptCore compilation - done
+* Prepare comparative benchmarks (speed, memory) of JSC vs older QtWebKit releases on different platforms
 * WebCore compilation - in progress
 * WebKit compilation
 * Testing tools compilation (DRT, TestWebKitAPI, etc.)
