@@ -23,7 +23,7 @@ How I (annulen) do it now:
 
 Look at Tools/Scripts/webkit-patch --help and Tools/Scripts/webkit-patch help upload for more details
 * You may use the same trick to check if patch compiles in ports you cannot build - just submit it for EWS analysis and watch if bots are green. Please don't use it for systematic trial-and-error coding, or you will be banned!
-* If live in some European time zone and you want to make sure EWS is green before CCing reviewers, try to upload patches in the morning or afternoon - in these hours (US night) bots are less loaded.
+* Be aware of time zones. If you live in Europe and you want to make sure EWS is green before CCing reviewers, try to upload patches in the morning or afternoon - in these hours (US night) bots are less loaded. If you want to get attention of reviewers, you have better chances in evening or night hours.
 
 ### Glossary
 * Commit Queue (cq): thingy that lands patches for those who don't have committer rights. --request-commit sets cq+ flag on patch.
