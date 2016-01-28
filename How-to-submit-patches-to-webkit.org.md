@@ -15,15 +15,17 @@ How I (annulen) do it now:
 6. Fix changes in ChangeLog files
 7. Tools/Scripts/webkit-patch upload --request-commit -g HEAD
 
-Some tips:
+### Tips
 * In my setup upstream WebKit is cloned from git://git.webkit.org/WebKit.git, it is my "origin" remote. Master of annulen/webkit is periodically synced with upstream, but tends to be outdated. Mirrot at WebKit/webkit tends to lag behind git.webkit.org, but very slightly.
 * If you are not sure in your patch and you need us to review it before upstream reviewers, at step 7 use
 
     Tools/Scripts/webkit-patch upload --no-review -g HEAD
 
 Look at Tools/Scripts/webkit-patch --help and Tools/Scripts/webkit-patch help upload for more details
+* You may use the same trick to check if patch compiles in ports you cannot build - just submit it for EWS analysis and watch if bots are green. Please don't use it for systematic trial-and-error coding, or you will be banned!
+* If live in some European time zone and you want to make sure EWS is green before CCing reviewers, try to upload patches in the morning or afternoon - in these hours (US night) bots are less loaded.
 
-Glossary:
+### Glossary
 * Commit Queue (cq): thingy that lands patches for those who don't have committer rights. --request-commit sets cq+ flag on patch.
 * Early Warning System (EWS): system akin to Qt CI, but it runs before (or in parallel to) code review. After patch is landed, it is built on larger number of platforms (https://build.webkit.org/waterfall), and may require rollback.
 * r+, r=me: reviewer has approved your patch
