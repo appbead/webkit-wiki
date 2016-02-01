@@ -6,6 +6,7 @@
 
 ### JSC and its usage (bridge, WebKit)
 * `FooBar* fb = static_cast<JSFooBar*>(object)->impl()` becomes `FooBar* fb = JSFooBar::toWrapped(object)`
+* `JSC::Identifier` constructors should probably be replaced with `JSC::Identifier::fromString`
 
 ### WebCore
 * These classes are now commonly passed by reference, not by pointer: `GraphicsContext`, `RenderObject`, `RenderStyle`, `StyleResolver`
