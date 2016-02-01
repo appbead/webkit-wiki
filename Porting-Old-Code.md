@@ -13,3 +13,10 @@
 * `Font` class was renamed to `FontCascade`, `SimpleFontData` to `Font`
 * Replace `toClassName()` invocations with `downcast<ClassName>`
 * Many enums were converted to C++11 enum classes, slightly changing their names and usage
+
+### Modernization TODO
+The next items don't cause compiler errors right now, but should be replaced to make code future-proof:
+* Eleminate PassRefPtr [#18](https://github.com/annulen/webkit/issues/18)
+* Replace DEPRECATED_DEFINE_STATIC_LOCAL with NeverDestroyed [#19](https://github.com/annulen/webkit/issues/19)
+* Use references for types which are commonly passed by reference in WebCore
+* Where possible, avoid conversion of 8-bit Strings to QStrings
