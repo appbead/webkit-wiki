@@ -1,4 +1,4 @@
-* Replace `OVERRIDE` with `override`. (You may want to do the same with Q_DECL_OVERRIDE in non-API code as well)
+* Replace `OVERRIDE` with `override`. (You may want to do the same with `Q_DECL_OVERRIDE` in non-API code as well)
 
 ### Smart pointers
 * `OwnPtr` and `PassOwnPtr` should be replaced with `std::unique_ptr`
