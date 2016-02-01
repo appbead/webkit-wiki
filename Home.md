@@ -39,11 +39,11 @@ The next configurations are going to be supported:
 I'm using the next command to build QtWebKit:
 
     WEBKIT_OUTPUTDIR=`pwd`/build/qt-jsc \
-    Tools/Scripts/build-jsc --qt --no-ftl-jit \
+    Tools/Scripts/build-webkit --qt \
         --release \
         --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
 
-and this command to run tests:
+and this command to run JSC tests:
 
     Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results
 
