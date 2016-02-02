@@ -18,11 +18,13 @@ For Ubuntu use the next command
 
 I'm using the next command to build QtWebKit:
 
-    WEBKIT_OUTPUTDIR=`pwd`/build/qt-jsc \
+    WEBKIT_OUTPUTDIR=`pwd`/build/qt \
     Tools/Scripts/build-webkit --qt \
         --release \
         --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
 
-and this command to run JSC tests:
+To build only JSC, replace `build-webkit` with `build-jsc`
+
+Use this command to run JSC tests:
 
     Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results
