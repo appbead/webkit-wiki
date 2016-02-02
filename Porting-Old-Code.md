@@ -15,6 +15,7 @@
 * `Clipboard` was renamed to `DataTransfer`
 * `Font` class was renamed to `FontCascade`, `SimpleFontData` to `Font`
 * Replace `toClassName()` invocations with `downcast<ClassName>`
+* Timer is not template anymore, see https://github.com/annulen/webkit/commit/50862feb41477701a0daee3dda170e9ac139c3d3
 * Many enums were converted to C++11 enum classes, slightly changing their names and usage
 
 ### Modernization TODO
