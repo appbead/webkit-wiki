@@ -25,27 +25,8 @@ The next configurations are going to be supported:
 
 ## Build requirements
 
-* CMake >= 2.8.12
-* ninja
-* sqlite >= 3.6.16
-* ICU >= 52.1
-* ruby >= 1.9
-* perl >= 5.10.0
-* python 2.7.x
-* bison >= 2.1
-* flex >= 2.5.34
-* gperf >= 3.0.1
-
-I'm using the next command to build QtWebKit:
-
-    WEBKIT_OUTPUTDIR=`pwd`/build/qt-jsc \
-    Tools/Scripts/build-webkit --qt \
-        --release \
-        --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
-
-and this command to run JSC tests:
-
-    Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results
+See [[Building QtWebKit on Linux]].
+It is also possible to build QtWebKit on Windows with MSVC 2015, instructiond will come later.
 
 ## Contacts
 Mailing list: webkit-qt@lists.webkit.org
