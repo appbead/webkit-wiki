@@ -13,7 +13,7 @@ You need to install the next dependencies:
 
 For Ubuntu use the next command
 
-    sudo apt-get install build-essential perl python ruby-dev flex gperf bison cmake \
+    sudo apt-get install build-essential perl python ruby-dev flex gperf bison cmake ninja \
     libfontconfig1-dev libicu-dev libsqlite3-dev zlib1g-dev libpng12-dev libjpeg-dev libxslt1-dev libxml2-dev 
 
 I'm using the next command to build QtWebKit:
