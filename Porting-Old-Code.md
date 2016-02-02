@@ -12,6 +12,7 @@
 
 ### WebCore
 * These classes are now commonly passed by reference, not by pointer: `GraphicsContext`, `RenderObject`, `RenderStyle`, `StyleResolver`
+* `Clipboard` was renamed to `DataTransfer`
 * `Font` class was renamed to `FontCascade`, `SimpleFontData` to `Font`
 * Replace `toClassName()` invocations with `downcast<ClassName>`
 * Many enums were converted to C++11 enum classes, slightly changing their names and usage
