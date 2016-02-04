@@ -1,3 +1,12 @@
+### Skip ChangeLogs in git grep
+
+When searching for some generic terms or function names often used in code, you often get lots of matches in ChangeLog files which usually are not interesting (heck, we have git log for thet purpose with exactly same descriptions).
+
+To fix it, add `':!*ChangeLog*'` at the end of your command, e.g.
+
+    git grep -i PrivateBrowsingEnabled Source/ ':!*ChangeLog*'
+
+
 ### Partial revert of patch in git
 
 When you revert patches removing Qt code from WebKit, sometimes it is easier to split this work ino steps. In particular, this is useful for enormous Tools patch.
