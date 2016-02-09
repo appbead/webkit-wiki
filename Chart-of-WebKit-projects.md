@@ -18,4 +18,4 @@ This branch was released as a part of Qt 5.2 - 5.5 (QtWebKit module). It will al
 
 ### This repository
 
-Code in this repository is based on current WebKit trunk, but patches that removed Qt port in 2013 are being reverted. It does not directly derive from Qt Project branch described in paragraph above, however goal is to incorporate all improvements made there.
+Code in this repository is based on current WebKit trunk, but patches that removed Qt port in 2013 are being reverted. It is not directly derived from Qt Project branch described in paragraph above, however goal is to incorporate all improvements made there. It is a downstream port of WebKit, however we are trying to get our changes into upstream wherever it makes sense and aligns with goals of WebKit project.
