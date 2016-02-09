@@ -4,9 +4,9 @@ You might be wondering why so many projects (including this one) are calling the
 
 Actually, there is only one project called "WebKit", and its headquarters are at https://webkit.org/. All other related projects are either "ports" or forks of WebKit. Ports can be defined as a collections of code added to shared WebKit source tree, implementing platform-dependent functionality using APIs provided by particular platform (e.g., Qt libraries in QtWebKit, Cocoa and CoreFoundation in Mac and iOS).
 
-Official ports: Mac (OS X), iOS, GTK+, EFL, AppleWin, WinCairo
-Downstream ports (examples): EAWebKit, Haiku, QtWebKit
-Forks: Blink (derived from previously existing Chromium port)
+* Official ports: Mac (OS X), iOS, GTK+, EFL, AppleWin, WinCairo
+* Downstream ports (examples): EAWebKit, Haiku, QtWebKit
+* Forks: Blink (derived from previously existing Chromium port)
 
 ### QtWebKit
 
