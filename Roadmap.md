@@ -1,7 +1,8 @@
 * JavaScriptCore compilation - done
 * Prepare comparative benchmarks (speed, memory) of JSC vs older QtWebKit releases on different platforms
-* WebCore compilation - in progress
-* WebKit compilation - in progress
+* WebCore compilation - done (with some omissions)
+* WebKit1 compilation - done (with some omissions)
+* QtTestBrowser - done (with some omissions)
 * Testing tools compilation (DRT, TestWebKitAPI, etc.) - in progress
 * WebKit1 should work for trivial sites
 * Announce our progress to potential users: KDEWebKit, PhantomJS, etc. Work with them to fix show-stopper bugs
