@@ -4,7 +4,7 @@
 * WebKit1 compilation - done (history and plugin APIs are built but don't work)
 * QtTestBrowser - done (with some omissions)
 * Testing tools compilation (DRT, TestWebKitAPI, etc.) - in progress
-* WebKit1 should work for trivial sites
+* WebKit1 should work for trivial sites - in progress
 * Announce our progress to potential users: KDEWebKit, PhantomJS, etc. Work with them to fix show-stopper bugs
 * Restore testing infrastructure
 * Fix WebKit1 to the state when it passes most tests
