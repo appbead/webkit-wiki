@@ -1,7 +1,7 @@
 * JavaScriptCore compilation - done
 * Prepare comparative benchmarks (speed, memory) of JSC vs older QtWebKit releases on different platforms
 * WebCore compilation - done (with some omissions)
-* WebKit1 compilation - done (with some omissions)
+* WebKit1 compilation - done (history and plugin APIs are built but don't work)
 * QtTestBrowser - done (with some omissions)
 * Testing tools compilation (DRT, TestWebKitAPI, etc.) - in progress
 * WebKit1 should work for trivial sites
