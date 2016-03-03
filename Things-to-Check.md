@@ -9,10 +9,6 @@ Items in this list need manual check, or even better indenitfying corresponding 
 
     MIME sniffing was added into WebKit in https://bugs.webkit.org/show_bug.cgi?id=46968 as a generic component with Qt implementation, however other ports didn't use it and it was removed from trunk. Find out how do other ports solve this issue. It may happen that MIMESniffing will be useful for WinCairo or some other port. It was also used by Blackberry port, but Blackberry was removed shortly after Qt. Soap seems to implement MIME sniffing inside library.
 
-* Find out if we still need TextureMapperImageBuffer (non-GL code path)
-
-    It was broken (see https://bugs.webkit.org/show_bug.cgi?id=143214#c20) and was removed in cd4e4ff
-
 * We may have this bug: https://bugs.webkit.org/show_bug.cgi?id=154554
 
     See FontCache::createFontPlatformData
