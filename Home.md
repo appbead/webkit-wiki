@@ -25,8 +25,7 @@ The next configurations are going to be supported:
 
 ## Build requirements
 
-See [[Building QtWebKit on Linux]].
-It is also possible to build QtWebKit on Windows with MSVC 2015, instructiond will come later.
+See [[Building QtWebKit on Linux]] and [[Building QtWebKit on Windows]].
 
 ## Contacts
 Mailing list: webkit-qt@lists.webkit.org
