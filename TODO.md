@@ -2,6 +2,10 @@
 
     It was broken (see https://bugs.webkit.org/show_bug.cgi?id=143214#c20) and was removed in cd4e4ff
 
+* Review Qt timer usage
+
+    Qt 5 introduced 3 types of timers: Qt::PreciseTimer, Qt::CoarseTimer, and Qt::VeryCoarseTimer. By default, CoarseTimer is used. We need to verify if it is the most appropriate timer type in all places where Qt timers are used, fix otherwise.
+
 ### OpenGL / WK2
 
 * Check OpenGL function lookup code
