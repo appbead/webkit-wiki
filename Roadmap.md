@@ -16,7 +16,7 @@
 
 ### Short term tasks
 * Make a list of optional features we want to enable right now
-* Allow people to use QtWebKit from qmake and cmake
+* Allow people to use QtWebKit from qmake and cmake, test on PhantomJS and Otter
 * Build all C++ tests
 * Fix compilation of accelerated compositing code
 * Installation
