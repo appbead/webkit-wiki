@@ -13,3 +13,10 @@
 * [ ] Create preliminary stable branch
 * [ ] At this point patches implementing new features in API may be accepted in "unstable" branch
 * [ ] WebKit2 compilation
+
+### Short term tasks
+* Make a list of optional features we want to enable right now
+* Allow people to use QtWebKit from qmake and cmake
+* Build all C++ tests
+* Fix compilation of accelerated compositing code
+* Installation
