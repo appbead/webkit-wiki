@@ -18,6 +18,3 @@
 * Make a list of optional features we want to enable right now
 * Allow people to use QtWebKit from qmake and cmake, test on PhantomJS and Otter
 * Build all C++ tests
-* Get Inspector working
-* Fix compilation of accelerated compositing code
-* Installation
