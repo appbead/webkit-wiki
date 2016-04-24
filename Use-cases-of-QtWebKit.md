@@ -7,7 +7,7 @@
 * QtWebEngine is licensed under LPGLv3 which prohibits its use in locked-down devices.
 
 ### Use case 2: Linux desktop
-* QtWebKit (especially WebKit1 version, i.e. QWebView and friends) is highly customizable on Qt level. This feature makes possible projects like KDEWebKit
+* QtWebKit (especially WebKit1 version, i.e. QWebView and friends) is highly customizable on Qt level. This feature makes projects like KDEWebKit possible.
 * Some users are not satisfied by ever growing CPU and memory usage of modern browsers, and are even ready to sacrifice some milliseconds of page loading time for lower resource usage. Industry tends to ignore them.
 * It would be better to have a choice of browsers based on different engines on Linux, not just a choice of Chromium skins.
 
