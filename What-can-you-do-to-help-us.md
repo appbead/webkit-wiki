@@ -6,7 +6,6 @@ Here is a list of things that will greatly help QtWebKit project and will help y
 
 You will need some experience with CMake and qmake build systems, knowledge of Perl and/or Python will help. No advanced C++ skills are needed to take these items.
 
-* Allow QtWebKit to be properly configured with CMake on Windows and OS X (though compilation fixes are welcome too!)
 * Improve Qt-specific parts of build system to follow best practices
 * Make CMake's automoc work only over Qt-specific files
 * Identify and port missing features of old qmake-based build system to CMake, e.g., -fdebug-types-section and force_static_libs_as_shared. Upstream changes which are not specific to Qt.
@@ -18,7 +17,6 @@ You will need some experience with CMake and qmake build systems, knowledge of P
 In particular, the next platforms are very desirable to have support for:
 
 * OS X (>= 10.10)
-* Windows (>= 7) without WebKit 2 API (MinGW or MSVC >= 2015)
 * Linux on 32-bit x86 (just needs testing) and other CPU architectures (amount of needed work will vary a lot)
 * Other POSIX-compliant operating systems like *BSD, with Clang or GNU toolchain
 
@@ -40,10 +38,6 @@ For example, PhantomJS team is already contributing to our project.
 ### Attract funding
 
 If we have funding, on later stages of project (see [Roadmap]) we may consider hiring part-time (or full-time) developer(s) to speed up progress.
-
-### Help to fix JavaScriptCore's LLINT and JIT implementations on MIPS architecture
-
-This is somewhat unrelated to Qt part of QtWebKit project, but it is very important for me (annulen)
 
 ### Help to submit port-independent patches to upstream
 
