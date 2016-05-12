@@ -37,3 +37,7 @@ To build JSC only, replace `build-webkit` with `build-jsc`.
 Q: When I use ninja to build QtWebkit I can't find any generated solution or project files for Visual Studio. How can I change that?
 
 A: Both scripts (`build-webkit` and `build-jsc`) accepts the optional argument `--no-ninja` which disables `ninja`. But be aware, you can't mix MSVC build and ninja. They are not compatible. You must use different build directory (or just delete CMake cache).
+
+Q: What architectures supported?
+
+A: Primary architecture is x86_64 (64-bit). X86 is less supported and not tested well.
