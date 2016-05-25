@@ -2,7 +2,7 @@
 You must have following programs in your `PATH` environment variable:
 
 * Visual Studio 2015 **IMPORTANT:** due to modern C++11 features, VS2015 is the minimum supported version. Visual Studio 2015 Community will be enough to build QtWebkit.
-* Qt >= 5.6 - http://www.qt.io/developers
+* Qt >= 5.6 - http://www.qt.io/developers (older Qt versions may work as well, but you will need to build Qt yourself)
 * CMake >= 2.8.12
 * Ruby >= 1.9 - you can download convenient installer [here](http://rubyinstaller.org)
 * Perl (5.22 or 5.20) - [ActivePerl](http://www.activestate.com/activeperl) by ActiveState will be enough.
