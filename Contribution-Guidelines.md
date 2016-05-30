@@ -6,3 +6,5 @@ In general, most of [WebKit's contribuition guidelines](https://webkit.org/contr
 3. Generic WebKit modifications, relevant for ports leaving in upstream, should be submitted to upstream (please contact us in case you are not sure what changes are appropriate for upstream).
 
 When cherry-picking patches from Qt Project's branch of QtWebkit, make sure that Qt-specific code is guarded with #if PLATFORM(QT)
+
+All contributed code should use LGPL 2 or BSD license; see [[Licensing]]
