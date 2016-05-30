@@ -12,7 +12,7 @@ Here is our list of [[things you can do to help us|What can you do to help us]].
 
 Master contains exact mirror of upstream WebKit repository at git://git.webkit.org/WebKit.git. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
 
-Development of QtWebKit currently happens in qtwebkit-1 branch. Warning: it can be rebased to master at any time, so please be careful.
+Development of QtWebKit currently happens in qtwebkit-stable branch.
 
 ## System requirements
 
