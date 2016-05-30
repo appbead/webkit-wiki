@@ -4,9 +4,9 @@
 ### JavaScriptCore
 
 * Fetch API
-* Partial ES6 support (https://webkit.org/blog/4054/es6-in-webkit/), including tail call optimization
+* Nearly complete ES6 support (https://webkit.org/blog/4054/es6-in-webkit/), including proper tail calls
 * JavaScript now uses C stack
-* FTL/B3 - new JIT tier providing more aggressive optimizations than DFG JIT (currenly available only for x86_64 and ARM64)
+* FTL/B3 - new JIT tier providing more aggressive optimizations than DFG JIT (currenly available only for x86_64)
 * More optimizations for ASM.js code
 * WebAssembly support is in development
 * Various performance improvements
