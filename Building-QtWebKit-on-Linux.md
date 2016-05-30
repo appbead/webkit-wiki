@@ -24,6 +24,12 @@ I'm using the next command to build QtWebKit:
         --release \
         --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
 
+You can also build with cmake directly:
+
+    mkdir build/qt/Release
+    cd build/qt/Release
+    cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Ninja'
+
 To build only JSC, replace `build-webkit` with `build-jsc`
 
 Use this command to run JSC tests:
