@@ -13,3 +13,13 @@ WebKit project started using C++11 since 2012, and was gradually extending its u
 However, several years have passsed and now WebKit makes thorough use of most of C++11 features, so it is no longer feasible to convert all this code to C++98.
 
 As for GCC 4.8 requirement, this is the first GCC release which supports complete feature list of C++11. If you are required to use older version, e.g. GCC 4.7, you may try it and share your results. Note that with GCC older than 4.7 your chances are much lower.
+
+### Why so many dependencies besides Qt?
+
+* **libpng** and **libjpeg** are optional dependencies in QtWebKit 5.6, but now are promoted to be mandatory. They are needed to build Qt anyway (though their sources are bundled with Qt), and having single code path for PNG and JPEG will allow to have same rendering and performance characteristics independently on how QtWebKit is built.
+* **sqlite** - similar to libraries above, QtWebKit 5.6 can use sqlite sources from Qt installation, but we don't provide this feature
+* **libxml2** and **libxslt** - similar to libraries above, but avoiding them required maintainance of spearate parser code for XML and XSLT. This opens a way to additional bugs, performance issues, and security issues (because it is web-facing code)
+* **libhyphen** implements feature which is missing in QtWebKit 5.6 (CSS Hyphenation), it can be disaled using -DUSE_LIBHYPHEN=OFF cmake option)
+* **ICU** was a requirement since Qt 5.0. [1]
+
+[1] An unofficial way to build QtWebKit 5.6 without ICU exists, but using it leads to degradation of Unicode support on all platforms (except possibly WinCE). Related code was removed from WebKit upstream, and we see no sense in restoring it.
