@@ -10,11 +10,12 @@
 * [ ] Fix WebKit1 to the state when it passes most tests
 * [ ] Announce our progress to wide community (Qt intereset, WebKit-dev, contact developers of known QtWebKit-based browsers, etc.)
 * [ ] Fix most prominent bugs submitted by users
-* [ ] Create preliminary stable branch
+* [X] Create preliminary stable branch
 * [ ] At this point patches implementing new features in API may be accepted in "unstable" branch
 * [ ] WebKit2 compilation
 
 ### Short term tasks
 * Make a list of optional features we want to enable right now
 * Allow people to use QtWebKit from qmake and cmake, test on PhantomJS and Otter
+* Integrate patches contributed to QtWebKit after fork, check related bugs in Qt JIRA
 * Build all C++ tests
