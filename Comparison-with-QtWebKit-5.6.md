@@ -7,6 +7,7 @@
 | Fullscreen API | ✘           | ✘ (Planned) |
 | WebAudio      | ✘           | ✔ (Only with GStreamer) |
 | MediaSource   | ✘           | ✘ (WIP with GStreamer) |
+| APNG images   | ✘             | ✔ |
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows) |
 | Indexed Database | ✔            | ✘  (Planned)|
 | Private browsing | ✔            | ✘ (Planned) |
