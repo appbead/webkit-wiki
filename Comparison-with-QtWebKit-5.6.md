@@ -5,7 +5,7 @@
 | HTML <template> | ✘           | ✔ |
 | CSS selectors ::read-write and ::read-only | ✘           | ✔ |
 | WebAudio      | ✘           | ✔ (Only with GStreamer) |
-| MediaSource   | ✘           | ✘ (WIP) |
+| MediaSource   | ✘           | ✘ (WIP with GStreamer) |
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows) |
 | Indexed Database | ✔            | ✘ |
 | Private browsing | ✔            | ✘ |
