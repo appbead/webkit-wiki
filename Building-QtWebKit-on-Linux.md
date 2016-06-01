@@ -1,5 +1,6 @@
 You need to install the next dependencies:
 
+* Qt >= 5.4 (Core, Gui, Network, Sql, OpenGL, Test, Widgets, Positioning, Sensors)
 * CMake >= 2.8.12
 * ninja
 * sqlite >= 3.6.16
@@ -10,6 +11,19 @@ You need to install the next dependencies:
 * bison >= 2.1
 * flex >= 2.5.34
 * gperf >= 3.0.1
+* libxml2 >= 2.8.0 (2.6.x will probably work)
+* libxslt >= 1.1.7
+* libjpeg v8 or v9 (IJG) or libjpeg-turbo
+* libpng
+* zlib
+* libhyphen
+* glib >= 2.36 (gio, gobject)
+* gstreamer >= 1.0.3 (app, pbutils, video, mpegts, tag, audio, fft); you also need GStreamer 1.0 plugins for codec support
+
+Optional dependencies:
+* fontconfig
+* libwebp
+
 
 For Ubuntu use the next command
 
