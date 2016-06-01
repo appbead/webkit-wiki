@@ -13,7 +13,7 @@
 | WebGL          | ✔   | ✘ (Planned) |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated graphics | ✔   | ✘ (WIP) |
-| NPAPI Plugins  | ✔            | ✘ |
-| Qt Plugins     | ✔            | ✘ |
+| NPAPI Plugins  | ✔            | ✘ (help needed) |
+| Qt Plugins     | ✔            | ✘ (help needed) |
 | QML API        | ✔            | ✘ (Planned) |
 | Security fixes | ✘            | ✔ |
