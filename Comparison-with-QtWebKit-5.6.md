@@ -4,16 +4,16 @@
 | Responsive images| ✘          | ✔ |
 | HTML <template> | ✘           | ✔ |
 | CSS selectors ::read-write and ::read-only | ✘           | ✔ |
-| Fullscreen API | ✘           | ✘ |
+| Fullscreen API | ✘           | ✘ (Planned) |
 | WebAudio      | ✘           | ✔ (Only with GStreamer) |
 | MediaSource   | ✘           | ✘ (WIP with GStreamer) |
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows) |
-| Indexed Database | ✔            | ✘ |
-| Private browsing | ✔            | ✘ |
-| WebGL          | ✔   | ✘ (WIP) |
+| Indexed Database | ✔            | ✘  (Planned)|
+| Private browsing | ✔            | ✘ (Planned) |
+| WebGL          | ✔   | ✘ (Planned) |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated graphics | ✔   | ✘ (WIP) |
 | NPAPI Plugins  | ✔            | ✘ |
 | Qt Plugins     | ✔            | ✘ |
-| QML API        | ✔            | ✘ |
+| QML API        | ✔            | ✘ (Planned) |
 | Security fixes | ✘            | ✔ |
