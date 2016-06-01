@@ -4,6 +4,7 @@
 | Responsive images| ✘          | ✔ |
 | HTML <template> | ✘           | ✔ |
 | CSS selectors ::read-write and ::read-only | ✘           | ✔ |
+| Fullscreen API | ✘           | ✘ |
 | WebAudio      | ✘           | ✔ (Only with GStreamer) |
 | MediaSource   | ✘           | ✘ (WIP with GStreamer) |
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows) |
