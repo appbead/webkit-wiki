@@ -5,8 +5,8 @@
 | HTML <template> | ✘           | ✔ |
 | CSS selectors ::read-write and ::read-only | ✘           | ✔ |
 | Fullscreen API | ✘           | ✘ (Planned) |
-| WebAudio      | ✘           | ✔ (Only with GStreamer) |
-| MediaSource   | ✘           | ✘ (WIP with GStreamer) |
+| WebAudio      | ✘           | ✔ (Experimental with GStreamer) |
+| MediaSource   | ✘           | ✔ (Experimental with GStreamer) |
 | Encrypted Media | ✘           | ✘ (Planned for GStreamer, help needed) |
 | APNG images   | ✘             | ✔ |
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows) |
