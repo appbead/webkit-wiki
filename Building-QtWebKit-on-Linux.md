@@ -24,6 +24,9 @@ Optional dependencies:
 * fontconfig
 * libwebp
 
+> Q: Why do you have so many dependencies?
+
+> A: See [[FAQ]]
 
 For Ubuntu use the next command
 
