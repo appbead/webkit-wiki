@@ -20,7 +20,7 @@ The next configurations are going to be supported:
 
 * OS: Linux (X11 and EGLFS), Windows 10 (Windows 7 SP1 and higher should be fine)
 * Compilers:
-    * Linux: g++ >= 4.9 (4.8 with FTL JIT disabled) or clang++
+    * Linux: g++ >= 4.9 (4.8 with FTL JIT and Indexed DB disabled) or clang++
     * Windows: MSVC 2015
 * Qt >= 5.4 (5.2 should work but is not tested)
 
