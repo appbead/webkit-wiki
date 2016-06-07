@@ -13,4 +13,6 @@ Curently it is possible to inject any QObject QWebFrame::addToJavaScriptWindowOb
 
 QWebElement API and Qt bridge allow to get/set any property of DOM element, and call any JS methods of element. However, it can only be done with evaluateJavaScript, which means JS engine is always involved, and to pass arguments you may need to use string operations.
 
-Alternative is to generate QWebElement-derived classes for each kind of element. This classes can have appropriate Qt propertes, slots, and signal (for events). User will be able to use them via signal-slot connections, or downcast QWebElement to appropriate element class and use it's API from C++ in a strongly-typed manner.
+Alternative is to generate QWebElement-derived classes for each kind of element. This classes can have appropriate Qt propertes, slots, and signal (for events). User will be able to use them via signal-slot connections, or downcast QWebElement to appropriate element class and use it's API from C++ in a strongly-typed manner, or inherit from element class and create customized element, in the spirit of WebComponents [1]
+
+[1] http://w3c.github.io/webcomponents/spec/custom/
