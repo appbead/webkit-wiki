@@ -10,18 +10,22 @@ You need to install:
 * CMake
 * Qt 5 (minimum supported version is 5.2)
 * libpng
-* libjpeg
+
+### Quick installation of some dependencies
+```
+brew install libpng cmake
+```
 
 ### Building
 
 If you don't have `qmake` in your `$PATH`, you must provide the path to it via `-DCMAKE_PREFIX_PATH`:
 
 ```
-./Tools/Scripts/build-webkit --qt --64-bit --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=<path_to_your_Qt_installation>"
+./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=<path_to_your_Qt_installation>"
 ```
 
 For example, if you have Qt 5.6 installed in `$HOME/Qt`, then the command will be:
 ```
-./Tools/Scripts/build-webkit --qt --64-bit --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=/Users/vitaly/Qt/5.6/clang_x64"
+./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=/Users/vitaly/Qt/5.6/clang_x64"
 ```
 
