@@ -1,4 +1,4 @@
-| Feature       |5.6            |TP1|
+| Feature       |5.6            |TP2|
 | ------------- |:-------------:|:-------------:|
 | ES2015          | ✘             | ✔ |
 | Responsive images| ✘          | ✔ |
@@ -9,8 +9,9 @@
 | MediaSource   | ✘           | ✔ (Experimental with GStreamer) |
 | Encrypted Media | ✘           | ✘ (Planned for GStreamer, help needed) |
 | APNG images   | ✘             | ✔ |
-| B3 JIT compiler | ✘           | ✔ (Not available on Windows) |
-| Indexed Database | ✔            | ✘  (Planned)|
+| B3 JIT compiler | ✘           | ✔ (Not available on Windows yet) |
+| Indexed Database | ✔            | ✔ |
+| Indexed Database in Workers | ✔            | ✘ |
 | Private browsing | ✔            | ✘ (Planned) |
 | WebGL          | ✔   | ✘ (Planned) |
 | Web SQL Database | ✔            | ✔ |
