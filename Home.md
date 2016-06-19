@@ -26,7 +26,14 @@ The next configurations are going to be supported:
 
 ## Build requirements
 
-See [[Building QtWebKit on Linux]] and [[Building QtWebKit on Windows]].
+Depending on your OS, see
+* [[Building QtWebKit on Linux]]
+* [[Building QtWebKit on Windows]]
+* [[Building QtWebKit on OS X]]
+
+## Usage instructions
+
+See [[Using QtWebKit in your project]]
 
 ## Contacts
 Mailing list: webkit-qt@lists.webkit.org
