@@ -32,6 +32,8 @@ target_link_libraries(myapp Qt5::WebKitWidgets)
 ```
 to use it in your application.
 
+**WARNING**: Don't use `qt5_use_modules()`, it will force usage of QtWebKit installed within Qt SDK prefix.
+
 ### pkg-config
 
 ```
