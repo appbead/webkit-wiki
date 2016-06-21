@@ -7,7 +7,7 @@ Here:
 * `WEBKIT_OUTPUTDIR` - same as when you are building QtWebKit, not needed if default (`WebKitBuild`) is used
 * `-1` - Test WebKit 1, not WebKit 2
 * `--no-show-results` - Avoid if you want to see results as HTML in a browser
-* `--no-new-test-results` - 
+* `--no-new-test-results` - Don't create expectations when they are missing
 
 Additional options:
 * `-p` - Enable pixel tests
