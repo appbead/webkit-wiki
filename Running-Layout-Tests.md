@@ -10,9 +10,10 @@ Here:
 * `--no-new-test-results` - 
 
 Additional options:
+* `-p` - Enable pixel tests
 * `--debug` - Test Debug build instead of Release
+* `--child-processes=4` - Run 4 tests in parallel
 * `--debug-rwt-logging` - Debug testing machinery
-* `--pixel` - Enable pixel tests
 
 After argument list you can pass directory to run tests in (for example, `fast`), or individual test file
 
