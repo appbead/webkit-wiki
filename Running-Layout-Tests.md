@@ -1,4 +1,7 @@
-`WEBKIT_OUTPUTDIR=$(pwd)/build/qt-clang Tools/Scripts/run-webkit-tests --qt --no-build --no-show-results -1`
+```
+WEBKIT_OUTPUTDIR=$(pwd)/build/qt-clang \
+Tools/Scripts/run-webkit-tests --qt --no-build --no-show-results -1
+```
 
 Here:
 * `WEBKIT_OUTPUTDIR` - same as when you are building QtWebKit, not needed if default (`WebKitBuild`) is used
