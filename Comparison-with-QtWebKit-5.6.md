@@ -3,7 +3,7 @@
 | ES2015          | ✘             | ✔ |
 | Responsive images| ✘          | ✔ |
 | HTML `<template>` | ✘           | ✔ |
-| CSS selectors ::read-write and ::read-only | ✘           | ✔ |
+| CSS selectors `::read-write` and `::read-only` | ✘           | ✔ |
 | Fullscreen API | ✘           | ✘ (Planned) |
 | WebAudio      | ✘           | ✔ (Experimental with GStreamer) |
 | MediaSource   | ✘           | ✔ (Experimental with GStreamer) |
