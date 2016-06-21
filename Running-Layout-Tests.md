@@ -1,12 +1,13 @@
 ```
 WEBKIT_OUTPUTDIR=$(pwd)/build/qt-clang \
-Tools/Scripts/run-webkit-tests --qt --no-build --no-show-results -1
+Tools/Scripts/run-webkit-tests --qt --no-build -1 --no-show-results --no-new-test-results
 ```
 
 Here:
 * `WEBKIT_OUTPUTDIR` - same as when you are building QtWebKit, not needed if default (`WebKitBuild`) is used
-* `--no-show-results` - Avoid if you want to see results as HTML in a browser
 * `-1` - Test WebKit 1, not WebKit 2
+* `--no-show-results` - Avoid if you want to see results as HTML in a browser
+* `--no-new-test-results` - 
 
 Additional options:
 * `--debug` - Test Debug build instead of Release
