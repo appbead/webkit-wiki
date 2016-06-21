@@ -21,3 +21,5 @@ Results are produced in `$WEBKIT_OUTPUTDIR/Release/layout-test-results` (or `Deb
 #### More info
 * http://trac.webkit.org/wiki/QtWebKitContrib#Runningthetests
 * http://trac.webkit.org/wiki/WebKitGtkLayoutTests
+* http://trac.webkit.org/wiki/TestExpectations
+* http://trac.webkit.org/wiki/NewRunWebKitTests
