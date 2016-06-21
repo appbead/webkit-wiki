@@ -15,6 +15,8 @@ Additional options:
 
 After argument list you can pass directory to run tests in (for example, `fast`), or individual test file
 
+Results are produced in `$WEBKIT_OUTPUTDIR/Release/layout-test-results` (or `Debug`)
+
 #### More info
 * http://trac.webkit.org/wiki/QtWebKitContrib#Runningthetests
 * http://trac.webkit.org/wiki/WebKitGtkLayoutTests
