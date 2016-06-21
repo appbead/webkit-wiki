@@ -15,4 +15,6 @@ QWebElement API and Qt bridge allow to get/set any property of DOM element, and 
 
 Alternative is to generate QWebElement-derived classes for each kind of element. This classes can have appropriate Qt propertes, slots, and signal (for events). User will be able to use them via signal-slot connections, or downcast QWebElement to appropriate element class and use it's API from C++ in a strongly-typed manner, or inherit from element class and create customized element, in the spirit of WebComponents [1]
 
+See also http://trac.webkit.org/wiki/QtWebKitTodo#DeferredDOMAPIItems
+
 [1] http://w3c.github.io/webcomponents/spec/custom/
