@@ -10,7 +10,7 @@ If you wonder why do we need QtWebKit when shiny new QtWebEngine is available, p
 
 Here is our list of [[things you can do to help us|What can you do to help us]]. We will highly appreciate help of any kind!
 
-Master contains exact mirror of upstream WebKit repository at git://git.webkit.org/WebKit.git. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
+Master contains exact mirror of upstream WebKit repository at `git://git.webkit.org/WebKit.git`. Things not directly related to Qt port, like MIPS support, are developed against master, and go through code review on webkit.org.
 
 Development of QtWebKit currently happens in `qtwebkit-stable` branch.
 
@@ -36,6 +36,6 @@ Depending on your OS, see
 See [[Using QtWebKit in your project]]
 
 ## Contacts
-Mailing list: webkit-qt@lists.webkit.org
+Mailing list: `webkit-qt@lists.webkit.org`
 
-IRC: #qtwebkit on irc.freenode.net
+IRC: `#qtwebkit` on `irc.freenode.net`
