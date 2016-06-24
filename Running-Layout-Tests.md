@@ -16,6 +16,9 @@ Additional options:
 * `--debug-rwt-logging` - Debug testing machinery
 * `--results-directory=` - Set different output dir (by default `WEBKIT_OUTPUTDIR/layout-test-results` is used)
 
+Add new expectations
+* `--new-baseline`
+
 After argument list you can pass directory to run tests in (for example, `fast`), or individual test file
 
 Results are produced in `$WEBKIT_OUTPUTDIR/Release/layout-test-results` (or `Debug`)
