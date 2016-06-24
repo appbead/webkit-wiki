@@ -14,6 +14,7 @@ Additional options:
 * `--debug` - Test Debug build instead of Release
 * `--child-processes=4` - Run 4 tests in parallel
 * `--debug-rwt-logging` - Debug testing machinery
+* `--results-directory=` - Set different output dir (by default `WEBKIT_OUTPUTDIR/layout-test-results` is used)
 
 After argument list you can pass directory to run tests in (for example, `fast`), or individual test file
 
