@@ -1,6 +1,6 @@
 ```
 WEBKIT_OUTPUTDIR=$(pwd)/build/qt-clang \
-Tools/Scripts/run-webkit-tests --qt --no-build -1 --no-show-results --no-new-test-results
+Tools/Scripts/run-webkit-tests --qt -1 --no-show-results --no-new-test-results
 ```
 
 Here:
