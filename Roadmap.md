@@ -16,4 +16,4 @@
 
 ### Short term tasks
 * Integrate patches contributed to QtWebKit after fork, check related bugs in Qt JIRA
-* Build all C++ tests
+* Build all C++ tests and make them passing
