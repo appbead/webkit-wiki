@@ -3,10 +3,10 @@
 * [x] WebCore compilation - done (with some omissions)
 * [x] WebKit1 compilation - done (history and plugin APIs are built but don't work)
 * [x] QtTestBrowser - done (with some omissions)
-* [ ] Testing tools compilation (DRT, TestWebKitAPI, etc.) - in progress
+* [X] Testing tools compilation (DRT, TestWebKitAPI, etc.)
 * [x] WebKit1 should work for trivial sites - done
-* [ ] Announce our progress to potential users: KDEWebKit, PhantomJS, etc. Work with them to fix show-stopper bugs
-* [ ] Restore testing infrastructure
+* [X] Announce our progress to potential users: KDEWebKit, PhantomJS, etc. Work with them to fix show-stopper bugs
+* [ ] Restore testing infrastructure - in progress
 * [ ] Fix WebKit1 to the state when it passes most tests
 * [ ] Announce our progress to wide community (Qt intereset, WebKit-dev, contact developers of known QtWebKit-based browsers, etc.)
 * [ ] Fix most prominent bugs submitted by users
@@ -15,7 +15,5 @@
 * [ ] WebKit2 compilation
 
 ### Short term tasks
-* Make a list of optional features we want to enable right now
-* Allow people to use QtWebKit from qmake and cmake, test on PhantomJS and Otter
 * Integrate patches contributed to QtWebKit after fork, check related bugs in Qt JIRA
 * Build all C++ tests
