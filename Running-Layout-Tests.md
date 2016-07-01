@@ -1,6 +1,6 @@
 ```
 WEBKIT_OUTPUTDIR=$(pwd)/build/qt-clang \
-Tools/Scripts/run-webkit-tests --qt -1 --no-show-results --no-new-test-results
+Tools/Scripts/run-webkit-tests --qt -1 --no-show-results --no-new-test-results --no-retry-failures
 ```
 
 Here:
@@ -8,6 +8,7 @@ Here:
 * `-1` - Test WebKit 1, not WebKit 2
 * `--no-show-results` - Avoid if you want to see results as HTML in a browser
 * `--no-new-test-results` - Don't create expectations when they are missing
+* `--no-retry-failures` - Don't run failed tests once again
 
 Additional options:
 * `-p` - Enable pixel tests
