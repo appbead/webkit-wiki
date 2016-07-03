@@ -25,6 +25,11 @@ After argument list you can pass directory to run tests in (for example, `fast`)
 
 Results are produced in `$WEBKIT_OUTPUTDIR/Release/layout-test-results` (or `Debug`)
 
+### Why DRT and QtTestBrowser may have different rendering?
+
+* Fonts: `-use-test-fonts` option of QtTestBrowser to the rescue
+* Additional objects in JS runtime, for example `window.testRunner`, `window.eventSender`, `window.textInputController`
+
 #### More info
 * http://trac.webkit.org/wiki/QtWebKitContrib#Runningthetests
 * http://trac.webkit.org/wiki/WebKitGtkLayoutTests
