@@ -26,11 +26,17 @@ JHBuild is not the unique solution to solve this problem, many similar systems e
 
 ```
 Tools/jhbuild/jhbuild-wrapper --qt <commands>
-Tools/jhbuild/jhbuild-wrapper --qt list             # List all packages
-Tools/jhbuild/jhbuild-wrapper --qt info qt          # Package "qt" information
-Tools/jhbuild/jhbuild-wrapper --qt buildone -f qt   # Force rebuild "qt" package
+Tools/jhbuild/jhbuild-wrapper --qt info <module_name>
+Tools/jhbuild/jhbuild-wrapper --qt build <module_name>
+Tools/jhbuild/jhbuild-wrapper --qt uninstall <module_name>
+# Force rebuild of module without rebuilding dependencies
+Tools/jhbuild/jhbuild-wrapper --qt buildone -f <module_name>
+# List all modules
+Tools/jhbuild/jhbuild-wrapper --qt list
+
 ```
 
 ### References
 
 [1] http://webkit.sed.hu/blog/20101028/qtwebkit-builder-and-tester-virtual-machine
+[2] https://developer.gnome.org/jhbuild/stable/command-reference.html.en
