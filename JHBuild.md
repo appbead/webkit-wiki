@@ -36,6 +36,12 @@ Tools/jhbuild/jhbuild-wrapper --qt list
 
 ```
 
+### Troubleshoout
+
+#### jhbuild dies without any visible explanation of error
+
+Check if taball checksums are correct.
+
 ### References
 
 [1] http://webkit.sed.hu/blog/20101028/qtwebkit-builder-and-tester-virtual-machine
