@@ -2,8 +2,8 @@ If your system is supported by `ltrace` (e.g., Linux), use it to get quick under
 
 ```
 ltrace -C -e '*WebCore*@libQt5WebKit.so*' \
-WebKitBuild/Release/bin/QtTestBrowser -use-test-fonts \
-LayoutTests/fast/css/pseudo-first-line-border-width.html >& log
+    WebKitBuild/Release/bin/QtTestBrowser -use-test-fonts \
+    LayoutTests/fast/css/pseudo-first-line-border-width.html >& log
 ```
 
 * `-C` - demangle C++ symbols
