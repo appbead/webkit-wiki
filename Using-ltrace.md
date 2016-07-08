@@ -1,7 +1,9 @@
 If your system is supported by `ltrace` (e.g., Linux), use it to get quick understanding of what WebKit code is executed when processing particular test case. It may be more productive than setting random prints or breakpoints if you don't know where to start.
 
 ```
-ltrace -C -e '*WebCore*@libQt5WebKit.so*' WebKitBuild/Release/bin/QtTestBrowser -use-test-fonts LayoutTests/fast/css/pseudo-first-line-border-width.html >& log
+ltrace -C -e '*WebCore*@libQt5WebKit.so*' \
+WebKitBuild/Release/bin/QtTestBrowser -use-test-fonts LayoutTests/fast/css/pseudo-first-line-border-width.html \
+>& log
 ```
 
 * `-C` - demangle C++ symbols
