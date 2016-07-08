@@ -9,6 +9,6 @@ ltrace -C -e '*WebCore*@libQt5WebKit.so*' \
 * `-C` - demangle C++ symbols
 * `@libQt5WebKit.so*` - trace calls only in `libQt5WebKit.so` library
 * `*WebCore*` - filter out symbols that are not from `WebCore`
-* `>& log` - save eerything to file for further analysis with `grep` :)
+* `>& log` - save all output to file for further analysis with `grep` :)
 
 BTW, don't forget that `strace` utility (or similar, like `sysdig`, `dtruss`) is useful if you are interested in syscalls.
