@@ -45,5 +45,7 @@ Check if taball checksums are correct.
 ### References
 
 [1] https://launchpad.net/~u-szeged/+archive/ubuntu/sedkit
+
 [2] http://webkit.sed.hu/blog/20101028/qtwebkit-builder-and-tester-virtual-machine
+
 [3] https://developer.gnome.org/jhbuild/stable/command-reference.html.en
