@@ -10,3 +10,4 @@
 * Queue should be persistent: either in LocalStorage or on server side. Closing browser should not discard queue.
 * Link to local files instead of trac.webkit.org
 * Set default baseline target?
+* Add keyboard shortcuts hint ;-)
