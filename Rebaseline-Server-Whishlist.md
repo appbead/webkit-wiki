@@ -1,5 +1,6 @@
 * Bug: Queue UI is overlapped by status bar and sometimes by text diff
 * Bug: don't list reftests, it is not possible to rebaseline them
+    * `garden-o-matic` gets this right
 * Bug: footer is not stick to the bottom, it is scrolled with page and permanently hides part of test results. It also scrolls with page in horizontal direction, which harms usability
 * Improve color scheme for better text visibility
 * Copy test path to clipboard with one click (or allow to select text in dropdown list)
