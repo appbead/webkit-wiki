@@ -13,6 +13,8 @@
 * Queue should be persistent: either in LocalStorage or on server side. Closing browser should not discard queue.
 * Link to local files instead of trac.webkit.org (it's slow and can reference files which are not present in trunk)
 * Show expected result from other port instead of current expectation. Add `<select>` near "expected" area?
+    * Use local files (see previous item)
+    * Will help with footer height issue because expectation list will be moved from footer to othewr place
 * Set default baseline target?
 * Use `run-minibrowser` instead of launching default browser?
 * Add keyboard shortcuts hint ;-)
