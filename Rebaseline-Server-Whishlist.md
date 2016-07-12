@@ -11,3 +11,6 @@
 * Link to local files instead of trac.webkit.org
 * Set default baseline target?
 * Add keyboard shortcuts hint ;-)
+
+### References
+https://trac.webkit.org/wiki/RebaselineServer
