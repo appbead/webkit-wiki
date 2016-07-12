@@ -8,7 +8,7 @@
     * Loupe should have flexible zoom level to allow comparison of larger areas
     * Wrap image area which does not fit in a row to another row. Requires more vertical scrolling, but it is more handy than horizontal
 * Queue should be persistent: either in LocalStorage or on server side. Closing browser should not discard queue.
-* Link to local files instead of trac.webkit.org
+* Link to local files instead of trac.webkit.org (it's slow and can reference files which are not present in trunk)
 * Set default baseline target?
 * Add keyboard shortcuts hint ;-)
 
