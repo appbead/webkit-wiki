@@ -8,6 +8,7 @@
     * Use horizontal scroll bars in image areas, connected to each other
     * Loupe should have flexible zoom level to allow comparison of larger areas
     * Wrap image area which does not fit in a row to another row. Requires more vertical scrolling, but it is more handy than horizontal
+    * Shortcuts to navigate between areas (expected image, actual image, diff image, expected text, etc.)
 * Footer should always fit in one line, otherwise on small screen it eats up too much space
 * Queue should be persistent: either in LocalStorage or on server side. Closing browser should not discard queue.
 * Link to local files instead of trac.webkit.org (it's slow and can reference files which are not present in trunk)
