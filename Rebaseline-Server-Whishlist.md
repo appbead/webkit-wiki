@@ -1,5 +1,6 @@
 * Bug: Queue UI is overlapped by status bar and sometimes by text diff
 * Bug: don't list reftests, it is not possible to rebaseline them
+* Bug: footer is not stick to the bottom, it is scrolled with page and permanently hides part of test results. It also scrolls with page in horizontal direction, which harms usability
 * Improve color scheme for better text visibility
 * Copy test path to clipboard with one click (or allow to select text in dropdown list)
 * Make UI more responsive, should be usable on 1280x1024 without constant scrolling. Heck, even on 1920x1080 scrolling is needed sometimes. Wiki tells "The UI works best on a 30 inch monitor", it's a no-go for most users. Possible options (one may or may not exclude others):
