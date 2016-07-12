@@ -14,6 +14,7 @@
 * Set default baseline target?
 * Use `run-minibrowser` instead of launching default browser?
 * Add keyboard shortcuts hint ;-)
+* Minor: indicate that queue is being processed (not obvious when activated with `r`)
 
 ### References
 https://trac.webkit.org/wiki/RebaselineServer
