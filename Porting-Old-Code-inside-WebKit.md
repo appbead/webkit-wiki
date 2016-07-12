@@ -14,7 +14,8 @@
 * These classes are now commonly passed by reference, not by pointer: `GraphicsContext`, `RenderObject`, `RenderStyle`, `StyleResolver`
 * `Clipboard` was renamed to `DataTransfer`
 * `Font` class was renamed to `FontCascade`, `SimpleFontData` to `Font`
-* Replace `toClassName()` invocations with `downcast<ClassName>`. **WARNING**: if preceding code does not guarantee that object has proper type (if `toClassName()` result is checked for being non-null, it can be an indacation for this case), `is<ClassName>` must be checked before downcast!
+* Replace invocations of `toClassName()` **non-method** functions with `downcast<ClassName>`
+* If code uses virtual method like `Node::toInputElement()`, use `is<ClassName>` before `downcast<ClassName>`, because old methods were forgivingly returning `0` in case of wrong type.
 * Timer is not template anymore, see https://github.com/annulen/webkit/commit/50862feb41477701a0daee3dda170e9ac139c3d3
 * Many enums were converted to C++11 enum classes, slightly changing their names and usage
 
