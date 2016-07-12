@@ -11,6 +11,7 @@
 * Queue should be persistent: either in LocalStorage or on server side. Closing browser should not discard queue.
 * Link to local files instead of trac.webkit.org (it's slow and can reference files which are not present in trunk)
 * Set default baseline target?
+* Use `run-minibrowser` instead of launching default browser?
 * Add keyboard shortcuts hint ;-)
 
 ### References
