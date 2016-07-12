@@ -7,6 +7,7 @@
     * Shrink image areas to fit screen when there are large blank margins
     * Use horizontal scroll bars in image areas, connected to each other
     * Loupe should have flexible zoom level to allow comparison of larger areas
+        * Take loupe component from `garden-o-matic`?
     * Wrap image area which does not fit in a row to another row. Requires more vertical scrolling, but it is more handy than horizontal
     * Shortcuts to navigate between areas (expected image, actual image, diff image, expected text, etc.)
 * Footer should always fit in one line, otherwise on small screen it eats up too much space
