@@ -15,6 +15,12 @@ You need to install:
 ```
 brew install libpng cmake
 ```
+### Optional tools
+
+* [ninja](https://ninja-build.org) - significantly increases the compilation speed.
+```
+brew install ninja
+```
 
 ### Building
 
