@@ -17,8 +17,9 @@
 * Show expected result from other port instead of current expectation. Add `<select>` near "expected" area?
     * Use local files (see previous item)
     * Will help with footer height issue because expectation list will be moved from footer to othewr place
-* Set default baseline target?
+* Set default baseline target? It's boring to set it manually to `qt` each time
 * Use `run-minibrowser` instead of launching default browser?
+* Add appropriate failure entries to TestExpectations from UI for current test, instead of adding it to queue. Do we need separate queue for TestExpectations changes?
 * Add keyboard shortcuts hint ;-)
 * Minor: indicate that queue is being processed (not obvious when activated with `r`)
 
