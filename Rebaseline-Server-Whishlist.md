@@ -1,7 +1,10 @@
+### Bugs 
 * Bug: Queue UI is overlapped by status bar and sometimes by text diff
 * Bug: don't list reftests, it is not possible to rebaseline them
     * `garden-o-matic` gets this right
 * Bug: footer is not stick to the bottom, it is scrolled with page and permanently hides part of test results. It also scrolls with page in horizontal direction, which harms usability
+
+### Ergonomical issues
 * Improve color scheme for better text visibility
 * Copy test path to clipboard with one click (or allow to select text in dropdown list)
 * Make UI more responsive, should be usable on 1280x1024 without constant scrolling. Heck, even on 1920x1080 scrolling is needed sometimes. Wiki tells "The UI works best on a 30 inch monitor", it's a no-go for most users. Possible options (one may or may not exclude others):
@@ -17,11 +20,14 @@
 * Show expected result from other port instead of current expectation. Add `<select>` near "expected" area?
     * Use local files (see previous item)
     * Will help with footer height issue because expectation list will be moved from footer to othewr place
+
+### Nice to have
+
 * Set default baseline target? It's boring to set it manually to `qt` each time
 * Use `run-minibrowser` instead of launching default browser?
 * Add appropriate failure entries to TestExpectations from UI for current test, instead of adding it to queue. Do we need separate queue for TestExpectations changes?
 * Add keyboard shortcuts hint ;-)
-* Minor: indicate that queue is being processed (not obvious when activated with `r`)
+* Indicate that queue is being processed (not obvious when activated with `r`)
 
 ### References
 https://trac.webkit.org/wiki/RebaselineServer
