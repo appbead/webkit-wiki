@@ -5,6 +5,8 @@ fast/overflow/table-overflow-float.html
 fast/parser/entity-comment-in-style.html
 fast/reflections/opacity-reflection-transform.html
 fast/repaint/opacity-change-on-overflow-float.html
+fast/replaced/absolute-image-sizing.html
+fast/replaced/image-resize-width.html
 ```
 
 Phrases to grep:
