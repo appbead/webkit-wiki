@@ -14,3 +14,4 @@ Phrases to grep:
 * "if you see any"
 * "should not see"
 * "has failed"
+* "should be"
