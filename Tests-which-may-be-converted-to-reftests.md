@@ -15,6 +15,7 @@ fast/replaced/maxwidth-percent.html
 fast/replaced/maxwidth-pxs.html etc.
 fast/replaced/selection-rect-in-table-cell.html
 fast/ruby/rubyDOM-remove-text2.html
+fast/selectors/168.html
 ```
 
 Phrases to grep:
