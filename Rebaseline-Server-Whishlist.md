@@ -10,6 +10,7 @@
 * Make UI more responsive, should be usable on 1280x1024 without constant scrolling. Heck, even on 1920x1080 scrolling is needed sometimes. Wiki tells "The UI works best on a 30 inch monitor", it's a no-go for most users. Possible options (one may or may not exclude others):
     * Shrink image areas to fit screen when there are large blank margins
     * Use horizontal scroll bars in image areas, connected to each other
+        * Initial scroll position - where most significant image differences where found
     * Loupe should have flexible zoom level to allow comparison of larger areas
         * Take loupe component from `garden-o-matic`?
     * Wrap image area which does not fit in a row to another row. Requires more vertical scrolling, but it is more handy than horizontal
