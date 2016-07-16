@@ -7,6 +7,7 @@ fast/reflections/opacity-reflection-transform.html
 fast/repaint/opacity-change-on-overflow-float.html
 fast/replaced/absolute-image-sizing.html
 fast/replaced/image-resize-width.html
+fast/replaced/image-sizing.html
 ```
 
 Phrases to grep:
@@ -17,3 +18,4 @@ Phrases to grep:
 * "should not see"
 * "has failed"
 * "should be"
+* "identical"
