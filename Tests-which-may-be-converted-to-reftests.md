@@ -12,4 +12,5 @@ Phrases to grep:
 * "no red"
 * "any red"
 * "if you see any"
+* "should not see"
 * "has failed"
