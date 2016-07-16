@@ -10,5 +10,6 @@ fast/repaint/opacity-change-on-overflow-float.html
 Phrases to grep:
 
 * "no red"
+* "any red"
 * "if you see any"
 * "has failed"
