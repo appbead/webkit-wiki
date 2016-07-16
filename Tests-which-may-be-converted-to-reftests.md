@@ -9,7 +9,11 @@ fast/replaced/absolute-image-sizing.html
 fast/replaced/image-resize-width.html
 fast/replaced/image-sizing.html
 fast/replaced/inline-box-wrapper-handover.html
-
+fast/replaced/maxheight-percent.html
+fast/replaced/maxheight-pxs.html
+fast/replaced/maxwidth-percent.html
+fast/replaced/maxwidth-pxs.html etc.
+fast/replaced/selection-rect-in-table-cell.html
 ```
 
 Phrases to grep:
