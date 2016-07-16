@@ -8,6 +8,8 @@ fast/repaint/opacity-change-on-overflow-float.html
 fast/replaced/absolute-image-sizing.html
 fast/replaced/image-resize-width.html
 fast/replaced/image-sizing.html
+fast/replaced/inline-box-wrapper-handover.html
+
 ```
 
 Phrases to grep:
@@ -19,3 +21,4 @@ Phrases to grep:
 * "has failed"
 * "should be"
 * "identical"
+* "100 pixels"
