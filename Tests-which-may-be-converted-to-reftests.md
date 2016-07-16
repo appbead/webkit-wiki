@@ -7,4 +7,8 @@ fast/reflections/opacity-reflection-transform.html
 fast/repaint/opacity-change-on-overflow-float.html
 ```
 
-"If you see any red"
+Phrases to grep:
+
+* "no red"
+* "if you see any"
+* "has failed"
