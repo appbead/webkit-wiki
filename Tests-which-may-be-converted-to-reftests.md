@@ -21,6 +21,8 @@ fast/table/border-collapsing/border-collapsing-head-foot(-vertical)
 fast/table/cell-width-auto.html
 ```
 
+* fast/table/frame-and-rules-actual.txt - too messy for visual comparison
+
 Phrases to grep:
 
 * "no red"
