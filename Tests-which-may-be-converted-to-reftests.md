@@ -38,3 +38,4 @@ Phrases to grep:
 * "should be"
 * "identical"
 * "100 pixels"
+* "opendarwin" - very old tests, long before ref tests introduction
