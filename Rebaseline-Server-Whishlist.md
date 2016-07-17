@@ -30,6 +30,7 @@
 * Add appropriate failure entries to TestExpectations from UI for current test, instead of adding it to queue. Do we need separate queue for TestExpectations changes?
 * Add keyboard shortcuts hint ;-)
 * Indicate that queue is being processed (not obvious when activated with `r`)
+* Remember last reviewed test case (or at least last enqueued), using the same approach as with persistent queue
 
 ### References
 https://trac.webkit.org/wiki/RebaselineServer
