@@ -18,6 +18,7 @@ fast/ruby/rubyDOM-remove-text2.html
 fast/selectors/168.html
 fast/table/018.html
 fast/table/border-collapsing/border-collapsing-head-foot(-vertical)
+fast/table/cell-width-auto.html
 ```
 
 Phrases to grep:
