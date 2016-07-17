@@ -19,6 +19,7 @@ fast/selectors/168.html
 fast/table/018.html
 fast/table/border-collapsing/border-collapsing-head-foot(-vertical)
 fast/table/cell-width-auto.html
+fast/table/nested-percent-height-table.html
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
