@@ -24,6 +24,7 @@ fast/table/relative-position-stacking.html
 fast/table/relative-position-containment.html
 fast/table/relative-position-offsets.html
 fast/table/row-height-recalc.html
+fast/text/basic/012.html
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
