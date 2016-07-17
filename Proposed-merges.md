@@ -16,3 +16,5 @@ https://trac.webkit.org/changeset/202857
 https://bugs.webkit.org/show_bug.cgi?id=134915 - consider something like this?
 
 https://trac.webkit.org/r203240 
+
+https://bugs.webkit.org/show_bug.cgi?id=159858 DFG CSE is broken for MultiGetByOffset
