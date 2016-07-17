@@ -20,6 +20,9 @@ fast/table/018.html
 fast/table/border-collapsing/border-collapsing-head-foot(-vertical)
 fast/table/cell-width-auto.html
 fast/table/nested-percent-height-table.html
+fast/table/relative-position-stacking.html
+fast/table/relative-position-containment.html
+fast/table/relative-position-offsets.html
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
