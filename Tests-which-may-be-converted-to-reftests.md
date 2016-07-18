@@ -26,6 +26,7 @@ fast/table/relative-position-offsets.html
 fast/table/row-height-recalc.html
 fast/text/basic/012.html
 fast/css/hsl-color.html
+fast/css/textCapitalizeEdgeCases.html
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
