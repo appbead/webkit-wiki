@@ -17,3 +17,10 @@
 * Find out how GLX surfaces work in trunk
 
     Qt port had integration into GraphicsSurfaceGLX.cpp, but it was removed in r171672. EFL refactored GLX support in r146458 so it is still supported, just in a different way.
+
+
+### Defines we might want to enable
+
+OPENTYPE_VERTICAL, OPENTYPE_MATH
+
+ENABLE_CSS3_TEXT_DECORATION_SKIP_INK
