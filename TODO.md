@@ -8,6 +8,10 @@
 
     Qt 5 introduced 3 types of timers: Qt::PreciseTimer, Qt::CoarseTimer, and Qt::VeryCoarseTimer. By default, CoarseTimer is used. We need to verify if it is the most appropriate timer type in all places where Qt timers are used, fix otherwise.
 
+### WK2
+
+Wk2 should not be tied to QML, e.g. `QQuickNetworkReply` class
+
 ### OpenGL / WK2
 
 * Check OpenGL function lookup code
