@@ -2,7 +2,7 @@ Please contact us if you are interested in following stuff. Implementation of th
 
 ### Import QObject-derived classes as ES2015 classes
 
-Curently it is possible to inject any QObject QWebFrame::addToJavaScriptWindowObject(), however now ES2015 has native suppoty for classes. It would be cool if you could create instances of QObject-derived class in JavaScript, or even inherit from them.
+Curently it is possible to inject any QObject QWebFrame::addToJavaScriptWindowObject(), however now ES2015 has native support for classes. It would be cool if you could create instances of QObject-derived class in JavaScript, or even inherit from them.
 
 ### Full-fledged C++ API for WebKit2, including WebProcess side
 
