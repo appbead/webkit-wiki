@@ -34,6 +34,15 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
 * Fonts: `-use-test-fonts` option of QtTestBrowser to the rescue
 * Additional objects in JS runtime, for example `window.testRunner`, `window.eventSender`, `window.textInputController`
 
+### Running manually
+
+```
+WebKitBuild/Release/bin/DumpRenderTree -v LayoutTests/fast/shrink-wrap/rect-shrink-wrap.html
+
+# GTK
+TEST_RUNNER_TEST_PLUGIN_PATH= TEST_RUNNER_INJECTED_BUNDLE_FILENAME=WebKitBuild/Release/lib/libTestRunnerInjectedBundle.so WebKitBuild/Release/bin/WebKitTestRunner -v -p LayoutTests/fast/shrink-wrap/rect-shrink-wrap.html
+```
+
 #### More info
 * http://trac.webkit.org/wiki/QtWebKitContrib#Runningthetests
 * http://trac.webkit.org/wiki/WebKitGtkLayoutTests
