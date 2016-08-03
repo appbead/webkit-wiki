@@ -28,6 +28,7 @@ fast/text/basic/012.html
 fast/css/hsl-color.html
 fast/css/textCapitalizeEdgeCases.html
 fast/attachment/attachment-disabled-rendering.html
+fast/encoding/denormalised-voiced-japanese-chars
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
