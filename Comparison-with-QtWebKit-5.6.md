@@ -1,4 +1,4 @@
-| Feature       |5.6            |TP2|
+| Feature       |5.6            |TP3|
 | ------------- |:-------------:|:-------------:|
 | ES2015          | ✘             | ✔ |
 | Responsive images| ✘          | ✔ |
@@ -16,7 +16,7 @@
 | WebGL          | ✔   | ✘ (Planned) |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated graphics | ✔   | ✘ (WIP) |
-| NPAPI Plugins  | ✔            | ✘ (Help needed) |
-| Qt Plugins     | ✔            | ✘ (Help needed) |
+| NPAPI Plugins  | ✔            | ✔ |
+| Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (Planned) |
 | Security fixes | ✘            | ✔ |
