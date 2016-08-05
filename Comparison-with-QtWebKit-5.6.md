@@ -4,6 +4,7 @@
 | Responsive images| ✘          | ✔ |
 | HTML `<template>` | ✘           | ✔ |
 | CSS selectors `::read-write` and `::read-only` | ✘           | ✔ |
+| CSS property `-webkit-initial-letter`| ✘           | ✔ |
 | Fullscreen API | ✘           | ✘ (Planned) |
 | WebAudio      | ✘           | ✔ (Experimental with GStreamer) |
 | MediaSource   | ✘           | ✔ (Experimental with GStreamer) |
