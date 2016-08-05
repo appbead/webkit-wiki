@@ -30,7 +30,7 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
 ```
 
 ### WARNING
-run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0` is discarded
+run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0` is discarded. You need to run DRT manually.
 
 ### Why DRT and QtTestBrowser may have different rendering?
 
