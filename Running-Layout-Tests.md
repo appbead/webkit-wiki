@@ -29,6 +29,9 @@ Results are produced in `$WEBKIT_OUTPUTDIR/Release/layout-test-results` (or `Deb
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p --no-ref-tests --no-retry-failures fast
 ```
 
+### WARNING
+run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0` is discarded
+
 ### Why DRT and QtTestBrowser may have different rendering?
 
 * Fonts: `-use-test-fonts` option of QtTestBrowser to the rescue
