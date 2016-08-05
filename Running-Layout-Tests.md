@@ -17,6 +17,7 @@ Additional options:
 * `--child-processes=4` - Run 4 tests in parallel
 * `--debug-rwt-logging` - Debug testing machinery
 * `--results-directory=` - Set different output dir (by default `WEBKIT_OUTPUTDIR/layout-test-results` is used)
+* `--compare-port=mac-yosemite` - Use expectations from different port (useful for tests with missing results)
 
 Add new expectations
 * `--new-baseline`
