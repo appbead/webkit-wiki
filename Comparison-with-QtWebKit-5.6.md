@@ -10,13 +10,14 @@
 | Encrypted Media | ✘           | ✘ (Planned for GStreamer, help needed) |
 | APNG images   | ✘             | ✔ |
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows yet) |
+| CSS selector JIT | ✘           | ✔  |
 | Indexed Database | ✔            | ✔ |
 | Indexed Database in Workers | ✔            | ✘ |
 | Private browsing | ✔            | ✘ (Planned) |
 | WebGL          | ✔   | ✘ (Planned) |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated graphics | ✔   | ✘ (WIP) |
-| NPAPI Plugins  | ✔            | ✔ |
+| NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (Planned) |
 | Security fixes | ✘            | ✔ |
