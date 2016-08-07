@@ -25,5 +25,7 @@ https://bugs.webkit.org/show_bug.cgi?id=158297
 
 ```
 20fab5c87d0f1e64d7678f5a5972888aefc3b2d0
-
 ```
+
+# Qt
+049fcfba58eb1a3e71859f27cbb6a8c62a99db02
