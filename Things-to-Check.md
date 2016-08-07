@@ -12,3 +12,7 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * We may have this bug: https://bugs.webkit.org/show_bug.cgi?id=154554
 
     See FontCache::createFontPlatformData
+
+### Qt bugs
+* https://bugreports.qt.io/browse/QTBUG-34280
+* https://bugreports.qt.io/browse/QTBUG-34277
