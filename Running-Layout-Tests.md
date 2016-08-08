@@ -1,20 +1,22 @@
 ```
-Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p canvas compositing fast js
+Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 \
+    -p canvas compositing fast js
 ```
+Here:
+* `-1` - Test WebKit 1, not WebKit 2
+* `-p` - Enable pixel tests
+* `--child-processes=4` - Run 4 tests in parallel
+* `--no-new-test-results` - Don't create expectations when they are missing
+* `canvas compositing fast js` - run test from these directories only
 
 ```
 WEBKIT_OUTPUTDIR=$(pwd)/build/qt-clang \
 Tools/Scripts/run-webkit-tests \
 --qt -1 --no-show-results --no-new-test-results --no-retry-failures
 ```
-
 Here:
 * `WEBKIT_OUTPUTDIR` - same as when you are building QtWebKit, not needed if default (`WebKitBuild`) is used
-* `-1` - Test WebKit 1, not WebKit 2
-* `-p` - Enable pixel tests
-* `--child-processes=4` - Run 4 tests in parallel
 * `--no-show-results` - Avoid if you want to see results as HTML in a browser
-* `--no-new-test-results` - Don't create expectations when they are missing
 * `--no-retry-failures` - Don't run failed tests once again
 
 Additional options:
