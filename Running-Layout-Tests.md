@@ -25,6 +25,7 @@ Additional options:
 * `--debug-rwt-logging` - Debug testing machinery
 * `--results-directory=` - Set different output dir (by default `WEBKIT_OUTPUTDIR/layout-test-results` is used)
 * `--compare-port=mac-yosemite` - Use expectations from different port (useful for tests with missing results)
+* `--exit-after-n-crashes-or-timeouts=N`
 
 Add new expectations
 * `--new-baseline`
