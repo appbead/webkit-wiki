@@ -19,3 +19,4 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * https://codereview.qt-project.org/#/c/72627/ - maybe not needed after https://bugs.webkit.org/show_bug.cgi?id=120593
 * QTBUG-35208 - ?
 * https://codereview.qt-project.org/#/c/73823/ - shouldn't it use direction of current element instead of application?
+* https://bugreports.qt.io/browse/QTBUG-34203
