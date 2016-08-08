@@ -1,12 +1,13 @@
 ```
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 \
-    -p canvas compositing fast js
+    -p --debug canvas compositing fast js
 ```
 Here:
 * `-1` - Test WebKit 1, not WebKit 2
 * `-p` - Enable pixel tests
 * `--child-processes=4` - Run 4 tests in parallel
 * `--no-new-test-results` - Don't create expectations when they are missing
+* `--debug` - Use Debug build instead of Release
 * `canvas compositing fast js` - run test from these directories only
 
 ```
