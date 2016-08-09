@@ -24,3 +24,4 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * https://codereview.qt-project.org/#/c/76500/
 * QTBUG-36591
 * QTBUG-37043 https://codereview.qt-project.org/#/c/80043/
+* QTBUG-37029
