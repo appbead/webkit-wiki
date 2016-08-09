@@ -22,3 +22,4 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * https://bugreports.qt.io/browse/QTBUG-34203 https://codereview.qt-project.org/#/c/72425/
 * QTBUG-35996 - old patch is for generic WK2 code and does not apply https://codereview.qt-project.org/#/c/75037/
 * https://codereview.qt-project.org/#/c/76500/
+* QTBUG-36591
