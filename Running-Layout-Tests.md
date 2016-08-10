@@ -26,6 +26,9 @@ Additional options:
 * `--results-directory=` - Set different output dir (by default `WEBKIT_OUTPUTDIR/layout-test-results` is used)
 * `--compare-port=mac-yosemite` - Use expectations from different port (useful for tests with missing results)
 * `--exit-after-n-crashes-or-timeouts=N`
+* `--no-ref-tests` - Use when you are doing rebaseline, which is not applicable to ref-tests
+* `--skip-failing-tests`
+* `--force` - Run tests as all of them are expected to pass
 
 Add new expectations
 * `--new-baseline`
