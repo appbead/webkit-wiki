@@ -34,6 +34,7 @@ svg/custom/viewport-em.svg
 svg/dom/SVGPathSegList-cloning.html
 svg/hixie/text/003.html
 svg/zoom/page/zoom-svg-through-object-with-absolute-size(-2).xhtml
+svg/custom/gradient-deep-referencing.svg
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
