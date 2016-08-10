@@ -41,6 +41,10 @@ I'm using the next command to build QtWebKit:
         --release \
         --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
 
+If you wish to install it globally (usually on `/usr/local`), you may then run the following command:
+
+    cd build/qt/Release && sudo ninja install
+
 You can also build with cmake directly:
 
     mkdir build/qt/Release
