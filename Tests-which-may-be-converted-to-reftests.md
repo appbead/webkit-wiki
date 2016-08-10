@@ -32,6 +32,7 @@ fast/encoding/denormalised-voiced-japanese-chars
 svg/custom/svg-float-border-padding.xml
 svg/custom/viewport-em.svg
 svg/dom/SVGPathSegList-cloning.html
+svg/hixie/text/003.html
 ```
 
 * fast/table/frame-and-rules-actual.txt - too messy for visual comparison
