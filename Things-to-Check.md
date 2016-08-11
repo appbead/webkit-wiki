@@ -32,3 +32,4 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * 29dd87ecc570ebc51890e0587e73e7a144d892aa
 * 9e99dad77b3e885e5c5a1622ba12fbc947984250
 * QTBUG-38356 27428976e442973a4dd1cf323f555dd2583a3ee9
+* QTBUG-39601 check if patch actually needed
