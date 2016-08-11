@@ -27,3 +27,8 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * QTBUG-37029
 * QTBUG-37636
 * QTBUG-38809 (test case?)
+* QTBUG-38841 626e0c352765ecbe4211861b00d6ed56d974204e
+* QTBUG-38067
+* 29dd87ecc570ebc51890e0587e73e7a144d892aa
+* 9e99dad77b3e885e5c5a1622ba12fbc947984250
+* QTBUG-38356 27428976e442973a4dd1cf323f555dd2583a3ee9
