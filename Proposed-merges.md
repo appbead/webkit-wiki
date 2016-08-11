@@ -23,6 +23,8 @@ https://bugs.webkit.org/show_bug.cgi?id=158297
 
 https://trac.webkit.org/r204339 
 
+https://bugs.webkit.org/show_bug.cgi?id=152316
+
 # Qt-5x2
 
 ```
