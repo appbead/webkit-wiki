@@ -50,6 +50,7 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * QTBUG-42890
 * QTBUG-45556
 * QTBUG-46178
+* https://codereview.qt-project.org/#/c/138820/ - will it work with upper-cased mime types?
 
 ### Check when WK2 works
 * QTBUG-40734
