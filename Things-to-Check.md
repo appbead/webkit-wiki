@@ -52,4 +52,5 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * QTBUG-39951
 
 ### Upstream
+* QTBUG-36349 
 * QTBUG-41771
