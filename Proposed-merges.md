@@ -37,3 +37,6 @@ https://trac.webkit.org/r204410
 20fab5c87d0f1e64d7678f5a5972888aefc3b2d0
 ```
 
+### Qt
+
+4ecb913768ff0806c6efdff4567ef5907f597e4a
