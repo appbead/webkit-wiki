@@ -38,3 +38,4 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * 5e64d7e2158a8ff1cb4a7e5dedb100f0cf123c5f
 * QTBUG-39483
 * QTBUG-40284
+* QTBUG-39675 5f12776a6e3d346bdfea8fbc12df8e643c52c3fd https://bugs.webkit.org/show_bug.cgi?id=91862
