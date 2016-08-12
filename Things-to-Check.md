@@ -49,6 +49,7 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * QTBUG-44523
 * QTBUG-42890
 * QTBUG-45556
+* QTBUG-46178
 
 ### Check when WK2 works
 * QTBUG-40734
