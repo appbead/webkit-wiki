@@ -36,3 +36,4 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * f314bb46c5b144be4559ac13f055062d5e3027b3
 * 3a58945611c1a34ad9a57bededeeb61ec9ebfe70
 * 5e64d7e2158a8ff1cb4a7e5dedb100f0cf123c5f
+* QTBUG-39483
