@@ -41,6 +41,7 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * QTBUG-39675 5f12776a6e3d346bdfea8fbc12df8e643c52c3fd https://bugs.webkit.org/show_bug.cgi?id=91862
 * QTBUG-37679
 * QTBUG-40218
+* QTBUG-36425
 
 ### Missing tests
 * QTBUG-39951
