@@ -47,6 +47,7 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * e54a6126cef33a2345127ddee6f633ac57f63b5e - should we also check path.isEmpty()?
 * QTBUG-40063
 * QTBUG-44523
+* QTBUG-42890
 
 ### Check when WK2 works
 * QTBUG-40734
