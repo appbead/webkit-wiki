@@ -5,7 +5,7 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
 Here:
 * `-1` - Test WebKit 1, not WebKit 2
 * `-p` - Enable pixel tests
-* `--child-processes=4` - Run 4 tests in parallel
+* `--child-processes=4` - Run 4 tests in parallel. In most cases you want to make it equal or less than CPU cores number (otherwise tests can start timing out because of CPU drain). However, when dealing with test sets with lots of timeout it makes sense to increase number of processes to make more DRTs waiting for nothing in parallel.
 * `--no-new-test-results` - Don't create expectations when they are missing
 * `--debug` - Use Debug build instead of Release
 * `canvas compositing fast js` - run test from these directories only
