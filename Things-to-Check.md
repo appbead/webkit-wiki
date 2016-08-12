@@ -43,5 +43,8 @@ Items in this list need manual check, or even better indenitfying corresponding 
 * QTBUG-40218
 * QTBUG-36425
 
+### Check when WK2 works
+* QTBUG-40734
+
 ### Missing tests
 * QTBUG-39951
