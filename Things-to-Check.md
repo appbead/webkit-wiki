@@ -48,3 +48,6 @@ Items in this list need manual check, or even better indenitfying corresponding 
 
 ### Missing tests
 * QTBUG-39951
+
+### Upstream
+* QTBUG-41771
