@@ -49,7 +49,11 @@ You can also build with cmake directly:
 
 ### Installation
 
-If you wish to install it globally (usually on `/usr/local`), you may then run the following command:
+Currently you have to install QtWebKit in order to build your applications against it. Run the following command:
+
+    cd build/qt/Release && sudo make install
+
+or if you build with `ninja` (default behavior of `build-webkit`, if `ninja` is installed):
 
     cd build/qt/Release && sudo ninja install
 
