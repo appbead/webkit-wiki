@@ -49,7 +49,9 @@ You can also build with cmake directly:
 
 ### Installation
 
-Currently you have to install QtWebKit in order to build your applications against it. Run the following command:
+Currently you have to install QtWebKit in order to build your applications against it. Installation prefix is controlled by `CMAKE_INSTALL_PREFIX` variable, you may even set it to your Qt prefix (*warning*: it will replace existing QtWebKit files if you have one installed!).
+
+Run the following command to perform installation:
 
     cd build/qt/Release && sudo make install
 
