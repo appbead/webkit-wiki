@@ -41,15 +41,33 @@ I'm using the next command to build QtWebKit:
         --release \
         --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
 
-If you wish to install it globally (usually on `/usr/local`), you may then run the following command:
-
-    cd build/qt/Release && sudo ninja install
-
 You can also build with cmake directly:
 
     mkdir build/qt/Release
     cd build/qt/Release
-    cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Ninja'
+    cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release
+
+### Installation
+
+If you wish to install it globally (usually on `/usr/local`), you may then run the following command:
+
+    cd build/qt/Release && sudo ninja install
+
+If you are building with ninja and see error like this:
+```
+CMake Error at Source/WebKit/cmake_install.cmake:129 (FILE):
+  file INSTALL cannot find
+  "/mnt/ssd2/WebKit/WebKit-new-qt-stable/WebKitBuild/Release/Source/WebKit/CMakeFiles/CMakeRelink.dir/libQt5WebKitWidgets.so.5.602.1".
+Call Stack (most recent call first):
+  Source/cmake_install.cmake:94 (INCLUDE)
+  cmake_install.cmake:37 (INCLUDE)
+```
+run the next command:
+```
+sed -ie 's|Source\/WebKit\/CMakeFiles\/CMakeRelink\.dir|lib|' Source/WebKit/cmake_install.cmake
+```
+
+### Building only JSC
 
 To build only JSC, replace `build-webkit` with `build-jsc`
 
