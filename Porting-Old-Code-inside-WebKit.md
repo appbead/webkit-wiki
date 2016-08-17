@@ -3,7 +3,7 @@
 ### Smart pointers
 * `OwnPtr` and `PassOwnPtr` should be replaced with `std::unique_ptr`
 * Replace `adoptPtr(new Something(...))` with `std::make_unique<Something>(...)`
-* `adoptPtr` which use existing pointer instead of `new` should be transformed to usage of `std::unique_ptr` constructor
+* `adoptPtr` which use existing pointer instead of `new` should be transformed to usage of `std::unique_ptr` constructor, or `reset()` method (the latter is easier but it would be better to clean it up later)
 * Replace `OwnPtr::clear()` with `= nullptr`
 
 ### JSC and its usage (bridge, WebKit)
