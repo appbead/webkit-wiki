@@ -3,7 +3,7 @@ This is a work in progress; see https://trac.webkit.org/wiki/WebKitGTK/Releasing
 ### Make tarball
 
 ```
-Tools/gtk/make-dist.py --version tp3 -c Tools/qt/manifest.txt
+Tools/gtk/make-dist.py -t qtwebkit -p Qt --version tp3 -c Tools/qt/manifest.txt
 ```
 
 * `-c` option unpacks generated `.tar` file and builds it
