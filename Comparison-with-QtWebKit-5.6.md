@@ -17,7 +17,7 @@
 | Private browsing | ✔            | ✘ (Planned) |
 | WebGL          | ✔   | ✘ (Planned) |
 | Web SQL Database | ✔            | ✔ |
-| Accelerated graphics | ✔   | ✘ (WIP) |
+| Accelerated compositing | ✔   | ✘ (WIP) |
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (Planned) |
