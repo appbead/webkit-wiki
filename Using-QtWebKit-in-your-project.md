@@ -1,6 +1,6 @@
-First of all you need to build QtWebKit (according to instructions for you OS), and install it (`ninja install` if you build with Ninja). In installation prefix you will get layout of directories, similar to what other Qt modules provide.
+First of all you need to build QtWebKit (according to instructions for you OS), and install it (`ninja install` if you build with Ninja). In installation prefix you will get layout of directories, similar to what other Qt modules provide. 
 
-However, we don't yet recommend to install QtWebKit into the same prefix with your main Qt installation. We also recommend to change default value of CMAKE_INSTALL_PREFIX from generic path like `/usr/local` to path specific to QtWebKit like `$HOME/qtwebkit`
+We also recommend to change default value of CMAKE_INSTALL_PREFIX from generic path like `/usr/local` to path specific to QtWebKit like `$HOME/qtwebkit`. You may want to use Qt installation root, especially if it lacks QtWebKit module (otherwise it will be overwritten).
 
 ### QMake
 
