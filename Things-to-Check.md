@@ -13,6 +13,11 @@ Items in this list need manual check, or even better indenitfying corresponding 
 
     See FontCache::createFontPlatformData
 
+
+### WK2
+
+https://bugs.webkit.org/show_bug.cgi?id=106890
+
 ### Qt bugs
 * https://bugreports.qt.io/browse/QTBUG-34280
 * https://bugreports.qt.io/browse/QTBUG-34277
