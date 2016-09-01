@@ -28,6 +28,11 @@ Use the following command to build QtWebkit (don't forget to check `CMAKE_PREFIX
 perl Tools/Scripts/build-webkit --qt --release --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=c:\Qt\Qt5.6.0\5.6\msvc2015"
 ```
 
+To build QtWebKit successfully you **must** follow these rules:
+
+- Make sure you don't have `MSYS`, `Cygwin` or `MINGW` bin folders in your `PATH` variable.
+- Make sure that path to the `bin` folder of `ActivePerl` listed first in your `PATH` variable. Git on Windows has its own Perl executable which doesn't work with WebKit scripts.
+
 To build JSC only, replace `build-webkit` with `build-jsc`.
 
 # TODO: Running tests
