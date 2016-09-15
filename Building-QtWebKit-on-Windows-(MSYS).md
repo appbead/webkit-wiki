@@ -6,7 +6,7 @@ Install
 * Qt SDK for MinGW
 * MSYS2 (https://msys2.github.io/)
 * CMake
-* Ninja
+* Ninja (https://github.com/ninja-build/ninja/releases)
 
 Launch MSYS2 shell
 
