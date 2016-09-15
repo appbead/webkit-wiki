@@ -1,4 +1,6 @@
-**WARNING: This document is a work in progress** 
+**WARNING: This document is a work in progress**
+
+This instruction os based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_.28with_OpenSSL.2C_ICU_and_QtWebKit.29
 
 Install
 * Qt SDK for MinGW
@@ -10,9 +12,11 @@ Launch MSYS2 shell
 
 Set up paths
 ```
-  export PATH=$PATH:/c/Qt/Tools/mingw530_32/bin/
   export PATH=$PATH:/c/Utils/CMake/cmake-3.6.2-win32-x86/bin/
-  export PATH=$PATH:/c/Utils/ # I've put ninja here
+# We will use MinGW shipped with Qt SDK
+  export PATH=$PATH:/c/Qt/Tools/mingw530_32/bin/
+# Add ninja to PATH
+  export PATH=$PATH:/c/Utils/ 
 ```
 
 Install dependencies
@@ -24,7 +28,7 @@ Install dependencies
      pacman -S mingw32/mingw-w64-i686-sqlite3
 ```
 
-Run cmake and build it
+Run cmake and build QtWebKit
 ```
 mkdir build
 cd build
