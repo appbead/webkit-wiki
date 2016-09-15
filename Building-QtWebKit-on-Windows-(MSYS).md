@@ -26,6 +26,7 @@ Install dependencies
      pacman -S mingw32/mingw-w64-i686-icu
      pacman -S mingw32/mingw-w64-i686-libpng
      pacman -S mingw32/mingw-w64-i686-sqlite3
+     pacman -S mingw32/mingw-w64-i686-libwebp
 ```
 
 Run cmake and build QtWebKit
