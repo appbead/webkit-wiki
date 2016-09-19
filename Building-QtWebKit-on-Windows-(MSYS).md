@@ -11,7 +11,10 @@ This instruction is based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_
 
 Launch MSYS2 shell and execute commands
 ```
-     pacman -S base-devel    # Install much more than actually needed, TODO: find precise package set
+# base-devel has much more than actually needed
+# TODO: find precise package subset
+     pacman -S base-devel
+
      pacman -S mingw32/mingw-w64-i686-libjpeg-turbo
      pacman -S mingw32/mingw-w64-i686-icu
      pacman -S mingw32/mingw-w64-i686-libpng
