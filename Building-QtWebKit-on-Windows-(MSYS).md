@@ -5,8 +5,8 @@ This instruction os based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_
 Install
 * Qt SDK for MinGW
 * MSYS2 (https://msys2.github.io/)
-* CMake
 * Ninja (https://github.com/ninja-build/ninja/releases)
+* CMake (you can install it with pacman as well, see below)
 
 Launch MSYS2 shell
 
