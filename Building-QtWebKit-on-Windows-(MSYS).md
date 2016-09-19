@@ -1,6 +1,6 @@
 **WARNING: This document is a work in progress**
 
-This instruction os based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_.28with_OpenSSL.2C_ICU_and_QtWebKit.29
+This instruction is based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_.28with_OpenSSL.2C_ICU_and_QtWebKit.29
 
 Install
 * Qt SDK for MinGW
