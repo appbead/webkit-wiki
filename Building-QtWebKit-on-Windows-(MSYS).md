@@ -2,13 +2,22 @@
 
 This instruction is based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_.28with_OpenSSL.2C_ICU_and_QtWebKit.29
 
-Install
+### Install dependencies
+
 * Qt SDK for MinGW
 * MSYS2 (https://msys2.github.io/)
 * Ninja (https://github.com/ninja-build/ninja/releases)
 * CMake (you can install it with pacman as well, see below)
 
-Launch MSYS2 shell
+Launch MSYS2 shell and execute commands
+```
+     pacman -S base-devel    # Install much more than actually needed, TODO: find precise package set
+     pacman -S mingw32/mingw-w64-i686-libjpeg-turbo
+     pacman -S mingw32/mingw-w64-i686-icu
+     pacman -S mingw32/mingw-w64-i686-libpng
+     pacman -S mingw32/mingw-w64-i686-sqlite3
+     pacman -S mingw32/mingw-w64-i686-libwebp
+```
 
 Set up paths
 ```
@@ -17,16 +26,6 @@ Set up paths
   export PATH=$PATH:/c/Qt/Tools/mingw530_32/bin/
 # Add ninja to PATH
   export PATH=$PATH:/c/Utils/ 
-```
-
-Install dependencies
-```
-     pacman -S base-devel
-     pacman -S mingw32/mingw-w64-i686-libjpeg-turbo
-     pacman -S mingw32/mingw-w64-i686-icu
-     pacman -S mingw32/mingw-w64-i686-libpng
-     pacman -S mingw32/mingw-w64-i686-sqlite3
-     pacman -S mingw32/mingw-w64-i686-libwebp
 ```
 
 Run cmake and build QtWebKit
