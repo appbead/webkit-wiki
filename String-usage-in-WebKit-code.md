@@ -8,6 +8,7 @@ https://trac.webkit.org/wiki/EfficientStrings
 * Use ASCIILiteral instead of QLatin1String and others where literal WTF::String is needed
 * Use String(const char*) to make WTF::String from latin1 C string
 * Use String::fromUTF8(const char*)to make WTF::String from UTF8 C string
+* AtomicString foo("bar", AtomicString::ConstructFromLiteral) vs ASCIILiteral?
 
 ### Qt API usage
 
