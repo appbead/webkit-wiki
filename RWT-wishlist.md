@@ -17,4 +17,5 @@
 <annulen>	litherum: ^
 ```
 
-* Detect dead expectations from tests which no longer exist? See also https://github.com/annulen/webkit/issues/214
+* Better detection of "accidental" failures. Often RWT execution results in a few unexpected failures and/or flakes, which are gone if just these tests are executed. Talk to other WebKit people how do they mitigate it, maybe problem is specific to Qt (e.g. we have tests that disrupt execution of others).
+* Detect expectation files in `LayoutTests/platform/qt` from tests which no longer exist. See also https://github.com/annulen/webkit/issues/214
