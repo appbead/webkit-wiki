@@ -22,6 +22,10 @@ brew install libpng cmake
 brew install ninja
 ```
 
+### Warning
+
+Mono.framework presence on build machine is known to deceive CMake into using its headers for libraries like libpng and sqlite. It leads to crashes when using built QtWebKit. Please remove it before proceeding to the next step.
+
 ### Building
 
 If you don't have `qmake` in your `$PATH`, you must provide the path to it via `-DCMAKE_PREFIX_PATH`:
@@ -34,4 +38,3 @@ For example, if you have Qt 5.6 installed in `$HOME/Qt`, then the command will b
 ```
 ./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=/Users/vitaly/Qt/5.6/clang_x64"
 ```
-
