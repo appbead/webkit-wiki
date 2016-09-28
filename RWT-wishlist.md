@@ -1,0 +1,20 @@
+* In pixel mode when text-only failure occurs, but image comparison succeeds, save images anyway. Otherwise it's hard to distinguish failing text-only tests from this category (rebaseline-server support may be needed!)
+* When running `--compare-port=` there should be an easy way to copy & git add matching results to LayoutTests/platform/qt (like rebaseline-server does for tests from queue)
+* Parsing of large TestExpectations file takes too long
+* I suspect run-webkit-tests could be made faster
+   * Reduce CPU consumption by python in test run
+   * It may be possible to reduce disk I/O by getting test lists from git, maybe even file contents. I observed such effect in a different project, just listing files from large dir hierarchy takes a lot of time with cold cache and uses a lot of system calls, while using mlocate database is ~100x faster. git has similar property - it stores objects in flat dir (e.g. see explanation why `git grep` is faster than `grep`). If git is not fast enough we can switch to mlocate.
+   * It may be beneficial to run tests with `offscreen` QPA plugin instead of `xvfb-run`, however not all tests can succeed in this mode. At very least, OpenGL won't work (we don't run WebGL tests now), I also suspect drag&drop and maybe other test kinds can fail. We may need hybrid driver which doesn't use Xvfb for test that can be run without it. andersca and litherum may have additional info
+
+```
+<annulen>	andersca_: what was the reson for this change: https://bugs.webkit.org/show_bug.cgi?id=148746 ?
+<annulen>	*reason
+<andersca_>	annulen: it's the first step of a patch i never finished
+<andersca_>	annulen: where you can specify set-up data inside a test fiel
+<andersca_>	annulen: we already support it for WKTR
+<annulen>	andersca_: where can I see an example of such set-up data?
+<andersca_>	annulen: hmm, myles would know
+<annulen>	litherum: ^
+```
+
+* Detect dead expectations from tests which no longer exist? See also https://github.com/annulen/webkit/issues/214
