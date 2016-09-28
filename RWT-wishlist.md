@@ -17,5 +17,7 @@
 <annulen>	litherum: ^
 ```
 
+* Detect expectation files in `LayoutTests/platform/qt` left over from tests which no longer exist. See also https://github.com/annulen/webkit/issues/214
 * Better detection of "accidental" failures. Often RWT execution results in a few unexpected failures and/or flakes, which are gone if just these tests are executed. Talk to other WebKit people how do they mitigate it, maybe problem is specific to Qt (e.g. we have tests that disrupt execution of others).
-* Detect expectation files in `LayoutTests/platform/qt` from tests which no longer exist. See also https://github.com/annulen/webkit/issues/214
+* Related: detection of tests that break execution of following tests.
+* Compare selected tests with WebKit in another dir - find regressions after previous snapshot, after WebKit upgrade, compare behavior with other ports
