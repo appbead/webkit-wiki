@@ -24,7 +24,7 @@ brew install ninja
 
 ### Warning
 
-Mono.framework presence on build machine is known to deceive CMake into using its headers for libraries like libpng and sqlite. It leads to crashes when using built QtWebKit. Please remove it before proceeding to the next step.
+`Mono.framework` presence on build machine is known to deceive CMake into using its headers for libraries like libpng and sqlite. It leads to crashes when using built QtWebKit. Please remove it before proceeding to the next step.
 
 ### Building
 
