@@ -1,3 +1,5 @@
+* Running layout tests on device which does NOT have python, git, full-featured shell, storage space. Connection with SSH, NFS can be used to get test sources and write results. Should be implemented as a driver similar to Xvfb one.
+
 * In pixel mode when text-only failure occurs, but image comparison succeeds, save images anyway. Otherwise it's hard to distinguish failing text-only tests from this category (rebaseline-server support may be needed!)
 * When running `--compare-port=` there should be an easy way to copy & git add matching results to LayoutTests/platform/qt (like rebaseline-server does for tests from queue)
 * Parsing of large TestExpectations file takes too long
