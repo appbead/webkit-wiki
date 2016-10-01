@@ -59,6 +59,8 @@ or if you build with `ninja` (default behavior of `build-webkit`, if `ninja` is 
 
     cd build/qt/Release && sudo ninja install
 
+### Installation Troubleshoot
+
 If you are building with ninja and see error like this:
 ```
 CMake Error at Source/WebKit/cmake_install.cmake:129 (FILE):
