@@ -5,7 +5,7 @@
 | HTML `<template>` | ✘           | ✔ |
 | CSS selectors `::read-write` and `::read-only` | ✘           | ✔ |
 | CSS property `-webkit-initial-letter`| ✘           | ✔ |
-| Fullscreen API | ✘           | ✘ (Planned) |
+| Fullscreen API | ✘           | ✘ (WIP) |
 | WebAudio      | ✘           | ✔ (Experimental with GStreamer) |
 | MediaSource   | ✘           | ✔ (Experimental with GStreamer) |
 | Encrypted Media | ✘           | ✘ (Planned for GStreamer, help needed) |
