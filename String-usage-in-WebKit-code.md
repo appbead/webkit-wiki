@@ -9,6 +9,8 @@ https://trac.webkit.org/wiki/EfficientStrings
 * Use String(const char*) to make WTF::String from latin1 C string
 * Use String::fromUTF8(const char*)to make WTF::String from UTF8 C string
 * AtomicString foo("bar", AtomicString::ConstructFromLiteral) vs ASCIILiteral?
+* Use `emptyString()` instead of "" or `String()` where `WTF::String` is needed
+* Use `nullAtom` instead of `AtomicString()`
 
 ### Qt API usage
 
