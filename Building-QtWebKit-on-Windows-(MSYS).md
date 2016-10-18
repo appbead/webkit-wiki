@@ -42,3 +42,5 @@ cd build
 CMAKE_PREFIX_PATH=/c/Qt/5.7/mingw53_32 CC=i686-w64-mingw32-gcc CXX=i686-w64-mingw32-g++ cmake /e/WebKit-new-qt-stable/ -G Ninja -DPORT=Qt -DCMAKE_PREFIX_PATH="/c/msys64/mingw32"
 ninja
 ```
+
+ CMAKE_PREFIX_PATH=/c/Qt/5.7/mingw53_32 CC=i686-w64-mingw32-gcc CXX=i686-w64-mingw32-g++ cmake /e/WebKit-new-mingw -G "MSYS Makefiles" -DPORT=Qt -DCMAKE_PREFIX_PATH="/c/msys64/mingw32" -DENABLE_API_TESTS=OFF
