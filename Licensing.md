@@ -1,3 +1,7 @@
-We use the same licensing policy as WebKit project: https://webkit.org/licensing-webkit/
+We use the same licensing policy as [WebKit project](https://webkit.org/licensing-webkit/), so all contributed code must be under either BSD or LGPL 2 license. 
 
-One particular goal is to be able to submit any piece of QtWebKit code to upstream without any licensing issues, including extreme case of upstreaming whole QtWebKit code.
+This allows us to 
+
+* submit any fixes and improvements made to generic WebKit code to webkit.org later when they are deemed to be useful for other ports;
+* freely exchange local improvements with other downstream ports of WebKit
+* upstream whole or part of Qt port's code to webkit.org in case we have more manpower
