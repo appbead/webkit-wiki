@@ -75,6 +75,8 @@ run the next command:
 sed -ie 's|Source\/WebKit\/CMakeFiles\/CMakeRelink\.dir|lib|' Source/WebKit/cmake_install.cmake
 ```
 
+Another solution is building with `CMAKE_BUILD_WITH_INSTALL_RPATH=ON`, but in this case binaries won't run before installation without setting LD_LIBRARY_PATH
+
 ### Building only JSC
 
 To build only JSC, replace `build-webkit` with `build-jsc`
