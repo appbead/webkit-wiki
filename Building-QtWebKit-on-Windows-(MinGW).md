@@ -26,25 +26,12 @@ Launch MSYS2 shell and execute commands
      pacman -S mingw32/mingw-w64-i686-libwebp
 ```
 
-Set up paths
-```
-  export PATH=$PATH:/c/Utils/CMake/cmake-3.6.2-win32-x86/bin/
-# We will use MinGW shipped with Qt SDK
-  export PATH=$PATH:/c/Qt/Tools/mingw530_32/bin/
-# Add ninja to PATH
-  export PATH=$PATH:/c/Utils/ 
-```
-
-Run cmake and build QtWebKit
+Open "MinGW shell" link provided by Qt installation, cd to location of QtWebKit sources and do following:
 ```
 mkdir build
 cd build
-CMAKE_PREFIX_PATH=/c/Qt/5.7/mingw53_32 CC=i686-w64-mingw32-gcc CXX=i686-w64-mingw32-g++ cmake /e/WebKit-new-qt-stable/ -G Ninja -DPORT=Qt -DCMAKE_PREFIX_PATH="/c/msys64/mingw32"
-ninja
+cmake .. -G Ninja -DPORT=Qt -DCMAKE_PREFIX_PATH=c:\msys64\mingw32 -DENABLE_API_TESTS=OFF -DENABLE_TEST_SUPPORT=OFF
+ninja QtTestBrowser
 ```
 
- CMAKE_PREFIX_PATH=/c/Qt/5.7/mingw53_32 CC=i686-w64-mingw32-gcc CXX=i686-w64-mingw32-g++ cmake /e/WebKit-new-mingw -G "MSYS Makefiles" -DPORT=Qt -DCMAKE_PREFIX_PATH="/c/msys64/mingw32" -DENABLE_API_TESTS=OFF
-
-cmake e:\WebKit-new-mingw -G "MinGW Makefiles" -DPORT=Qt -DCMAKE_PREFIX_PATH=c:\msys64\mingw32
-
-set PATH=%PATH%;C:\Utils
+You may also need to extend `%PATH%` before running cmake, e.g. `set PATH=%PATH%;C:\Utils`
