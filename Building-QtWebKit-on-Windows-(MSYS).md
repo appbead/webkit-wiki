@@ -35,3 +35,8 @@ ninja QtTestBrowser
 ```
 
 You may also need to extend `%PATH%` before running cmake, e.g. `set PATH=%PATH%;C:\Utils`
+
+PATH without perl dlls:
+```
+PATH=C:\Qt\5.7\mingw53_32\bin;C:/Qt/Tools/mingw530_32\bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Strawberry\perl\bin;C:\Ruby23-x64\bin;C:\Utils\Conan\conan;C:\Utils\Conan.io\conan;C:\Utils\Conan.io\conan;C:\CMake\bin;C:\GnuWin32\bin  
+```
