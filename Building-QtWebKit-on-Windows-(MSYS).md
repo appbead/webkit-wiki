@@ -30,7 +30,7 @@ Open "MinGW shell" link provided by Qt installation, cd to location of QtWebKit 
 ```
 mkdir build
 cd build
-cmake .. -G Ninja -DPORT=Qt -DCMAKE_PREFIX_PATH=c:\msys64\mingw32 -DENABLE_API_TESTS=OFF -DENABLE_TEST_SUPPORT=OFF
+cmake .. -DCMAKE_BUILD_TYPE=Release -G Ninja -DPORT=Qt -DCMAKE_PREFIX_PATH=c:\msys64\mingw32 -DENABLE_API_TESTS=OFF -DENABLE_TEST_SUPPORT=OFF
 ninja QtTestBrowser
 ```
 
