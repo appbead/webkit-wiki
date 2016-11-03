@@ -22,4 +22,11 @@ As for GCC 4.8 requirement, this is the first GCC release which supports complet
 * **libhyphen** implements feature which is missing in QtWebKit 5.6 (CSS Hyphenation), it can be disaled using -DUSE_LIBHYPHEN=OFF cmake option)
 * **ICU** was a requirement since Qt 5.0. [1]
 
+### Why do I have to disable feature X explicitly if library Y was not found? It was disabled automagically with qmake!
+
+There is some difference in how new build system deals with features: in new build system there is default full-featured configuration and nothing is silently skipped when dependency is missing. You have to disable features deliberately because:
+* This way you understand what features do you disable
+* Build result does not depend on system configuration, so we can say that QtWebKit supports X on your OS (unless you deliberately disabled it)
+* No distributor can produce crippled packages missing some features by simply forgetting to add necessary dependencies
+
 [1] An unofficial way to build QtWebKit 5.6 without ICU exists, but using it leads to degradation of Unicode support on all platforms (except possibly WinCE). Related code was removed from WebKit upstream, and we see no sense in restoring it.
