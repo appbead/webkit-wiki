@@ -29,4 +29,4 @@ There is some difference in how new build system deals with features: in new bui
 * Build result does not depend on system configuration, so we can say that QtWebKit supports X on your OS (unless you deliberately disabled it)
 * No distributor can produce crippled packages missing some features by simply forgetting to add necessary dependencies
 
-[1] An unofficial way to build QtWebKit 5.6 without ICU exists, but using it leads to degradation of Unicode support on all platforms (except possibly WinCE). Related code was removed from WebKit upstream, and we see no sense in restoring it.
+[1] An unofficial way to build QtWebKit 5.x without ICU exists, but using it leads to degradation of Unicode support on all platforms (except possibly WinCE). Related code was removed from WebKit upstream, and we see no sense in restoring it.
