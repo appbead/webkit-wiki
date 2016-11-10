@@ -47,3 +47,7 @@ PATH=C:\Qt\5.7\mingw53_32\bin;C:/Qt/Tools/mingw530_32\bin;C:\Python27\;C:\Python
 * export PATH=/C/Qt/Tools/mingw530_32/bin:/C/Utils/Conan/conan:$PATH
 * pacman -S make (don't want to use mingw32-make for uniformity, but...)
 * Create conan.conf for MinGW
+
+`conan install libxslt/1.1.29@annulen/stable --build=missing -o shared=True -o libxml2:shared=True -s compiler=gcc -s compiler.version=4.9 -s compiler.libcxx="libstdc++"`
+
+` conan install libxslt/1.1.29@annulen/stable --build=missing -s compiler=gcc -s compiler.version=4.9 -s compiler.libcxx="libstdc++"`
