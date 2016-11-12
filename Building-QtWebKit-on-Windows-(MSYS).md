@@ -51,3 +51,8 @@ PATH=C:\Qt\5.7\mingw53_32\bin;C:/Qt/Tools/mingw530_32\bin;C:\Python27\;C:\Python
 `conan install libxslt/1.1.29@annulen/stable --build=missing -o shared=True -o libxml2:shared=True -s compiler=gcc -s compiler.version=4.9 -s compiler.libcxx="libstdc++"`
 
 ` conan install libxslt/1.1.29@annulen/stable --build=missing -s compiler=gcc -s compiler.version=4.9 -s compiler.libcxx="libstdc++"`
+
+### Building Qt
+* Install DirectX SDK: http://www.microsoft.com/en-us/download/details.aspx?id=6812
+* `set SQLITE3SRCDIR=..\qt5\qtbase\src\3rdparty\sqlite`
+* `..\qt5\configure  -confirm-license -opensource -nomake examples -qt-zlib -qt-libpng -qt-libjpeg`
