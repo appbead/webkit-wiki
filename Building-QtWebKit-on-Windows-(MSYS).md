@@ -56,3 +56,4 @@ PATH=C:\Qt\5.7\mingw53_32\bin;C:/Qt/Tools/mingw530_32\bin;C:\Python27\;C:\Python
 * Install DirectX SDK: http://www.microsoft.com/en-us/download/details.aspx?id=6812
 * `set SQLITE3SRCDIR=..\qt5\qtbase\src\3rdparty\sqlite`
 * `..\qt5\configure  -confirm-license -opensource -nomake examples -qt-zlib -qt-libpng -qt-libjpeg`
+* `cd qtwebkit && conan install -f g:\qt5\coin\provisioning\qtci-windows-7-x86\conanfiles\qtwebkit.txt -s arch=x86 -s compiler=gcc -s compiler.version=5.3 -s compiler.libcxx="libstdc++11" -g cmake`
