@@ -4,7 +4,7 @@ This instruction is based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_
 
 ### Obtain QtWebKit sources
 
-You need to `mingw_build` branch from this repo.
+You need to `mingw_build` branch from this repo, or from `qtwebkit-snapshots`.
 
 ### Install dependencies
 
