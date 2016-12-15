@@ -7,3 +7,8 @@ find Source/ -ipath '*qt*.cpp' -exec \
     -checks=-*,modernize-use-override -fix \;
 ```
 Without fix it will only issue warnings, not change code
+
+Hack to skip override added to destructors:
+```
+git diff | grep -v '~' | egrep '^\+' | less
+```
