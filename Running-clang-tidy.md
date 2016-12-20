@@ -26,5 +26,6 @@ TODO: specify style, so `modernize-loop-convert` does not write code like `auto 
 
 * Use `auto*` for pointers
 * Detect if begin/end iterators are saved before cycle begins, get rid of them
+* Omit `m_` suffix in loop variable
 * Drop braces if cycle reduces to single statement
 * (Hard) Apply change only if there is clear improvement: less lines, index was used 2 times or more, etc. 
