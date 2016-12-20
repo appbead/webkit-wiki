@@ -12,3 +12,18 @@ Hack to skip override added to destructors:
 ```
 git diff | grep -v '~' | egrep '^\+' | less
 ```
+
+TODO: specify style, so `modernize-loop-convert` does not write code like `auto & thing`
+
+## Wishlist
+
+### modernize-use-override
+
+* Don't touch dtors
+* Add `final` in `final` classes
+
+### modernize-loop-convert
+
+* Apply change only if there is clear improvement: less lines, index was used 2 times or more, etc. 
+* Detect if begin/end iterators are saved before cycle begins, get rid of them
+* Drop braces if cycle reduces to single statement
