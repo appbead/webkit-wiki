@@ -6,8 +6,8 @@ https://trac.webkit.org/wiki/EfficientStrings
 
 * Avoid QStrings and QByteArrays as intermediate values or literals when you need to give away WTF::String or AtomicString as a result
 * Use ASCIILiteral instead of QLatin1String and others where literal WTF::String is needed
-* Use String(const char*) to make WTF::String from latin1 C string, not QString(const char*) or QLatin1String
-* Use String::fromUTF8(const char*)to make WTF::String from UTF8 C string
+* Use `String(const char*)` to make WTF::String from latin1 C string, not `QString(const char*)` or QLatin1String
+* Use `String::fromUTF8(const char*)` to make WTF::String from UTF8 C string
 * AtomicString foo("bar", AtomicString::ConstructFromLiteral) vs ASCIILiteral?
 * Use `emptyString()` instead of "" or `String()` where `WTF::String` is needed
 * Use `nullAtom` instead of `AtomicString()`
