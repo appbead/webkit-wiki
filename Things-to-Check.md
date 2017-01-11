@@ -13,6 +13,8 @@ Items in this list need manual check, or even better indenitfying corresponding 
 
     See FontCache::createFontPlatformData
 
+* Should we support resolutionScale in ImageBuffer?
+
 
 ### WK2
 
