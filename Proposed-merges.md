@@ -29,6 +29,8 @@ https://trac.webkit.org/r206023  - ASAN MSE
 
 https://bugs.webkit.org/show_bug.cgi?id=161985 - JSC warnings
 
+https://trac.webkit.org/changeset/209821  CSP: Allow HTTPS URL to match HTTP source expression
+
 # OWR
 
 https://trac.webkit.org/r204409
