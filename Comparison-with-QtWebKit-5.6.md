@@ -1,11 +1,11 @@
-| Feature       |5.6            |TP4|
+| Feature       |5.6            |TP5|
 | ------------- |:-------------:|:-------------:|
 | ES2015          | ✘             | ✔ |
 | Responsive images| ✘          | ✔ |
 | HTML `<template>` | ✘           | ✔ |
 | CSS selectors `::read-write` and `::read-only` | ✘           | ✔ |
 | CSS property `-webkit-initial-letter`| ✘           | ✔ |
-| Fullscreen API | ✘           | ✘ (WIP) |
+| Fullscreen API | ✘           | ✔ |
 | WebAudio      | ✘           | ✔ (Experimental with GStreamer) |
 | MediaSource   | ✘           | ✔ (Experimental with GStreamer) |
 | Encrypted Media | ✘           | ✘ (Planned for GStreamer, help needed) |
@@ -15,10 +15,10 @@
 | Indexed Database | ✔            | ✔ |
 | Indexed Database in Workers | ✔            | ✘ |
 | Private browsing | ✔            | ✘ (Planned) |
-| WebGL          | ✔   | ✘ (Planned) |
+| WebGL          | ✔   | ✘ (WIP) |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated compositing | ✔   | ✘ (WIP) |
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
-| QML API        | ✔            | ✘ (Planned) |
+| QML API        | ✔            | ✘ (WIP) |
 | Security fixes | ✘            | ✔ |
