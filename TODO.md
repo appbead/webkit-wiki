@@ -25,10 +25,12 @@ Wk2 should not be tied to QML, e.g. `QQuickNetworkReply` class. Ideally it shoul
 
 ### Defines we might want to enable
 
-OPENTYPE_VERTICAL, OPENTYPE_MATH
+OPENTYPE_VERTICAL?
 
 ENABLE_CSS3_TEXT_DECORATION_SKIP_INK
 
 ENABLE(TOUCH_ADJUSTMENT): https://bugs.webkit.org/show_bug.cgi?id=127181
+
+ENABLE_LETTERPRESS?
 
 ### QRawWebView?
