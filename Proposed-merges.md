@@ -31,6 +31,8 @@ https://bugs.webkit.org/show_bug.cgi?id=161985 - JSC warnings
 
 https://trac.webkit.org/changeset/209821  CSP: Allow HTTPS URL to match HTTP source expression
 
+dc4fe34a79f [GTK] WebKitWebProcess at 100% CPU loading hyphenation dictionaries https://bugs.webkit.org/show_bug.cgi?id=165601
+
 # OWR
 
 https://trac.webkit.org/r204409
