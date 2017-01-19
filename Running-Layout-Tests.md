@@ -53,15 +53,16 @@ run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0
 
 - run this command as super-user: 
 ```
-echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+echo "$(pwd)/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
 ```
 - enable core dumps: 
 ```
 ulimit -c unlimited
 ```
-- set the `WEBKIT_CORE_DUMPS_DIRECTORY` environment variable: 
+- create dir and set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: 
 ```
-export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+mkdir -p $(pwd)/coredumps
+export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
 ```
 
 ### Running manually
