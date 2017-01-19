@@ -51,9 +51,18 @@ run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0
 
 ### Enabling crash reports
 
-- run this command as super-user: echo "/path/to/coredumps/core-pid_%p-_-process_%E" > /proc/sys/kernel/core_pattern
-- enable core dumps: ulimit -c unlimited
-- set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+- run this command as super-user: 
+```
+echo "/path/to/coredumps/core-pid_%p-_-process_%E" > /proc/sys/kernel/core_pattern
+```
+- enable core dumps: 
+```
+ulimit -c unlimited
+```
+- set the `WEBKIT_CORE_DUMPS_DIRECTORY` environment variable: 
+```
+export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+```
 
 ### Running manually
 
