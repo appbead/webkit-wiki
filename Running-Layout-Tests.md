@@ -65,6 +65,8 @@ mkdir -p $(pwd)/coredumps
 export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
 ```
 
+**WARNING**: results page suggests to use `%E` instead of `%e`, but actually script looks for name without path. Problem is that `%e` will use thread name if it is set, instead of executable name.
+
 ### Running manually
 
 ```
