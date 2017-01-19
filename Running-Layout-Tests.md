@@ -53,7 +53,7 @@ run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0
 
 - run this command as super-user: 
 ```
-echo "/path/to/coredumps/core-pid_%p-_-process_%E" > /proc/sys/kernel/core_pattern
+echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
 ```
 - enable core dumps: 
 ```
