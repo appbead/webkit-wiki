@@ -1,3 +1,5 @@
+https://trac.webkit.org/wiki/Performance%20Tests
+
 ```
 Tools/Scripts/run-perf-tests --release --platform=qt -1
 ```
