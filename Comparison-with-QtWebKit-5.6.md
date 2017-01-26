@@ -15,9 +15,9 @@
 | Indexed Database | ✔            | ✔ |
 | Indexed Database in Workers | ✔            | ✘ |
 | Private browsing | ✔            | ✘ (Planned) |
-| WebGL          | ✔   | ✘ (WIP) |
+| WebGL          | ✔   | ✔ |
 | Web SQL Database | ✔            | ✔ |
-| Accelerated compositing | ✔   | ✘ (WIP) |
+| Accelerated compositing | ✔   | ✔ |
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (WIP) |
