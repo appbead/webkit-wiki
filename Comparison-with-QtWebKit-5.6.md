@@ -13,7 +13,7 @@
 | B3 JIT compiler | ✘           | ✔ (Not available on Windows yet) |
 | CSS selector JIT | ✘           | ✔  |
 | Indexed Database | ✔            | ✔ |
-| Indexed Database in Workers | ✔            | ✘ |
+| Indexed Database in Workers | ✔            | ✘ (supported in WebKit trunk) |
 | Private browsing | ✔            | ✘ (Planned) |
 | WebGL          | ✔   | ✔ |
 | Web SQL Database | ✔            | ✔ |
