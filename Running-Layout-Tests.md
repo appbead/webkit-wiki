@@ -1,3 +1,11 @@
+# Preparations
+
+- Run `Tools/Scripts/update-qtwebkit-libs` script (see [JHBuild](https://github.com/annulen/webkit/wiki/JHBuild)) to build all dependencies inside the source tree, in order to get reproducible test results.
+- (Re)build QtWebEngine with the above content in place
+- Clone the [qtwebkit-testfonts](https://github.com/carewolf/qtwebkit-testfonts) repo and export the `WEBKIT_TESTFONTS` variable to point to it.
+
+# Running tests
+
 ```
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 \
     -p --debug canvas compositing fast js
