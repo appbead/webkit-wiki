@@ -34,18 +34,15 @@ For Ubuntu use the next command
     ninja-build libfontconfig1-dev libicu-dev libsqlite3-dev zlib1g-dev libpng12-dev \
     libjpeg-dev libxslt1-dev libxml2-dev libhyphen-dev
 
-I'm using the next command to build QtWebKit:
+You can then build QtWebKit with cmake:
 
-    WEBKIT_OUTPUTDIR=`pwd`/build/qt \
-    Tools/Scripts/build-webkit --qt \
-        --release \
-        --cmakeargs="-DCMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64/"
-
-You can also build with cmake directly:
-
-    mkdir build/qt/Release
-    cd build/qt/Release
+    mkdir WebKitBuild
+    cd WebKitBuild
     cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release
+
+If you're contributing to QtWebKit, optionally run the `Tools/Scripts/update-qtwebkit-libs` script (see [JHBuild](https://github.com/annulen/webkit/wiki/JHBuild)) to build all dependencies inside the source tree, in order to get reproducible test results. Then use the `build-webkit` script to get separate debug/release builds:
+
+    Tools/Scripts/build-webkit --qt --release  # or --debug
 
 ### Installation
 
@@ -53,11 +50,11 @@ Currently you have to install QtWebKit in order to build your applications again
 
 Run the following command to perform installation:
 
-    cd build/qt/Release && sudo make install
+    cd WebKitBuild && sudo make install
 
 or if you build with `ninja` (default behavior of `build-webkit`, if `ninja` is installed):
 
-    cd build/qt/Release && sudo ninja install
+    cd WebKitBuild && sudo ninja install
 
 ### Installation Troubleshoot
 
