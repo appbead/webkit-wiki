@@ -20,7 +20,7 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
     --debug
 ```
 
-Other possible invocations with description of options:
+### Other possible invocations with description of options
 
 ```
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 \
