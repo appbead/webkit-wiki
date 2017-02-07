@@ -50,11 +50,11 @@ Currently you have to install QtWebKit in order to build your applications again
 
 Run the following command to perform installation:
 
-    cd WebKitBuild && sudo make install
+    cd WebKitBuild/Release && sudo make install
 
 or if you build with `ninja` (default behavior of `build-webkit`, if `ninja` is installed):
 
-    cd WebKitBuild && sudo ninja install
+    cd WebKitBuild/Release && sudo ninja install
 
 ### Installation Troubleshoot
 
