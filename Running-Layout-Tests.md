@@ -12,10 +12,12 @@ Normally you should use one of the following commands:
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p
 
 # Run a few (e.g. failed) tests with Release build
-Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p --results-directory=./tmp test1 test2 ...
+Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p \
+    --results-directory=./tmp test1 test2 ...
 
 # Run all tests with Debug build
-Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p --debug
+Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p \
+    --debug
 ```
 
 Other possible invocations with description of options:
