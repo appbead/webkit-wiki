@@ -16,8 +16,8 @@ https://bugs.webkit.org/show_bug.cgi?id=144380
 
 
 ### Breaking patches - analyze their fixes
-* https://bugs.webkit.org/show_bug.cgi?id=131353 "Unify and factor out page overlay implementations"
-* https://bugs.webkit.org/show_bug.cgi?id=137164 "Move PageOverlay[Controller] to WebCore"
+* r166975 and r166978: https://bugs.webkit.org/show_bug.cgi?id=131353 "Unify and factor out page overlay implementations"
+* r174231: https://bugs.webkit.org/show_bug.cgi?id=137164 "Move PageOverlay[Controller] to WebCore"
 
 1f2f334f0e9 [CoordinatedGraphics] Possible wrong rendering with scrolling https://bugs.webkit.org/show_bug.cgi?id=146958
 1caf14b1723 [EFL][CoordinatedGraphics] All EFL layout tests are broken since r174231 https://bugs.webkit.org/show_bug.cgi?id=137443
