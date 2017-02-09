@@ -1,8 +1,11 @@
 Please contact us if you are interested in following stuff. Implementation of these items is not in our schedule yet, but we are ready to guide you in case you want to join in.
 
-### Import QObject-derived classes as ES2015 classes
+### Built-in PDF viewer via QtPDF module (under run time and build time options)
 
-Curently it is possible to inject any QObject QWebFrame::addToJavaScriptWindowObject(), however now ES2015 has native support for classes. It would be cool if you could create instances of QObject-derived class in JavaScript, or even inherit from them.
+https://github.com/annulen/webkit/issues/232
+
+* QtPDF is based on PDFium, but renders things with QPainter instead of Skia.
+* It might be possible to support JS in PDF with JSC engine, replacing JS_Runtime_Stub. Needs work on QtPDF side to allow plugin-like loading of JS bridge implementation
 
 ### Full-fledged C++ API for WebKit2, including WebProcess side
 
@@ -16,5 +19,10 @@ QWebElement API and Qt bridge allow to get/set any property of DOM element, and 
 Alternative is to generate QWebElement-derived classes for each kind of element. This classes can have appropriate Qt propertes, slots, and signal (for events). User will be able to use them via signal-slot connections, or downcast QWebElement to appropriate element class and use it's API from C++ in a strongly-typed manner, or inherit from element class and create customized element, in the spirit of WebComponents [1]
 
 See also http://trac.webkit.org/wiki/QtWebKitTodo#DeferredDOMAPIItems
+
+### Import QObject-derived classes as ES2015 classes
+
+Curently it is possible to inject any QObject QWebFrame::addToJavaScriptWindowObject(), however now ES2015 has native support for classes. It would be cool if you could create instances of QObject-derived class in JavaScript, or even inherit from them.
+
 
 [1] http://w3c.github.io/webcomponents/spec/custom/
