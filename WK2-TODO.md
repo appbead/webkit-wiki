@@ -26,7 +26,11 @@ Fixes for r166975:
 * d20204bd03b Unreviewed. Fix GTK+ build after r166975.
 * f5a1c9f670f Fix EFL Build errors since r166975. https://bugs.webkit.org/show_bug.cgi?id=131421
 
+Fixes after r174231
+* 1caf14b1723 [EFL][CoordinatedGraphics] All EFL layout tests are broken since r174231 https://bugs.webkit.org/show_bug.cgi?id=137443
+* cbb668c3b75 [GTK] URTBF after r174231.
+* abea5c8dce6 [EFL] Fix build break since r174231 and r174256 https://bugs.webkit.org/show_bug.cgi?id=137384
+* 9e3cbc0f4b0 URTBF after r174231 to fix non Apple builds.
+
+See also
 1f2f334f0e9 [CoordinatedGraphics] Possible wrong rendering with scrolling https://bugs.webkit.org/show_bug.cgi?id=146958
-1caf14b1723 [EFL][CoordinatedGraphics] All EFL layout tests are broken since r174231 https://bugs.webkit.org/show_bug.cgi?id=137443
-abea5c8dce6 [EFL] Fix build break since r174231 and r174256 https://bugs.webkit.org/show_bug.cgi?id=137384
-474a058dd2a Make page overlay functionality working on coordinated graphics. https://bugs.webkit.org/show_bug.cgi?id=131425
