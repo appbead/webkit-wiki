@@ -2,6 +2,8 @@
 
 This is a project aiming to upgrade QtWebKit to modern WebKit code base.
 
+**Update** See blog post for additional details: http://qtwebkit.blogspot.ru/2016/08/qtwebkit-im-back.html
+
 ## Why?
 
 If you wonder why do we need QtWebKit when shiny new QtWebEngine is available, please look at our [[use cases list|Use cases of QtWebKit]]
