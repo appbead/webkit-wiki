@@ -2,7 +2,7 @@
 
 This is a project aiming to upgrade QtWebKit to modern WebKit code base.
 
-**Update** See blog post for additional details: http://qtwebkit.blogspot.ru/2016/08/qtwebkit-im-back.html
+**Update** See blog post for additional details: http://qtwebkit.blogspot.com/2016/08/qtwebkit-im-back.html
 
 ## Why?
 
@@ -41,3 +41,5 @@ See [[Using QtWebKit in your project]]
 Mailing list: `webkit-qt@lists.webkit.org`
 
 IRC: `#qtwebkit` on `irc.freenode.net`
+
+Blog: http://qtwebkit.blogspot.com
