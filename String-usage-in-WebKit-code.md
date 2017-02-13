@@ -15,7 +15,7 @@ https://trac.webkit.org/wiki/EfficientStrings
 ### Qt API usage
 
 * When API accepts QByteArray, use QByteArrayLiteral for literals
-* When API accepts QString, use QStringLiteral for literals
+* When API accepts QString, use QStringLiteral for literals (except when when it has QLatin1String overload, see https://woboq.com/blog/qstringliteral.html)
 * Look up where C string literals are passed, there is a good chance you should use QStringLiteral or QByteArrayLiteral instead
 
 http://doc.qt.io/qt-5/QString.html#more-efficient-string-construction
