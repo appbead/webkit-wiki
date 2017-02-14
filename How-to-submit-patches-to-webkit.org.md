@@ -14,6 +14,7 @@ How I (annulen) do it now:
 5. Tools/Scripts/prepare-ChangeLog -b <your new bug id> -g HEAD
 6. Fix changes in ChangeLog files, run `git add` on them and `git commit --amend` the result
 7. Tools/Scripts/webkit-patch upload --request-commit -g HEAD
+8. Add relevant people to CC list
 
 ### Tips
 * In my setup upstream WebKit is cloned from git://git.webkit.org/WebKit.git, it is my "origin" remote. Master of annulen/webkit is periodically synced with upstream, but tends to be outdated. Mirrot at WebKit/webkit tends to lag behind git.webkit.org, but very slightly.
