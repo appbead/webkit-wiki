@@ -12,7 +12,7 @@ How I (annulen) do it now:
 3. Run Tools/Scripts/check-webkit-style, fix any errors it finds
 4. Open new bug on https://bugs.webkit.org in WebKit product, choose proper component, use the same bug title as git commit title. Put in some description, e.g. description from git commit.
 5. Tools/Scripts/prepare-ChangeLog -b <your new bug id> -g HEAD
-6. Fix changes in ChangeLog files
+6. Fix changes in ChangeLog files, run `git add` on them and `git commit --amend` the result
 7. Tools/Scripts/webkit-patch upload --request-commit -g HEAD
 
 ### Tips
