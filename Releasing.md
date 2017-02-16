@@ -15,6 +15,12 @@ CMAKE_PREFIX_PATH=/opt/Qt5.4.0/5.4/gcc_64 CC=/usr/bin/clang CXX=/usr/lib/ccache/
 
 # Snapshots
 
+Currently there are 2 snapshots repositories:
+* https://github.com/annulen/qtwebkit-snapshots
+* http://code.qt.io/cgit/qt/qtwebkit.git/?h=wip%2Fnext (changes are merged only after they pass CI on all platforms)
+
+When `wip/next` branch is merged into official `dev`, we intend to deprecate first repo and eventually stop updating it.
+
 Snapshots are prepared with `Tools/qt/make-snapshot.pl` script. Run it in target repository being working directory, e.g.:
 
     ../WebKit/Tools/qt/make-snapshot.pl
