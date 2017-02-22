@@ -34,3 +34,7 @@ Fixes after r174231
 
 See also
 1f2f334f0e9 [CoordinatedGraphics] Possible wrong rendering with scrolling https://bugs.webkit.org/show_bug.cgi?id=146958
+
+=====
+
+Look at https://bugs.webkit.org/show_bug.cgi?id=143299
