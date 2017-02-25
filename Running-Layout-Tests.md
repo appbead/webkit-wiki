@@ -1,7 +1,7 @@
 # Preparations
 
 - Run the `Tools/Scripts/update-qtwebkit-libs` script (see [JHBuild](https://github.com/annulen/webkit/wiki/JHBuild)) to build all dependencies inside the source tree, in order to get reproducible test results.
-- Run `find WebKitBuild/DependenciesQT/Source/ -name '*debug' -exec cp {} WebKitBuild/DependenciesQT/Root/lib \;` (workaround for bug #402)
+- Run `find WebKitBuild/DependenciesQT/Source/ -name '*.debug' -exec cp {} WebKitBuild/DependenciesQT/Root/lib \;` (workaround for bug #402)
 - (Re)build QtWebKit with the above content in place using `Tools/Scripts/build-webkit`
 - Clone the [qtwebkit-testfonts](https://github.com/annulen/webkit-test-fonts.git) repo and export the `WEBKIT_TESTFONTS` variable to point to it.
 
