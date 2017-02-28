@@ -22,3 +22,6 @@
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (WIP) |
 | Security fixes | ✘            | ✔ |
+
+### Important behavior changes
+* Mixed content is blocked by default. To restore old behavior use ...
