@@ -25,3 +25,4 @@
 
 ### Important behavior changes
 * Mixed content is blocked by default. To restore old behavior use ...
+* JPEG and PNG images no longer use Qt plugins (qpng and qjpeg) on Windows and macOS (actually, on any OS if Qt build uses bundled libraries)
