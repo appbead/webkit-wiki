@@ -38,3 +38,8 @@ See also
 =====
 
 Look at https://bugs.webkit.org/show_bug.cgi?id=143299
+
+
+=====
+
+There is (currently unused) TileQt, implementing TiledBackingStoreBackend functions. Useless after but https://bugs.webkit.org/show_bug.cgi?id=145602.
