@@ -20,11 +20,16 @@ Development of QtWebKit currently happens in `qtwebkit-stable` branch.
 
 The next configurations are going to be supported:
 
-* OS: Linux (desktop and embedded), Windows 7 SP1 and higher, macOS 10.10 and higher
+* OS 
+    * Linux (desktop and embedded)
+    * Windows 7 SP1 and higher
+    * macOS 10.10 and higher
+    * FreeBSD, should work on other *nix-like systems
+* CPU architecture: known to work on x86, x86_64, ARM, AArch64, MIPS CPUs, and probably other architectures (but JIT will have to be disabled)
 * Compilers:
     * Linux: g++ >= 4.9 (4.8 with FTL JIT and Indexed DB disabled) or clang++
-    * Windows: MSVC 2015 or MinGW-w64 5.3 (though any version >= 4.9 should be fine)
-* Qt 5.2 (>= 5.4 recommended)
+    * Windows: MSVC >= 2015 or MinGW-w64 5.3 (though any version >= 4.9 should be fine)
+* Qt 5.2 (>= 5.4 higly recommended)
 
 ## Build requirements
 
