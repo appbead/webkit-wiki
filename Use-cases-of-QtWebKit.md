@@ -17,3 +17,5 @@
 
 ### Use case 4: Legacy applications
 * There is a lot of code written with use of QtWebKit API. However, QtWebKit branch currently maintained by Qt Project cannot receive security updates anymore, because it lags too far behind WebKit upstream.
+
+See also (same titled) letter by Milian Wolff: https://lists.webkit.org/pipermail/webkit-qt/2013-July/003791.html
