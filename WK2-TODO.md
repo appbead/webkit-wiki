@@ -35,6 +35,17 @@ Fixes after r174231
 See also
 1f2f334f0e9 [CoordinatedGraphics] Possible wrong rendering with scrolling https://bugs.webkit.org/show_bug.cgi?id=146958
 
+-----
+
+7320cecf69a [CoordinatedGraphics] layerTreeHost always exist in CoordinatedDrawingArea https://bugs.webkit.org/show_bug.cgi?id=151987
+e374ccaafe5ac URTBF after r160971 to try to make EFL build again.
+0cde9237384 [WK2] Move Coordinated Graphics related code out of DrawingAreaProxy https://bugs.webkit.org/show_bug.cgi?id=124328 
+899cf3eca6  [Gtk][EFL] Fix build after r158759 https://bugs.webkit.org/show_bug.cgi?id=123910
+
+41a2cf9c0f21e    Create CoordinatedDrawingArea / CoordinatedDrawingAreaProxy   https://bugs.webkit.org/show_bug.cgi?id=122207
+
+git diff 5.6:Source/WebKit2/UIProcess/CoordinatedGraphics/CoordinatedLayerTreeHostProxy.cpp a98b4b029d91593097903a2b60a31e8c124c8075:Source/WebKit2/UIProcess/CoordinatedGraphics/CoordinatedLayerTreeHostProxy.cpp
+
 =====
 
 Look at https://bugs.webkit.org/show_bug.cgi?id=143299
