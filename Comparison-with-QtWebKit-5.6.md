@@ -15,12 +15,16 @@
 | Indexed Database | ✔            | ✔ |
 | Indexed Database in Workers | ✔            | ✘ (supported in WebKit trunk) |
 | Private browsing | ✔            | ✘ (Planned) |
+| Smooth scrolling | ✔            | ✘ (Available in latest snapshot) |
 | WebGL          | ✔   | ✔ |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated compositing | ✔   | ✔ |
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
-| QML API        | ✔            | ✘ (WIP) |
+| QML API        | ✔            | ✘ (WIP; try out wk2 branch on Linux) |
+| QML API: Downloads | ✔            | ✘ |
+| QML API: HTML 5 Video | ✔            | ✘ |
+| QML API: WebGL | ✔            | ✘ |
 | Security fixes | ✘            | ✔ |
 
 ### Important behavior changes
