@@ -1,3 +1,7 @@
+RebaselineServer is a tool that helps to analyze results of LayoutTests, and update ("rebase") expected results. See https://trac.webkit.org/wiki/RebaselineServer for more info.
+
+There is alternative tool, garden-o-matic, but AFAIU it is intended for gardening on buildbot slave, not for local results. See https://trac.webkit.org/wiki/Rebaseline
+
 ### Bugs 
 * Bug: Queue UI is overlapped by status bar and sometimes by text diff
 * Bug: don't list reftests, it is not possible to rebaseline them
@@ -31,6 +35,3 @@
 * Add keyboard shortcuts hint ;-)
 * Indicate that queue is being processed (not obvious when activated with `r`)
 * Remember last reviewed test case (or at least last enqueued), using the same approach as with persistent queue
-
-### References
-https://trac.webkit.org/wiki/RebaselineServer
