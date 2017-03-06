@@ -23,7 +23,6 @@
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (WIP; try out wk2 branch on Linux) |
 | QML API: Downloads | ✔            | ✘ |
-| QML API: HTML 5 Video | ✔            | ✘ |
 | QML API: WebGL | ✔            | ✘ |
 | Security fixes | ✘            | ✔ |
 
