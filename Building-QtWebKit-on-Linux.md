@@ -36,9 +36,9 @@ For Ubuntu use the next command
 
 You can then build QtWebKit with cmake:
 
-    mkdir WebKitBuild
-    cd WebKitBuild
-    cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release
+    mkdir WebKitBuild/Release
+    cd WebKitBuild/Release
+    cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release ../..
 
 If you're contributing to QtWebKit, optionally run the `Tools/Scripts/update-qtwebkit-libs` script (see [JHBuild](https://github.com/annulen/webkit/wiki/JHBuild)) to build all dependencies inside the source tree, in order to get reproducible test results. Then use the `build-webkit` script to get separate debug/release builds:
 
