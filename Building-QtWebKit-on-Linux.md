@@ -40,6 +40,10 @@ You can then build QtWebKit with cmake:
     cd WebKitBuild/Release
     cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release ../..
 
+If you are not using system-wide installation of Qt, you should add `-DCMAKE_PREFIX_PATH=/path/to your/Qt` to cmake arguments, e.g.
+
+    cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/opt/Qt5.8.0/5.8/gcc_64 ../.. 
+
 If you're contributing to QtWebKit, optionally run the `Tools/Scripts/update-qtwebkit-libs` script (see [JHBuild](https://github.com/annulen/webkit/wiki/JHBuild)) to build all dependencies inside the source tree, in order to get reproducible test results. Then use the `build-webkit` script to get separate debug/release builds:
 
     Tools/Scripts/build-webkit --qt --release  # or --debug
