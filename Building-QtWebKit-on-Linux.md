@@ -36,7 +36,7 @@ For Ubuntu use the next command
 
 You can then build QtWebKit with cmake:
 
-    mkdir WebKitBuild/Release
+    mkdir -p WebKitBuild/Release
     cd WebKitBuild/Release
     cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release ../..
 
