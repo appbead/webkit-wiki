@@ -16,6 +16,7 @@
 | Indexed Database in Workers | ✔            | ✘ (supported in WebKit trunk) |
 | Private browsing | ✔            | ✘ (Planned) |
 | Smooth scrolling | ✔            | ✘ (Available in latest snapshot) |
+| Tiled backing store | ✔            | ✘ (Will come back someday) |
 | WebGL          | ✔   | ✔ |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated compositing | ✔   | ✔ |
