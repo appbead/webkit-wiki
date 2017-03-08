@@ -39,6 +39,7 @@ You can then build QtWebKit with cmake:
     mkdir -p WebKitBuild/Release
     cd WebKitBuild/Release
     cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release ../..
+    make -jN # Replace N with number of your CPU cores
 
 If you are not using system-wide installation of Qt, you should add `-DCMAKE_PREFIX_PATH=/path/to your/Qt` to cmake arguments, e.g.
 
