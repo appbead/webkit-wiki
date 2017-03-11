@@ -19,3 +19,12 @@ Here AC is always on, and TextureMapper is always in use. However, additional sy
 Read https://trac.webkit.org/wiki/CoordinatedGraphicsSystem
 
 Actual backing store (pixels where GraphicsContext paints) is owned by WebCoordinatedSurface
+
+Debugging tile images: to `WebCoordinatedSurface::paintToSurface` add code
+
+    static unsigned frameNum = 0;
+    QImage img = m_bitmap->createQImage();
+    QImage tile = img.copy(rect);
+    tile.save(QStringLiteral("surface_")
+              + QString::number((qlonglong)this) + '_'
+              + QString::number(frameNum++).rightJustified(3, '0') + QStringLiteral(".png"));
