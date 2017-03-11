@@ -28,3 +28,5 @@ Debugging tile images: to `WebCoordinatedSurface::paintToSurface` add code
     tile.save(QStringLiteral("surface_")
           + QString::number((qlonglong)this) + '_'
           + QString::number(frameNum++).rightJustified(3, '0') + QStringLiteral(".png"));
+
+Note that by default flickable viewport is used. This enables fixed layout of page, and scroll is controlled by QML scene.
