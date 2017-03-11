@@ -26,5 +26,5 @@ Debugging tile images: to `WebCoordinatedSurface::paintToSurface` add code
     QImage img = m_bitmap->createQImage();
     QImage tile = img.copy(rect);
     tile.save(QStringLiteral("surface_")
-              + QString::number((qlonglong)this) + '_'
-              + QString::number(frameNum++).rightJustified(3, '0') + QStringLiteral(".png"));
+          + QString::number((qlonglong)this) + '_'
+          + QString::number(frameNum++).rightJustified(3, '0') + QStringLiteral(".png"));
