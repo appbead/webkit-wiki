@@ -26,6 +26,7 @@
 | QML API: Downloads | ✔            | ✘ |
 | QML API: Custom Schemes | ✔            | ✘ |
 | QML API: WebGL | ✔            | ✘ |
+| QML API: NPAPI plugins | ?            | ? |
 | Security fixes | ✘            | ✔ |
 
 ### Important behavior changes
