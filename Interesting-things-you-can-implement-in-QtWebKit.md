@@ -9,6 +9,8 @@ https://github.com/annulen/webkit/issues/232
 
 ### Revive Android support
 
+**UPD** https://github.com/daewoong-jang/webkit-android - up-to-date Android port of WebKit with WK2 upport
+
 Legacy QtWebKit was known to compile for Android (though port was never supported officially). See patches
 * https://codereview.qt-project.org/#/c/68640/
 * https://codereview.qt-project.org/#/c/71548/
