@@ -5,6 +5,7 @@
 * ~~Parsing of large TestExpectations file takes too long (https://github.com/annulen/webkit/issues/283)~~ Fixed!
 * I suspect run-webkit-tests could be made faster
    * Reduce CPU consumption by python in test run
+       * Try running with Nuitka. Requires comprehensive validation!
    * It may be possible to reduce disk I/O by getting test lists from git, maybe even file contents. I observed such effect in a different project, just listing files from large dir hierarchy takes a lot of time with cold cache and uses a lot of system calls, while using mlocate database is ~100x faster. git has similar property - it stores objects in flat dir (e.g. see explanation why `git grep` is faster than `grep`). If git is not fast enough we can switch to mlocate.
    * It may be beneficial to run tests with `offscreen` QPA plugin instead of `xvfb-run`, however not all tests can succeed in this mode. At very least, OpenGL won't work (we don't run WebGL tests now), I also suspect drag&drop and maybe other test kinds can fail. We may need hybrid driver which doesn't use Xvfb for test that can be run without it. andersca and litherum may have additional info
 
