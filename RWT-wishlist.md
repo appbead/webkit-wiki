@@ -2,7 +2,7 @@
 
 * In pixel mode when text-only failure occurs, but image comparison succeeds, save images anyway. Otherwise it's hard to distinguish failing text-only tests from this category (rebaseline-server support may be needed!)
 * When running `--compare-port=` there should be an easy way to copy & git add matching results to LayoutTests/platform/qt (like rebaseline-server does for tests from queue)
-* Parsing of large TestExpectations file takes too long (https://github.com/annulen/webkit/issues/283)
+* ~~Parsing of large TestExpectations file takes too long (https://github.com/annulen/webkit/issues/283)~~ Fixed!
 * I suspect run-webkit-tests could be made faster
    * Reduce CPU consumption by python in test run
    * It may be possible to reduce disk I/O by getting test lists from git, maybe even file contents. I observed such effect in a different project, just listing files from large dir hierarchy takes a lot of time with cold cache and uses a lot of system calls, while using mlocate database is ~100x faster. git has similar property - it stores objects in flat dir (e.g. see explanation why `git grep` is faster than `grep`). If git is not fast enough we can switch to mlocate.
