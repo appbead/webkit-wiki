@@ -1,20 +1,22 @@
 First of all you need to build QtWebKit (according to instructions for you OS), and install it (`ninja install` if you build with Ninja). In installation prefix you will get layout of directories, similar to what other Qt modules provide. 
 
-We also recommend to change default value of CMAKE_INSTALL_PREFIX from generic path like `/usr/local` to path specific to QtWebKit like `$HOME/qtwebkit`. You may want to use Qt installation root, especially if it lacks QtWebKit module (otherwise it will be overwritten).
+By default QtWebKit uses Qt installation root as its CMAKE_INSTALL_PREFIX. You may want to change this value if you don't want to overwrite existing QtWebKit module (if it's present).
 
 ### QMake
 
 As usual, just add `QT += webkitwidgets` or `Qt += webkit` to your `.pro` file.
 
-However, to make this working when QtWebKit is installed outside of your Qt installation (as we recommend), you need to set `QMAKEPATH` variable in the environment or in `.qmake.conf` file.
+However, to make this working when QtWebKit is installed outside of your Qt installation, you need to set `QMAKEPATH` variable in the environment or in `.qmake.conf` file.
 
-For example, if your `CMAKE_INSTALL_PREFIX` in `/usr/local` (default value on Linux), you need either to set `QMAKEPATH=/usr/local` in environment when you run qmake, or create `.qmake.conf` file in the same directory with your `.pro` file with the next contents:
+For example, if your `CMAKE_INSTALL_PREFIX` in `/usr/local`, you need either to set `QMAKEPATH=/usr/local` in environment when you run qmake, or create `.qmake.conf` file in the same directory with your `.pro` file with the next contents:
 
 ```
 QMAKEPATH += /usr/local
 ```
 
 ### CMake
+
+After you've installed QtWebKit into Qt installation prefix, all documented ways to use Qt modules from cmake should work. Read below if you are installed to different prefix.
 
 When invoking cmake you need to add argument `-DCMAKE_PREFIX_PATH=<installation prefix>`, for example `-DCMAKE_PREFIX_PATH=/usr/local`. If you are already you using `-DCMAKE_PREFIX_PATH=` to specify path to Qt SDK, and it already has QtWebKit installed, **prepend** QtWebKit prefix path to Qt SDK path, and separate them with semicolon, e.g.
 
