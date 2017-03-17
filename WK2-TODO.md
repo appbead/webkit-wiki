@@ -54,3 +54,10 @@ Look at https://bugs.webkit.org/show_bug.cgi?id=143299
 =====
 
 There is (currently unused) TileQt, implementing TiledBackingStoreBackend functions. Useless after but https://bugs.webkit.org/show_bug.cgi?id=145602.
+
+### Missing features in original Qt WK2 implementation
+
+* Open new window - does not work in MiniBrowser
+* Context menus
+* Tooltips
+* Local inspector
