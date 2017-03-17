@@ -58,6 +58,6 @@ There is (currently unused) TileQt, implementing TiledBackingStoreBackend functi
 ### Missing features in original Qt WK2 implementation
 
 * Open new window - does not work in MiniBrowser
-* Context menus
+* Context menus (WebContextMenuProxyQt is a stub)
 * Tooltips
 * Local inspector
