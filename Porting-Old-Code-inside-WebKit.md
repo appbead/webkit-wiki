@@ -1,5 +1,5 @@
 * Replace `OVERRIDE` with `override`. (You may want to do the same with `Q_DECL_OVERRIDE` in non-API code as well)
-* `String::lower` was renamed to `String::convertToASCIILowercase`, however you should prefer `equalLettersIgnoringASCIICase` and similar to avoid unnecessary case convertion
+* `String::lower` was renamed to `String::convertToASCIILowercase`, however you should prefer `equalLettersIgnoringASCIICase`, `startsWithIgnoringASCIICase`, and similar to avoid unnecessary case convertion
 
 ### Smart pointers
 * `OwnPtr` and `PassOwnPtr` should be replaced with `std::unique_ptr`
