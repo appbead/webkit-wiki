@@ -10,7 +10,7 @@
 
 ### WK2
 
-Wk2 should not be tied to QML, e.g. `QQuickNetworkReply` class. Ideally it should rely on Scene Graph only.
+Wk2 should not be linked to QtQml library (split QJSValue conversion to QML-specific library). Ideally it should rely on Scene Graph only.
 
 ### OpenGL / WK2
 
