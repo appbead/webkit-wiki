@@ -24,7 +24,7 @@
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (WIP; try out wk2 branch on Linux) |
 | QML API: Downloads | ✔            | ✘ |
-| QML API: Custom Schemes | ✔            | ✘ |
+| QML API: Custom URL Schemes | ✔            | ✘ |
 | QML API: WebGL | ✔            | ✘ |
 | QML API: NPAPI plugins | ?            | ? |
 | Security fixes | ✘            | ✔ |
