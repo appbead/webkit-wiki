@@ -101,6 +101,10 @@ WebKitBuild/Release/bin/DumpRenderTree -v LayoutTests/fast/shrink-wrap/rect-shri
 TEST_RUNNER_TEST_PLUGIN_PATH= TEST_RUNNER_INJECTED_BUNDLE_FILENAME=WebKitBuild/Release/lib/libTestRunnerInjectedBundle.so WebKitBuild/Release/bin/WebKitTestRunner -v -p LayoutTests/fast/shrink-wrap/rect-shrink-wrap.html
 ```
 
+# Running JSC tests
+
+```Tools/Scripts/run-javascriptcore-tests --qt --root=WebKitBuild/Release --no-build```
+
 #### More info
 * http://trac.webkit.org/wiki/QtWebKitContrib#Runningthetests
 * http://trac.webkit.org/wiki/WebKitGtkLayoutTests
