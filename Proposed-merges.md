@@ -1,3 +1,5 @@
+https://trac.webkit.org/r214561  Animated SVG images are not paused in pages loaded in the background
+
 https://bugs.webkit.org/show_bug.cgi?id=167901 Animated GIFs fail to play in multi-column layout 
 
 http://trac.webkit.org/changeset/201709 - [css-grid] Horizontal scroll must account for grid container's height
