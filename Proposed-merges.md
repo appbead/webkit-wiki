@@ -21,7 +21,7 @@ https://bugs.webkit.org/show_bug.cgi?id=134915 - consider something like this?
 
 https://trac.webkit.org/r203240 
 
-https://bugs.webkit.org/show_bug.cgi?id=159858 DFG CSE is broken for MultiGetByOffset
++ https://bugs.webkit.org/show_bug.cgi?id=159858 DFG CSE is broken for MultiGetByOffset
 
 https://bugs.webkit.org/show_bug.cgi?id=158297
 
@@ -31,7 +31,7 @@ https://bugs.webkit.org/show_bug.cgi?id=152316
 
 https://trac.webkit.org/r206023  - ASAN MSE
 
-https://bugs.webkit.org/show_bug.cgi?id=161985 - JSC warnings
++ https://bugs.webkit.org/show_bug.cgi?id=161985 - JSC warnings
 
 https://trac.webkit.org/changeset/209821  CSP: Allow HTTPS URL to match HTTP source expression
 
