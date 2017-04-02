@@ -1,4 +1,4 @@
-* Replace `OVERRIDE` with `override`. (You may want to do the same with `Q_DECL_OVERRIDE` in non-API code as well)
+* Replace `OVERRIDE` with `override` or `final`. Use the latter in classes that are not supposed to be inherited from, mark class itself as `final` too (You may want to do the same with `Q_DECL_OVERRIDE` in non-API code as well)
 * `String::lower` was renamed to `String::convertToASCIILowercase`, however you should prefer `equalLettersIgnoringASCIICase`, `startsWithIgnoringASCIICase`, and similar to avoid unnecessary case convertion
 
 ### Smart pointers
