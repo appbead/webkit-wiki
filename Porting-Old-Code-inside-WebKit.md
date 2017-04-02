@@ -6,6 +6,7 @@
 * Replace `adoptPtr(new Something(...))` with `std::make_unique<Something>(...)`
 * `adoptPtr` which use existing pointer instead of `new` should be transformed to usage of `std::unique_ptr` constructor, or `reset()` method (the latter is easier but it would be better to clean it up later)
 * Replace `OwnPtr::clear()` with `= nullptr`
+* `PassRefPtr` is being phased out, code is converted to return `RefPtr` or pass `RefPtr&&` arguments
 
 ### JSC and its usage (bridge, WebKit)
 * `FooBar* fb = static_cast<JSFooBar*>(object)->impl()` becomes `FooBar* fb = JSFooBar::toWrapped(object)`
