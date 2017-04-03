@@ -23,8 +23,8 @@
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
 | QML API        | ✔            | ✘ (WIP; try out wk2 branch on Linux) |
-| QML API: Downloads | ✔            | ✘ |
-| QML API: Custom URL Schemes | ✔            | ✘ |
+| QML API: Downloads | ✔            | ✔ |
+| QML API: Custom URL Schemes | ✔            | ✘ (Planned) |
 | QML API: WebGL | ✔            | ✘ |
 | QML API: NPAPI plugins | ?            | ? |
 | Security fixes | ✘            | ✔ |
