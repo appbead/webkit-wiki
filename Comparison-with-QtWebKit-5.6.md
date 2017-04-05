@@ -26,7 +26,7 @@
 | QML API: Downloads | ✔            | ✔ |
 | QML API: Authentication | ✔            | ✘ (Planned) |
 | QML API: Custom URL Schemes | ✔            | ✘ (Planned) |
-| QML API: WebGL | ✔            | ✘ |
+| QML API: WebGL | ✔            | ✘ (Planned) |
 | QML API: NPAPI plugins | ?            | ? |
 | Security fixes | ✘            | ✔ |
 
