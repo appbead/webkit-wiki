@@ -1,3 +1,5 @@
+https://bugs.webkit.org/show_bug.cgi?id=168839 Download attribute should be sanitized before being used as suggested filename
+
 https://bugs.webkit.org/show_bug.cgi?id=166420  Crash in WebCore::CoordinatedGraphicsLayer::notifyFlushRequired
 
 https://trac.webkit.org/r214561  Animated SVG images are not paused in pages loaded in the background
