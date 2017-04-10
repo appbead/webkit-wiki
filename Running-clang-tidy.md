@@ -19,7 +19,7 @@ TODO: specify style, so `modernize-loop-convert` does not write code like `auto 
 
 ### modernize-use-override
 
-* Don't touch dtors
+* Don't add `override` to dtors
 * Add `final` in `final` classes
 
 ### modernize-loop-convert
