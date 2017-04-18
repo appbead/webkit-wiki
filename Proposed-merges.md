@@ -1,3 +1,5 @@
+​https://bugs.webkit.org/show_bug.cgi?id=170332 [GTK+] Crash in WebCore::ImageFrame::ImageFrame()
+
 https://bugs.webkit.org/show_bug.cgi?id=168839 Download attribute should be sanitized before being used as suggested filename
 
 https://bugs.webkit.org/show_bug.cgi?id=166420  Crash in WebCore::CoordinatedGraphicsLayer::notifyFlushRequired
