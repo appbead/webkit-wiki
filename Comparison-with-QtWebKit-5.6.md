@@ -1,4 +1,4 @@
-| Feature       |5.8            |TP5|
+| Feature       |5.8            |Alpha|
 | ------------- |:-------------:|:-------------:|
 | ES2015          | ✘             | ✔ |
 | Responsive images| ✘          | ✔ |
@@ -15,19 +15,19 @@
 | Indexed Database | ✔            | ✔ |
 | Indexed Database in Workers | ✔            | ✘ (supported in WebKit trunk) |
 | Private browsing | ✔            | ✘ (Planned) |
-| Smooth scrolling | ✔            | ✘ (Available in latest snapshot) |
+| Smooth scrolling | ✔            | ✔ |
 | Tiled backing store | ✔            | ✘ (Will come back someday) |
 | WebGL          | ✔   | ✔ |
 | Web SQL Database | ✔            | ✔ |
 | Accelerated compositing | ✔   | ✔ |
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
-| QML API        | ✔            | ✘ (WIP; try out wk2 branch on Linux) |
+| QML API        | ✔            |✔ (not available on Windows and macOS yet, see wk2 branch |
 | QML API: Downloads | ✔            | ✔ |
 | QML API: Authentication | ✔            | ✘ (Planned) |
 | QML API: Custom URL Schemes | ✔            | ✘ (Planned) |
 | QML API: WebGL | ✔            | ✘ (Planned) |
-| QML API: NPAPI plugins | ?            | ? |
+| QML API: NPAPI plugins | X11-only            | ? (X11-only) |
 | Security fixes | ✘            | ✔ |
 
 ### Important behavior changes
