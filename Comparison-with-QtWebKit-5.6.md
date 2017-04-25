@@ -27,7 +27,7 @@
 | QML API: Authentication | ✔            | ✘ (Planned) |
 | QML API: Custom URL Schemes | ✔            | ✘ (Planned) |
 | QML API: WebGL | ✔            | ✘ (Planned) |
-| QML API: NPAPI plugins | X11-only            | ? (X11-only) |
+| QML API: NPAPI plugins | ✔ (Only X11)            | ✘ (Planned, only X11) |
 | Security fixes | ✘            | ✔ |
 
 ### Important behavior changes
