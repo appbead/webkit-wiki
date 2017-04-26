@@ -28,6 +28,7 @@
 | QML API: Custom URL Schemes | ✔            | ✘ (Planned) |
 | QML API: WebGL | ✔            | ✘ (Planned) |
 | QML API: NPAPI plugins | ✔ (Only X11)            | ✘ (WIP, only X11) |
+| QML API: Fullscreen | ✔           | ✘ (Planned) |
 | Security fixes | ✘            | ✔ |
 
 ### Important behavior changes
