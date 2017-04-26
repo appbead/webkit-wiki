@@ -1,4 +1,6 @@
-* Swith to `wk2` branch
+**UPD**: WebKit2 is enabled by default on Linux and other *nix-like systems, you don't need to switch to `wk2` branch there.
+
+* Switch to `wk2` branch
 * On Win or Mac you will have to set ENABLE_WEBKIT2 to ON
 * ~~`ENABLE_OPENGL` needs to be enabled~~
 * ~~Disable following features: `INDEXED_DATABASE`, `NETSCAPE_PLUGIN_API`~~
