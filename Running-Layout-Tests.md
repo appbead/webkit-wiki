@@ -27,16 +27,17 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
 
 - run this command as super-user: 
 ```
-echo "$(pwd)/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+$ su
+# echo "$(pwd)/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
 ```
 - enable core dumps: 
 ```
-ulimit -c unlimited
+$ ulimit -c unlimited
 ```
 - create dir and set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: 
 ```
-mkdir -p $(pwd)/coredumps
-export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
+$ mkdir -p $(pwd)/coredumps
+$ export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
 ```
 
 **WARNING**: results page suggests to use `%E` instead of `%e`, but actually script looks for name without path. Problem is that `%e` will use thread name if it is set, instead of executable name.
