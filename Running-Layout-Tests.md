@@ -29,6 +29,7 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
 ```
 $ su
 # echo "$(pwd)/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+# ^D
 ```
 - enable core dumps: 
 ```
