@@ -9,6 +9,8 @@
 
 Normally you should use one of the following commands:
 ```
+# Add --no-show-results when running over SSH!
+
 # Run all tests with Release build
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p
 
@@ -20,6 +22,24 @@ Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4
 Tools/Scripts/run-webkit-tests --qt -1 --no-new-test-results --child-processes=4 -p \
     --debug
 ```
+
+# Core dumps
+
+- run this command as super-user: 
+```
+echo "$(pwd)/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+```
+- enable core dumps: 
+```
+ulimit -c unlimited
+```
+- create dir and set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: 
+```
+mkdir -p $(pwd)/coredumps
+export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
+```
+
+**WARNING**: results page suggests to use `%E` instead of `%e`, but actually script looks for name without path. Problem is that `%e` will use thread name if it is set, instead of executable name.
 
 ### Other possible invocations with description of options
 
@@ -73,24 +93,6 @@ run-webkit-tests does not keep unknown environment variables, e.g. `JSC_useJIT=0
 
 * Fonts: `-use-test-fonts` option of QtTestBrowser to the rescue
 * Additional objects in JS runtime, for example `window.testRunner`, `window.eventSender`, `window.textInputController`
-
-### Enabling crash reports
-
-- run this command as super-user: 
-```
-echo "$(pwd)/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
-```
-- enable core dumps: 
-```
-ulimit -c unlimited
-```
-- create dir and set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: 
-```
-mkdir -p $(pwd)/coredumps
-export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
-```
-
-**WARNING**: results page suggests to use `%E` instead of `%e`, but actually script looks for name without path. Problem is that `%e` will use thread name if it is set, instead of executable name.
 
 ### Running manually
 
