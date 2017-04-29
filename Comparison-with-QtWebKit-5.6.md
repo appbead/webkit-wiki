@@ -14,7 +14,7 @@
 | CSS selector JIT | ✘           | ✔  |
 | Indexed Database | ✔            | ✔ |
 | Indexed Database in Workers | ✔            | ✘ (supported in WebKit trunk) |
-| Private browsing | ✔            | ✘ (Planned) |
+| Private browsing | ✔            | ✔ |
 | Smooth scrolling | ✔            | ✔ |
 | Tiled backing store | ✔            | ✘ (Will come back someday) |
 | WebGL          | ✔   | ✔ |
