@@ -22,7 +22,7 @@
 | Accelerated compositing | ✔   | ✔ |
 | NPAPI Plugins  | ✔            | ✔ (Not available on macOS yet) |
 | Qt Plugins     | ✔            | ✔ |
-| QML API        | ✔            |✔ (not available on Windows and macOS yet, see wk2 branch |
+| QML API        | ✔            |✔ (not available on Windows, see wk2 branch |
 | QML API: Downloads | ✔            | ✔ |
 | QML API: Authentication | ✔            | ✘ (Planned) |
 | QML API: Custom URL Schemes | ✔            | ✘ (Planned) |
