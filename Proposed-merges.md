@@ -1,3 +1,5 @@
+ https://trac.webkit.org/r216135  Async image decoding should be disabled for snapshots, printing and preview
+
 https://bugs.webkit.org/show_bug.cgi?id=170767  [GStreamer] Dailymotion live stream videos don't play
 
 https://bugs.webkit.org/show_bug.cgi?id=171051 Increase large animation cutoff
