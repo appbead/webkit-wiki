@@ -1,3 +1,5 @@
+https://trac.webkit.org/r216240 [GStreamer] Do not report more errors after the first one 
+
 https://trac.webkit.org/r216239 [GStreamer] Fix handling of gst errors in MediaPlayerPrivateGStreamer::handleMessage
 
 https://trac.webkit.org/r216135  Async image decoding should be disabled for snapshots, printing and preview
