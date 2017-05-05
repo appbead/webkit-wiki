@@ -32,5 +32,5 @@
 | Security fixes | ✘            | ✔ |
 
 ### Important behavior changes
-* Mixed content is blocked by default. To restore old behavior use ...
+* Mixed content is blocked by default. To restore old behavior set `QWebSettings::AllowRunningInsecureContent` attribute to `true`
 * JPEG and PNG images no longer use Qt plugins (qpng and qjpeg) on Windows and macOS (actually, on any OS if Qt build uses bundled libraries)
