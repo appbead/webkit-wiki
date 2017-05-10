@@ -12,14 +12,6 @@ You will need some experience with CMake and qmake build systems, knowledge of P
 * Refactor CMake files to minimize amount of Qt-specific code (work with upstream)
 * Analyze scripts which were used for QtWebkit testing in past, compare with what WebKit project uses today, restore/reimplement Qt-specific bits were appropriate
 
-### Support non-Linux platforms
-
-In particular, the next platforms are very desirable to have support for:
-
-* OS X (>= 10.10)
-* Linux on 32-bit x86 (just needs testing) and other CPU architectures (amount of needed work will vary a lot)
-* Other POSIX-compliant operating systems like *BSD, with Clang or GNU toolchain
-
 ### Improve documentation
 
 [Webkit Wiki](http://trac.webkit.org/wiki) contains lots of useful information, including old documentation of QtWebKit port. Unfortunately, not all of it is up to date.
@@ -30,8 +22,6 @@ In particular, the next platforms are very desirable to have support for:
 ### Spread the word
 
 Try to find large open-source projects, development communities, commerical or non-commerical organizations which are using QtWebKit right now, and ask them if they are interested in this project and can help.
-
-**Important notice: at this stage we want to reach motivated people, not general audience!**
 
 For example, PhantomJS team is already contributing to our project.
 
