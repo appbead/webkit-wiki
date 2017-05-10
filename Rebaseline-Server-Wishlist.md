@@ -7,6 +7,13 @@ There is alternative tool, garden-o-matic, but AFAIU it is intended for gardenin
 * Bug: don't list reftests, it is not possible to rebaseline them
     * `garden-o-matic` gets this right
 * Bug: footer is not stick to the bottom, it is scrolled with page and permanently hides part of test results. It also scrolls with page in horizontal direction, which harms usability
+* Bug: if test doesn't have expected result (MISSING), text and image actual results are not shown. Requires modification of full_results.json contents to include `"actual": "TEXT"` or `"actual": "IMAGE+TEXT"` for tests with MISSING expectation
+
+### Performance
+
+* Add all files from queue with a single git command. Right now separate HTTP request to server is issued for each file.
+
+Or maybe just do `git add` immediately instead of using queue, and `git reset` for "unqueue" action ("x"). This solves persistence issue (see below) and may be fast enough.
 
 ### Ergonomical issues
 * Improve color scheme for better text visibility
