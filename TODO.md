@@ -8,6 +8,10 @@
 
     Qt 5 introduced 3 types of timers: Qt::PreciseTimer, Qt::CoarseTimer, and Qt::VeryCoarseTimer. By default, CoarseTimer is used. We need to verify if it is the most appropriate timer type in all places where Qt timers are used, fix otherwise.
 
+### Memory usage
+
+https://trac.webkit.org/r216763 by Michael Saboff (msaboff) [iOS] Use memory footprint to dynamically adjust behavior of allocators https://webkit.org/b/171944 
+
 ### WK2
 
 Wk2 should not be linked to QtQml library (split QJSValue conversion to QML-specific library). Ideally it should rely on Scene Graph only.
