@@ -6,6 +6,8 @@ So, using CMake gives us 2 benifits:
 * Avoid extra work needed to update qmake-based build system to current state of the art (especially parts dealing with custom code generators), and then maintain it.
 * Be a part of WebKit community, contributing improvements to shared build system which could be used (and further improved!) by developers of other ports.
 
+See http://lists.qt-project.org/pipermail/development/2017-April/029763.html for more details.
+
 ### Why C++11? / Why GCC 4.8 is required, I'm still using older cross-toolchain!
 
 WebKit project started using C++11 since 2012, and was gradually extending its use since then. Version of WebKit shipped with Qt 5.2 and later (based on WebKit from mid-2013) was intentionally de-C++11-ized to support all compilers supported by Qt.
