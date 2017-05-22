@@ -10,6 +10,7 @@ You need to install:
 * CMake
 * Qt 5 (minimum supported version is 5.2)
 * libpng
+* libjpeg
 
 ### Quick installation of some dependencies
 ```
