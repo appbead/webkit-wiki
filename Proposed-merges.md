@@ -146,6 +146,8 @@ https://bugs.webkit.org/show_bug.cgi?id=162520 Do not follow redirects when send
 
 https://bugs.webkit.org/show_bug.cgi?id=163359 RenderRubyRun should not mark child renderers dirty at the end of layout.
 
+https://bugs.webkit.org/show_bug.cgi?id=162459 Array.prototype.join should do overflow checks on string joins
+
 
 ### Emoji
 
