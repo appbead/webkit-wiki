@@ -1,3 +1,5 @@
+https://bugs.webkit.org/show_bug.cgi?id=161546 Need to updateEditorState if an element change edit-ability without changing selection (?)
+
 https://trac.webkit.org/r216240 [GStreamer] Do not report more errors after the first one 
 
 https://trac.webkit.org/r216239 [GStreamer] Fix handling of gst errors in MediaPlayerPrivateGStreamer::handleMessage
