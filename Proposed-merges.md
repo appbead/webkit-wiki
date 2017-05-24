@@ -129,6 +129,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160832 Make JSValue::strictEqual() handl
 
 https://bugs.webkit.org/show_bug.cgi?id=160792 OverridesHasInstance should not branch across register allocations
 
+https://bugs.webkit.org/show_bug.cgi?id=161927  DFG NewArrayBuffer node should watch for "have a bad time" state change.
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
