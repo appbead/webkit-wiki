@@ -148,6 +148,8 @@ https://bugs.webkit.org/show_bug.cgi?id=163359 RenderRubyRun should not mark chi
 
 https://bugs.webkit.org/show_bug.cgi?id=162459 Array.prototype.join should do overflow checks on string joins
 
+https://bugs.webkit.org/show_bug.cgi?id=163149 [WebGL] Revise vertex array attribute checks to account for lazy memory allocation.
+
 
 ### Emoji
 
