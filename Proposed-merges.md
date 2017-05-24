@@ -1,3 +1,5 @@
+https://bugs.webkit.org/show_bug.cgi?id=164094 + https://bugs.webkit.org/show_bug.cgi?id=164350 (Qt fix needed probably)
+
 https://bugs.webkit.org/show_bug.cgi?id=161546 Need to updateEditorState if an element change edit-ability without changing selection (?)
 
 https://trac.webkit.org/r216240 [GStreamer] Do not report more errors after the first one 
@@ -155,6 +157,14 @@ https://bugs.webkit.org/show_bug.cgi?id=163862 Do not update selection rect on d
 https://bugs.webkit.org/show_bug.cgi?id=154377 Invoking Object.prototype.__proto__ accessors directly should throw a TypeError
 
 https://bugs.webkit.org/show_bug.cgi?id=164081 JSFunction::put() should not allow caching of lazily reified properties
+
+https://bugs.webkit.org/show_bug.cgi?id=162708 + r206637 Change the MemoryCache and CachedResource adjustSize functions to take a long argument
+
+https://bugs.webkit.org/show_bug.cgi?id=163877 Prevent hit tests from being performed on an invalid render tree
+
+
+
+
 
 ### Emoji
 
