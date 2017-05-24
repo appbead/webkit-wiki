@@ -136,6 +136,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160792 OverridesHasInstance should not b
 
 https://bugs.webkit.org/show_bug.cgi?id=161927  DFG NewArrayBuffer node should watch for "have a bad time" state change.
 
+https://bugs.webkit.org/show_bug.cgi?id=161031 %TypedArray%.prototype.slice needs to check that the source and destination have not been detached
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
