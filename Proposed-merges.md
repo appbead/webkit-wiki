@@ -105,6 +105,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160211
 
 https://bugs.webkit.org/show_bug.cgi?id=160366
 
+https://bugs.webkit.org/show_bug.cgi?id=160425 + https://bugs.webkit.org/show_bug.cgi?id=160438 
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
