@@ -121,6 +121,7 @@ https://bugs.webkit.org/show_bug.cgi?id=160261 concatAppendOne should allocate u
 
 https://bugs.webkit.org/show_bug.cgi?id=160228 [JSC] Fix a bunch of use-after-free of DFG::Node
 
+https://bugs.webkit.org/show_bug.cgi?id=160282 StringView should have an explicit m_is8Bit field
 
 ### Emoji
 
