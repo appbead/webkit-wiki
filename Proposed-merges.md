@@ -142,6 +142,8 @@ https://bugs.webkit.org/show_bug.cgi?id=161202 https://bugs.webkit.org/show_bug.
 
 https://bugs.webkit.org/show_bug.cgi?id=161893 ParkingLot is going to have a bad time with threads dying
 
+https://bugs.webkit.org/show_bug.cgi?id=162520 Do not follow redirects when sending violation report
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
