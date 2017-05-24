@@ -117,6 +117,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160806 Fix in ConnectionMac
 
 https://bugs.webkit.org/show_bug.cgi?id=160905 Upgrade-Insecure-Request state is improperly retained between navigations
 
+https://bugs.webkit.org/show_bug.cgi?id=160261 concatAppendOne should allocate using the indexing type of the array if it cannot merge
+
 
 ### Emoji
 
