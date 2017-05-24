@@ -127,6 +127,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160282 StringView should have an explici
 
 https://bugs.webkit.org/show_bug.cgi?id=160832 Make JSValue::strictEqual() handle failures to resolve JSRopeStrings
 
+https://bugs.webkit.org/show_bug.cgi?id=160792 OverridesHasInstance should not branch across register allocations
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
