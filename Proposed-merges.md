@@ -140,6 +140,8 @@ https://bugs.webkit.org/show_bug.cgi?id=161031 %TypedArray%.prototype.slice need
 
 https://bugs.webkit.org/show_bug.cgi?id=161202 https://bugs.webkit.org/show_bug.cgi?id=161256 Crash when getting font bounding rect (MATHML)
 
+https://bugs.webkit.org/show_bug.cgi?id=161893 ParkingLot is going to have a bad time with threads dying
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
