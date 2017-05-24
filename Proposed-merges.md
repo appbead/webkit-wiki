@@ -115,6 +115,9 @@ https://bugs.webkit.org/show_bug.cgi?id=160488 Update breaking rules to match IC
 
 https://bugs.webkit.org/show_bug.cgi?id=160806 Fix in ConnectionMac
 
+https://bugs.webkit.org/show_bug.cgi?id=160905 Upgrade-Insecure-Request state is improperly retained between navigations
+
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
