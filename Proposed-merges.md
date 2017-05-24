@@ -176,7 +176,8 @@ https://webkit.org/b/164702 WebContent crash due to checked unsigned overflow in
 
 https://bugs.webkit.org/show_bug.cgi?id=165145 Use 'childOfType' template when retrieving Shadow DOM elements
 
-https://bugs.webkit.org/show_bug.cgi?id=165503 https://bugs.webkit.org/show_bug.cgi?id=165542 performance.now() should truncate to 100us
+https://bugs.webkit.org/show_bug.cgi?id=165503 https://bugs.webkit.org/show_bug.cgi?id=165542 https://bugs.webkit.org/show_bug.cgi?id=165542 performance.now() should truncate to 100us
+
 
 
 
