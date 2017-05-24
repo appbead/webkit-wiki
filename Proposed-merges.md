@@ -90,9 +90,9 @@ https://bugs.webkit.org/show_bug.cgi?id=160519
 
 https://bugs.webkit.org/show_bug.cgi?id=135164
 
-ttps://bugs.webkit.org/show_bug.cgi?id=162701
+https://bugs.webkit.org/show_bug.cgi?id=162701
 
-
+https://bugs.webkit.org/show_bug.cgi?id=163641
 
 ### Conflicts
 
@@ -150,6 +150,11 @@ https://bugs.webkit.org/show_bug.cgi?id=162459 Array.prototype.join should do ov
 
 https://bugs.webkit.org/show_bug.cgi?id=163149 [WebGL] Revise vertex array attribute checks to account for lazy memory allocation.
 
+https://bugs.webkit.org/show_bug.cgi?id=163862 Do not update selection rect on dirty lineboxes
+
+https://bugs.webkit.org/show_bug.cgi?id=154377 Invoking Object.prototype.__proto__ accessors directly should throw a TypeError
+
+https://bugs.webkit.org/show_bug.cgi?id=164081 JSFunction::put() should not allow caching of lazily reified properties
 
 ### Emoji
 
