@@ -125,6 +125,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160228 [JSC] Fix a bunch of use-after-fr
 
 https://bugs.webkit.org/show_bug.cgi?id=160282 StringView should have an explicit m_is8Bit field
 
+https://bugs.webkit.org/show_bug.cgi?id=160832 Make JSValue::strictEqual() handle failures to resolve JSRopeStrings
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
