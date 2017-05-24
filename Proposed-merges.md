@@ -100,3 +100,5 @@ https://bugs.webkit.org/show_bug.cgi?id=159755
 https://bugs.webkit.org/show_bug.cgi?id=160102
 
 https://bugs.webkit.org/show_bug.cgi?id=160349
+
+https://bugs.webkit.org/show_bug.cgi?id=160008
