@@ -107,7 +107,7 @@ https://bugs.webkit.org/show_bug.cgi?id=160366
 
 https://bugs.webkit.org/show_bug.cgi?id=160425 + https://bugs.webkit.org/show_bug.cgi?id=160438 
 
-https://bugs.webkit.org/show_bug.cgi?id=160470 Cleanup HTMLMediaElement track lists
+https://bugs.webkit.org/show_bug.cgi?id=160470 https://bugs.webkit.org/show_bug.cgi?id=160470 Cleanup HTMLMediaElement track lists
 
 ### Emoji
 
