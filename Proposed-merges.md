@@ -1,4 +1,4 @@
-https://bugs.webkit.org/show_bug.cgi?id=164094 + https://bugs.webkit.org/show_bug.cgi?id=164350 (Qt fix needed probably)
+https://bugs.webkit.org/show_bug.cgi?id=164094 + https://bugs.webkit.org/show_bug.cgi?id=164350 (Qt fix needed probably) + r208319
 
 https://bugs.webkit.org/show_bug.cgi?id=161546 Need to updateEditorState if an element change edit-ability without changing selection (?)
 
