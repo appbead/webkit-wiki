@@ -170,6 +170,13 @@ https://bugs.webkit.org/show_bug.cgi?id=164163 Do a better job of protecting Fra
 
 https://bugs.webkit.org/show_bug.cgi?id=163814 REGRESSION (Safari 10 / r189445): WKWebView and WebView no longer allow async XMLHttpRequest timeout to exceed 60 seconds
 
+https://bugs.webkit.org/show_bug.cgi?id=164650 + r208619  We recursively grab a lock in the DFGBytecodeParser causing us to deadlock
+
+https://webkit.org/b/164702 WebContent crash due to checked unsigned overflow in WebCore: WebCore::RenderLayerCompositor::requiresCompositingLayer
+
+https://bugs.webkit.org/show_bug.cgi?id=165145 Use 'childOfType' template when retrieving Shadow DOM elements
+
+https://bugs.webkit.org/show_bug.cgi?id=165503 https://bugs.webkit.org/show_bug.cgi?id=165542 performance.now() should truncate to 100us
 
 
 
