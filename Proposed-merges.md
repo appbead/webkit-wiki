@@ -96,7 +96,7 @@ https://bugs.webkit.org/show_bug.cgi?id=162701
 
 https://bugs.webkit.org/show_bug.cgi?id=163641
 
-https://bugs.webkit.org/show_bug.cgi?id=163983 + r208161 + r208171
+https://bugs.webkit.org/show_bug.cgi?id=163983 + r208161 + r208171 + r208175
 
 ### Conflicts
 
@@ -166,6 +166,7 @@ https://bugs.webkit.org/show_bug.cgi?id=163877 Prevent hit tests from being perf
 
 https://bugs.webkit.org/show_bug.cgi?id=164163 Do a better job of protecting Frame objects in the context of JavaScript calls
 
+https://bugs.webkit.org/show_bug.cgi?id=163814 REGRESSION (Safari 10 / r189445): WKWebView and WebView no longer allow async XMLHttpRequest timeout to exceed 60 seconds
 
 
 
