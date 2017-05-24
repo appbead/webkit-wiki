@@ -113,6 +113,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160470 https://bugs.webkit.org/show_bug.
 
 https://bugs.webkit.org/show_bug.cgi?id=160488 Update breaking rules to match ICU 57
 
+https://bugs.webkit.org/show_bug.cgi?id=160806 Fix in ConnectionMac
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
