@@ -90,3 +90,13 @@ https://bugs.webkit.org/show_bug.cgi?id=160474
 https://bugs.webkit.org/show_bug.cgi?id=160010
 
 https://bugs.webkit.org/show_bug.cgi?id=166357
+
+https://bugs.webkit.org/show_bug.cgi?id=166422
+
+### Emoji
+
+https://bugs.webkit.org/show_bug.cgi?id=159755
+
+https://bugs.webkit.org/show_bug.cgi?id=160102
+
+https://bugs.webkit.org/show_bug.cgi?id=160349
