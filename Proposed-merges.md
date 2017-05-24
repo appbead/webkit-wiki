@@ -109,6 +109,8 @@ https://bugs.webkit.org/show_bug.cgi?id=160425 + https://bugs.webkit.org/show_bu
 
 https://bugs.webkit.org/show_bug.cgi?id=160470 https://bugs.webkit.org/show_bug.cgi?id=160470 Cleanup HTMLMediaElement track lists
 
+https://bugs.webkit.org/show_bug.cgi?id=160488 Update breaking rules to match ICU 57
+
 ### Emoji
 
 https://bugs.webkit.org/show_bug.cgi?id=159755
