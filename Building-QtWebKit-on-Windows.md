@@ -8,7 +8,9 @@ You must have following programs in your `PATH` environment variable:
 * Perl (5.22 or 5.20) - [ActivePerl](http://www.activestate.com/activeperl) by ActiveState will be enough.
 * Python - we heavily advise to use 2.7 version. Python 3 is not officially supported.
 
-Clone http://code.qt.io/cgit/qt/qt5.git and add `gnuwin32/bin` from your clone into `%PATH%`
+You also need to clone http://code.qt.io/cgit/qt/qt5.git and add `gnuwin32/bin` from cloned repository into `%PATH%`.
+
+**WARNING** Building in Cygwin is not supported. Building in MSYS2 shell is possible with 3rd party patches, and only for MinGW compiler. For MSVC, use cmd.exe shell only.
 
 # Optional tools
 
