@@ -8,11 +8,7 @@ You must have following programs in your `PATH` environment variable:
 * Perl (5.22 or 5.20) - [ActivePerl](http://www.activestate.com/activeperl) by ActiveState will be enough.
 * Python - we heavily advise to use 2.7 version. Python 3 is not officially supported.
 
-Following requirements you can download [here](http://gnuwin32.sourceforge.net):
-
-* bison
-* flex
-* gperf
+Clone http://code.qt.io/cgit/qt/qt5.git and add `gnuwin32/bin` from your clone into `%PATH%`
 
 # Optional tools
 
