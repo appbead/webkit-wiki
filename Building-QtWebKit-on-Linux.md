@@ -47,6 +47,12 @@ If you are not using system-wide installation of Qt, you should add `-DCMAKE_PRE
     cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_PREFIX_PATH=/opt/Qt5.8.0/5.8/gcc_64 ../.. 
 
+### Cross-compilation
+
+Cross-compilation with CMake is described in [official CMake documentation](https://cmake.org/cmake/help/v3.0/manual/cmake-toolchains.7.html#cross-compiling). Basically, you need CMake toolchain file (for example, see ToolchainMIPS.cmake in the root of this repository), and all required dependencies compiled for your target. In order to reduce number of dependencies, you may want to disable some features.
+
+### Building for running test suite
+
 If you're contributing to QtWebKit, optionally run the `Tools/Scripts/update-qtwebkit-libs` script (see [JHBuild](https://github.com/annulen/webkit/wiki/JHBuild)) to build all dependencies inside the source tree, in order to get reproducible test results. Then use the `build-webkit` script to get separate debug/release builds:
 
     Tools/Scripts/build-webkit --qt --release  # or --debug
