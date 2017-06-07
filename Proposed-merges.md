@@ -1,3 +1,7 @@
+https://trac.webkit.org/changeset/217896/webkit  Assertion failure in com.apple.WebKit.WebContent.Development in com.apple.JavaScriptCore: JSC::DFG::SpeculativeJIT::nonSpeculativePeepholeBranchNullOrUndefined + 141
+
+https://trac.webkit.org/r217894 [CMake] Only force response files for Ninja with CMake < 3.2 on Linux
+
 https://bugs.webkit.org/show_bug.cgi?id=164532  [WK2] Network cache speculative revalidation can cause loads to hang
 
 https://bugs.webkit.org/show_bug.cgi?id=164094 + https://bugs.webkit.org/show_bug.cgi?id=164350 (Qt fix needed probably) + r208319
