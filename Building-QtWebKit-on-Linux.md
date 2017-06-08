@@ -42,10 +42,12 @@ You can then build QtWebKit with cmake:
     make -jN # Replace N with number of your CPU cores
     sudo make install
 
-If you are not using system-wide installation of Qt, you should add `-DCMAKE_PREFIX_PATH=/path/to your/Qt` to cmake arguments, e.g.
+If you are not using system-wide installation of Qt, you should add `-DQt5_DIR=$your_Qt_path/lib/cmake/Qt5` to cmake arguments, e.g.
 
     cmake -DPORT=Qt -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_PREFIX_PATH=/opt/Qt5.8.0/5.8/gcc_64 ../.. 
+        -DQt5_DIR=/opt/Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5` ../..
+
+Note: this manual previously suggested using CMAKE_PREFIX_PATH, but it may cause build errors related to misdetection of ICU libraries with Qt SDK 5.8.0 and 5.9.0
 
 ### Cross-compilation
 
