@@ -24,7 +24,7 @@ https://bugs.webkit.org/show_bug.cgi?id=168839 Download attribute should be sani
 
 https://bugs.webkit.org/show_bug.cgi?id=166420  Crash in WebCore::CoordinatedGraphicsLayer::notifyFlushRequired
 
-(WIP) https://trac.webkit.org/r214561  Animated SVG images are not paused in pages loaded in the background
+(?) https://trac.webkit.org/r214561  Animated SVG images are not paused in pages loaded in the background
 
 + https://bugs.webkit.org/show_bug.cgi?id=167901 Animated GIFs fail to play in multi-column layout 
 
