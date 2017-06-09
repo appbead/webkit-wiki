@@ -162,7 +162,7 @@ https://bugs.webkit.org/show_bug.cgi?id=164081 JSFunction::put() should not allo
 
 https://bugs.webkit.org/show_bug.cgi?id=162708 + r206637 Change the MemoryCache and CachedResource adjustSize functions to take a long argument
 
-https://bugs.webkit.org/show_bug.cgi?id=163877 Prevent hit tests from being performed on an invalid render tree
+(WIP) https://bugs.webkit.org/show_bug.cgi?id=163877 Prevent hit tests from being performed on an invalid render tree
 
 https://bugs.webkit.org/show_bug.cgi?id=164163 Do a better job of protecting Frame objects in the context of JavaScript calls
 
