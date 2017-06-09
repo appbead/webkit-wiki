@@ -24,9 +24,9 @@ https://bugs.webkit.org/show_bug.cgi?id=168839 Download attribute should be sani
 
 https://bugs.webkit.org/show_bug.cgi?id=166420  Crash in WebCore::CoordinatedGraphicsLayer::notifyFlushRequired
 
-https://trac.webkit.org/r214561  Animated SVG images are not paused in pages loaded in the background
+(WIP) https://trac.webkit.org/r214561  Animated SVG images are not paused in pages loaded in the background
 
-https://bugs.webkit.org/show_bug.cgi?id=167901 Animated GIFs fail to play in multi-column layout 
++ https://bugs.webkit.org/show_bug.cgi?id=167901 Animated GIFs fail to play in multi-column layout 
 
 http://trac.webkit.org/changeset/201709 - [css-grid] Horizontal scroll must account for grid container's height
 
@@ -45,7 +45,7 @@ https://trac.webkit.org/changeset/202857
 
 https://bugs.webkit.org/show_bug.cgi?id=134915 - consider something like this?
 
-https://trac.webkit.org/r203240 
+(WIP) https://trac.webkit.org/r203240 
 
 + https://bugs.webkit.org/show_bug.cgi?id=159858 DFG CSE is broken for MultiGetByOffset
 
@@ -54,8 +54,6 @@ https://bugs.webkit.org/show_bug.cgi?id=158297
 https://trac.webkit.org/r204339 
 
 https://bugs.webkit.org/show_bug.cgi?id=152316
-
-https://trac.webkit.org/r206023  - ASAN MSE
 
 + https://bugs.webkit.org/show_bug.cgi?id=161985 - JSC warnings
 
@@ -182,7 +180,7 @@ https://bugs.webkit.org/show_bug.cgi?id=165145 Use 'childOfType' template when r
 
 https://bugs.webkit.org/show_bug.cgi?id=165503 https://bugs.webkit.org/show_bug.cgi?id=165542 https://bugs.webkit.org/show_bug.cgi?id=165542 performance.now() should truncate to 100us
 
-
+https://trac.webkit.org/r206023  - ASAN MSE
 
 
 ### Emoji
