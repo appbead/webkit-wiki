@@ -112,10 +112,6 @@ https://bugs.webkit.org/show_bug.cgi?id=166357
 
 https://bugs.webkit.org/show_bug.cgi?id=166422
 
-https://bugs.webkit.org/show_bug.cgi?id=160068
-
-https://bugs.webkit.org/show_bug.cgi?id=160092
-
 https://bugs.webkit.org/show_bug.cgi?id=160212
 
 https://bugs.webkit.org/show_bug.cgi?id=160211
