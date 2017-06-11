@@ -114,6 +114,10 @@ TEST_RUNNER_TEST_PLUGIN_PATH= TEST_RUNNER_INJECTED_BUNDLE_FILENAME=WebKitBuild/R
 
 ```Tools/Scripts/run-javascriptcore-tests --qt --root=WebKitBuild/Release --no-build```
 
+Windows:
+* Add `perl` before the script name
+* Add 'c:\msys64\usr\bin` to `PATH` (for `make` and `sh`)
+
 #### More info
 * http://trac.webkit.org/wiki/QtWebKitContrib#Runningthetests
 * http://trac.webkit.org/wiki/WebKitGtkLayoutTests
