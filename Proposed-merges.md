@@ -45,7 +45,7 @@ https://trac.webkit.org/changeset/202857
 
 https://bugs.webkit.org/show_bug.cgi?id=134915 - consider something like this?
 
-(WIP) https://trac.webkit.org/r203240 
++ https://trac.webkit.org/r203240 
 
 + https://bugs.webkit.org/show_bug.cgi?id=159858 DFG CSE is broken for MultiGetByOffset
 
@@ -110,7 +110,7 @@ https://bugs.webkit.org/show_bug.cgi?id=160010
 
 https://bugs.webkit.org/show_bug.cgi?id=166357
 
-(WIP) https://bugs.webkit.org/show_bug.cgi?id=166422
++ https://bugs.webkit.org/show_bug.cgi?id=166422
 
 https://bugs.webkit.org/show_bug.cgi?id=160212
 
@@ -154,7 +154,7 @@ https://bugs.webkit.org/show_bug.cgi?id=162459 Array.prototype.join should do ov
 
 https://bugs.webkit.org/show_bug.cgi?id=163149 [WebGL] Revise vertex array attribute checks to account for lazy memory allocation.
 
-(WIP) https://bugs.webkit.org/show_bug.cgi?id=163862 Do not update selection rect on dirty lineboxes
++ https://bugs.webkit.org/show_bug.cgi?id=163862 Do not update selection rect on dirty lineboxes
 
 https://bugs.webkit.org/show_bug.cgi?id=154377 Invoking Object.prototype.__proto__ accessors directly should throw a TypeError
 
@@ -162,7 +162,7 @@ https://bugs.webkit.org/show_bug.cgi?id=164081 JSFunction::put() should not allo
 
 https://bugs.webkit.org/show_bug.cgi?id=162708 + r206637 Change the MemoryCache and CachedResource adjustSize functions to take a long argument
 
-(WIP) https://bugs.webkit.org/show_bug.cgi?id=163877 Prevent hit tests from being performed on an invalid render tree
++ https://bugs.webkit.org/show_bug.cgi?id=163877 Prevent hit tests from being performed on an invalid render tree
 
 https://bugs.webkit.org/show_bug.cgi?id=164163 Do a better job of protecting Frame objects in the context of JavaScript calls
 
