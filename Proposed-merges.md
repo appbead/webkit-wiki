@@ -170,8 +170,6 @@ https://bugs.webkit.org/show_bug.cgi?id=162708 + r206637 Change the MemoryCache 
 
 https://bugs.webkit.org/show_bug.cgi?id=164650 + r208619  We recursively grab a lock in the DFGBytecodeParser causing us to deadlock
 
-(WIP) https://bugs.webkit.org/show_bug.cgi?id=165145 Use 'childOfType' template when retrieving Shadow DOM elements
-
 https://trac.webkit.org/r206023  - ASAN MSE
 
 
