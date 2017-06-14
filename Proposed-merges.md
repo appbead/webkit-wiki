@@ -100,8 +100,6 @@ https://bugs.webkit.org/show_bug.cgi?id=163983 + r208161 + r208171 + r208175
 
 ### Conflicts
 
-https://bugs.webkit.org/show_bug.cgi?id=160474
-
 https://bugs.webkit.org/show_bug.cgi?id=160010
 
 + https://bugs.webkit.org/show_bug.cgi?id=166357
