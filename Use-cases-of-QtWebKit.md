@@ -11,11 +11,14 @@
 * Some users are not satisfied by ever growing CPU and memory usage of modern browsers, and are even ready to sacrifice some milliseconds of page loading time for lower resource usage. Industry tends to ignore them.
 * It would be better to have a choice of browsers based on different engines on Linux, not just a choice of Chromium skins.
 
-### Use case 3: Web page processing tools
+### Use case 3: HTML rendering in non-browser applications
+* Documentation browsers, RSS readers, e-mail clients either don't run JavaScript, or run only simple scripts. In this case multi-process architecture is a massive overkill
+
+### Use case 4: Web page processing tools
 * WebKit1 API of QtWebKit provides direct R/W access to DOM from C++ code, allowing to write high-performance tools. 
 * It also provides facilities for off-screen rendering, which is used by projects like PhantomJS
 
-### Use case 4: Legacy applications
+### Use case 5: Legacy applications
 * There is a lot of code written with use of QtWebKit API. However, QtWebKit branch currently maintained by Qt Project cannot receive security updates anymore, because it lags too far behind WebKit upstream.
 
 See also (same titled) letter by Milian Wolff: https://lists.webkit.org/pipermail/webkit-qt/2013-July/003791.html
