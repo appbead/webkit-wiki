@@ -114,6 +114,10 @@ TEST_RUNNER_TEST_PLUGIN_PATH= TEST_RUNNER_INJECTED_BUNDLE_FILENAME=WebKitBuild/R
 
 ```Tools/Scripts/run-javascriptcore-tests --qt --root=WebKitBuild/Release --no-build```
 
+Following command runs only a small subset of tests, but quite representative. Can run on device in busybox shell, no other dependencies:
+
+```Tools/Scripts/run-layout-jsc -t LayoutTests/ -j build/qt-jsc/Release/bin/jsc -r results```
+
 Windows:
 * Add `perl` before the script name
 * Add 'c:\msys64\usr\bin` to `PATH` (for `make` and `sh`)
