@@ -33,4 +33,5 @@
 
 ### Important behavior changes
 * Mixed content is blocked by default. To restore old behavior set `QWebSettings::AllowRunningInsecureContent` attribute to `true`
+* Now application code must handle `QWebPage::fullScreenRequested` signal to get fullscreen working. It's necessary because latests HTML standard specifies that any web element can go fullscreen, not only video
 * JPEG and PNG images no longer use Qt plugins (qpng and qjpeg) on Windows and macOS (actually, on any OS if Qt build uses bundled libraries)
