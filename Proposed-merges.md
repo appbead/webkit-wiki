@@ -1,3 +1,8 @@
+https://bugs.webkit.org/show_bug.cgi?id=126122 [GTK] Limit the number of tiles according to the visible area
+
+https://bugs.webkit.org/show_bug.cgi?id=152058 [TexMap] CompositingCoordinator should store the overlay layer, flush it as appropriate
+
+
 https://trac.webkit.org/changeset/219479/webkit and other warning fixes https://bugs.webkit.org/show_bug.cgi?id=174463
 
 https://trac.webkit.org/changeset/217896/webkit  Assertion failure in com.apple.WebKit.WebContent.Development in com.apple.JavaScriptCore: JSC::DFG::SpeculativeJIT::nonSpeculativePeepholeBranchNullOrUndefined + 141
