@@ -39,3 +39,9 @@ For example, if you have Qt 5.6 installed in `$HOME/Qt`, then the command will b
 ```
 ./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=/Users/vitaly/Qt/5.6/clang_x64"
 ```
+
+### Troubleshoot
+
+* Application crashes on macOS in `WebCore::PNGImageDecoder::decode` on `setjmp` call
+
+PNG headers don't match used library, see section **Warning** above.
