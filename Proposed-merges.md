@@ -1,3 +1,5 @@
+https://trac.webkit.org/changeset/221978/webkit Make history.pushState()/replaceState() more closely aligned to the HTML standard
+
 9601dff8dc7fe2abf641d364ef58d2c84770ff6d
 
 https://bugs.webkit.org/show_bug.cgi?id=126122 [GTK] Limit the number of tiles according to the visible area
