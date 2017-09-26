@@ -38,7 +38,7 @@ Tools/jhbuild/jhbuild-wrapper --qt list
 
 ### Qt debug info
 
-    find WebKitBuild/DependenciesQT/Build/ -name '*debug' -exec cp {} WebKitBuild/DependenciesQT/Root/lib \;
+    find WebKitBuild/DependenciesQT/Source -name '*Qt5*debug' -exec cp {} WebKitBuild/DependenciesQT/Root/lib \;
 
 ### Troubleshoout
 
