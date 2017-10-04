@@ -10,7 +10,9 @@ You must have following programs in your `PATH` environment variable:
 
 You also need to clone http://code.qt.io/cgit/qt/qt5.git and add `gnuwin32/bin` from cloned repository into `%PATH%`.
 
-**WARNING** Building in Cygwin is not supported. Building in MSYS2 shell is possible with 3rd party patches, and only for MinGW compiler. For MSVC, use cmd.exe shell only.
+**NOTE:** QtWebKit requires additional dependencies such as libpng, libjpeg, zlib, sqlite, etc. No needs to download and build them, the build script (`build-webkit`) downloads all necessary dependencies on first run and keeps them up to date.
+
+**WARNING:** Building in Cygwin is not supported. Building in MSYS2 shell is possible with 3rd party patches, and only for MinGW compiler. For MSVC, use cmd.exe shell only.
 
 # Optional tools
 
