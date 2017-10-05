@@ -2,10 +2,6 @@
 
 This instruction is based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_.28with_OpenSSL.2C_ICU_and_QtWebKit.29
 
-### Obtain QtWebKit sources
-
-You need to `mingw_build` branch from this repo, or from `qtwebkit-snapshots`.
-
 ### Install dependencies
 
 * Qt SDK for MinGW
