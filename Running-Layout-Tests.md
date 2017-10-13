@@ -48,6 +48,17 @@ $ export WEBKIT_CORE_DUMPS_DIRECTORY=$(pwd)/coredumps
 $ ulimit -c 0
 ```
 
+# Rebasing test expectations
+
+When new test failure occurs, it may be caused by different reasons:
+* Bug was introduced by recent change (aka "regression")
+* Bug was fixed by recent change, and new results are closer to current standards ("progression")
+* Dependency of WebKit or testing infrastructure (e.g., Apache) was updated, causing test output change which is not better or worse than before
+
+When change is not caused by regression, we should update expected results to make test pass again. Visual way to do this is to use `rebaseline-server`:
+
+    Tools/Scripts/webkit-patch rebaseline-server WebKitBuild/Release/layout-test-results
+
 ### Other possible invocations with description of options
 
 ```
