@@ -59,6 +59,10 @@ When change is not caused by regression, we should update expected results to ma
 
     Tools/Scripts/webkit-patch rebaseline-server WebKitBuild/Release/layout-test-results
 
+To open rebaseline-server UI in QtWebKit, use
+
+    Tools/Scripts/run-minibrowser --qt http://localhost:8127/
+
 ### Other possible invocations with description of options
 
 ```
