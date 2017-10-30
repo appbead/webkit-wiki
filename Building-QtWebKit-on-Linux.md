@@ -1,6 +1,7 @@
 You need to install the next dependencies:
 
 * Qt >= 5.4 (Core, Gui, Network, Sql, OpenGL, Test, Widgets, Positioning, Sensors)
+    * For QML API: Declarative, WebChannel
 * CMake >= 2.8.12 (>= 3.2 is recommended)
 * ninja
 * sqlite >= 3.6.16
