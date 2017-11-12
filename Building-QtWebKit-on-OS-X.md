@@ -27,6 +27,8 @@ brew install ninja
 
 `Mono.framework` presence on build machine is known to deceive CMake into using its headers for libraries like libpng and sqlite. It leads to crashes when using built QtWebKit. Please remove it before proceeding to the next step.
 
+**UPD** Maybe setting `CMAKE_FIND_FRAMEWORK` to `LAST` can help
+
 ### Building
 
 If you don't have `qmake` in your `$PATH`, you must provide the path to it via `-DCMAKE_PREFIX_PATH`:
