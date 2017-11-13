@@ -16,5 +16,6 @@ https://github.com/ariya/phantomjs/issues/15018
 
 ### Notes
 
-[1] Reason 1: WebKit 2 builds several executables for running background processes, and all of them have to link with the same set of libraries. With static libraries it implies linking all WebKit code into all executables, which multiplies binary size 3-5 times
-Reason 2: QML in general is not advertizing support for static builds, it's tricky to get it right
+[1] Reason 1: WebKit 2 builds several executables for running background processes, and all of them have to link with the same set of libraries. With static libraries it implies linking all WebKit code into all executables, which multiplies binary size 3-5 times.
+
+Reason 2: QML in general is not advertizing support for static builds, it's tricky to get it right.
