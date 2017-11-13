@@ -6,6 +6,8 @@ You just point CMAKE_PREFIX_PATH to Qt installation which is static, and it auto
 
 If you get errors, look at bug #454, maybe you hit the same issue
 
+Note that linking executable with static QtWebKit may require explicit linking of some libraries which Qt or QtWebKit depend upon.
+
 ### Configuration of static Qt build
 
 Qt can be built with bundled libraries: libpng, zlib, libjpeg, sqlite. These libraries are used by QtWebKit independently, and may cause conflicts in case of version mismatch. Therefore, it's recommended to configure Qt to use system version of these libraries, or disable those that can be disabled.
