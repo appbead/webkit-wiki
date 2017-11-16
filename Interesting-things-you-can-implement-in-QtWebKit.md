@@ -38,10 +38,3 @@ See also http://trac.webkit.org/wiki/QtWebKitTodo#DeferredDOMAPIItems
 QtScript module is based on older JavaScriptCore version, and lots of things are similar between QtScript and QtWebKit Bridge. It should not be hard to provide API for JSC+bridge so that it is possible to avoid overhead of full DOM environment. Also it would be possible to run scripts in non-GUI thread while GUI thread continues to use QtWebKit's WK1 API (note that JSC is thread-safe, while WebCore isn't).
 
 There is no goal to provide separate library that does not include WebCore, having it linked to QtWebKit library or part of it is quite acceptable.
-
-### Import QObject-derived classes as ES2015 classes
-
-Curently it is possible to inject any QObject QWebFrame::addToJavaScriptWindowObject(), however now ES2015 has native support for classes. It would be cool if you could create instances of QObject-derived class in JavaScript, or even inherit from them.
-
-
-[1] http://w3c.github.io/webcomponents/spec/custom/
