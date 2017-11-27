@@ -15,6 +15,16 @@ git diff | grep -v '~' | egrep '^\+' | less
 
 TODO: specify style, so `modernize-loop-convert` does not write code like `auto & thing`
 
+## Clazy
+
+Similarly:
+```
+find Source/ -ipath '*qt*.cpp' -exec \
+    clazy-standalone -p=WebKitBuild/Release --header-filter=./Source {} \
+    -checks=level1 \;
+```
+
+
 ## Wishlist
 
 ### modernize-use-override
