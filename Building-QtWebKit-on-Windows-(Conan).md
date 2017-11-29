@@ -56,10 +56,17 @@ conan install -f ..\..\qt5\coin\provisioning\qtci-windows-7-x86\conanfiles\qtweb
 
 ### Building QtWebKit
 
-* Move to this directory and run following commands in shell where `qmake` and compiler are available, i.e. same setup that you use for building any qmake-based project normally.
+* Set environment variable `SQLITE3SRCDIR` to absolute path of `qt5\qtbase\src\3rdparty\sqlite`, e.g.
+```
+set SQLITE3SRCDIR=c:\qt5\qtbase\src\3rdparty\sqlite
+```
+* In build directory, run following commands in shell where `qmake` and compiler are available, i.e. same setup that you use for building any qmake-based project normally.
 ```
 qmake -r ../../qt5/qtwebkit
 cd release
 ninja
 ```
 If you didn't install `ninja`, run command that is shown in qmake output, it is `jom` or `nmake` for MSVC, or `mingw32-make` for MinGW (use `-j` to specify number of parallel jobs)
+
+
+If you need to rebuild QtWebKit later, e.g. after updating git sources, just go to `release` directory again and re-run the last command
