@@ -1,5 +1,9 @@
 **WARNING: This is not supported, use https://github.com/annulen/webkit/wiki/Building-QtWebKit-on-Windows-%28Conan%29 instead**
 
+
+***
+
+
 This instruction is based on guide https://wiki.qt.io/MinGW-64-bit#MinGW-builds_.28with_OpenSSL.2C_ICU_and_QtWebKit.29
 
 ### Install dependencies
