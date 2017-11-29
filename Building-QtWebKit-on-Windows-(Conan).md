@@ -68,5 +68,6 @@ ninja
 ```
 If you didn't install `ninja`, run command that is shown in qmake output, it is `jom` or `nmake` for MSVC, or `mingw32-make` for MinGW (use `-j` to specify number of parallel jobs)
 
+For debug build, do `cd debug` instead of `cd release`.
 
 If you need to rebuild QtWebKit later, e.g. after updating git sources, just go to `release` directory again and re-run the last command
