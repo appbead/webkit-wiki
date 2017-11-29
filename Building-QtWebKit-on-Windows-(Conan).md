@@ -27,7 +27,7 @@ You may also want to build Qt from git sources that you've just downloaded, in t
 ### Installing QtWebKit dependencies
 
 * Make build directory, below I assume that it is `qt5-build/qtwebkit` at the same directory level as your `qt5`
-* Run conan
+* Run following command in the build directory:
 
 MSVC 2015 32-bit:
 ```
@@ -47,6 +47,7 @@ MSVC 2017 64-bit:
 
 MinGW-w64 5.3.0 32-bit as bundled with Qt:
 ```
+conan install -f ..\..\qt5\coin\provisioning\qtci-windows-7-x86\conanfiles\qtwebkit.txt -s arch=x86 -s compiler=gcc -s compiler.version=5.3 -s compiler.libcxx="libstdc++11" -g cmake
 ```
 
 ### Building QtWebKit
