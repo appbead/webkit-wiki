@@ -27,22 +27,26 @@ You may also want to build Qt from git sources that you've just downloaded, in t
 ### Installing QtWebKit dependencies
 
 * Make build directory, below I assume that it is `qt5-build/qtwebkit` at the same directory level as your `qt5`
-* Run following command in the build directory:
+* Run following command in the build directory (**NOTE: don't try to adjust Windows version in paths to your OS version, it must be used exactly as it's written**):
 
 MSVC 2015 32-bit:
 ```
+conan install -f ..\..\qt5\coin\provisioning\qtci-windows-10-x86\conanfiles\qtwebkit.txt -s arch=x86 -s compiler="Visual Studio" -s compiler.version=14 -s compiler.runtime=MD -g cmake
 ```
 
 MSVC 2015 64-bit:
 ```
+conan install -f ..\..\qt5\coin\provisioning\qtci-windows-10-x86\conanfiles\qtwebkit.txt -s arch=x86_64 -s compiler="Visual Studio" -s compiler.version=14 -s compiler.runtime=MD -g cmake
 ```
 
 MSVC 2017 32-bit:
 ```
+conan install -f ..\..\qt5\coin\provisioning\qtci-windows-10-x86\conanfiles\qtwebkit.txt -s arch=x86 -s compiler="Visual Studio" -s compiler.version=15 -s compiler.runtime=MD -g cmake
 ```
 
 MSVC 2017 64-bit:
 ```
+conan install -f ..\..\qt5\coin\provisioning\qtci-windows-10-x86\conanfiles\qtwebkit.txt -s arch=x86_64 -s compiler="Visual Studio" -s compiler.version=15 -s compiler.runtime=MD -g cmake
 ```
 
 MinGW-w64 5.3.0 32-bit as bundled with Qt:
