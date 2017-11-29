@@ -1,6 +1,7 @@
 You just point CMAKE_PREFIX_PATH to Qt installation which is static, and it automatically switches to static mode
 
 * Building QML API is not supported, you should pass -DENABLE_WEBKIT2=OFF to cmake [1].
+* Pass `-DENABLE_TOOLS=OFF`
 * On systems with GNU ld (default on Linux, also used by MinGW) you also need to set `-DUSE_THIN_ARCHIVES=OFF`.
 * On Windows (if you need static runtime) you need to set `-DUSE_STATIC_RUNTIME=ON` (msvc only).
 
