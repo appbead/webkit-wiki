@@ -27,7 +27,9 @@ You may also want to build Qt from git sources that you've just downloaded, in t
 ### Installing QtWebKit dependencies
 
 * Make build directory, below I assume that it is `qt5-build/qtwebkit` at the same directory level as your `qt5`
-* Run following command in the build directory (**NOTE: don't try to adjust Windows version in paths to your OS version, it must be used exactly as it's written**):
+* Run following command in the build directory 
+
+# **NOTE: don't try to adjust Windows version in paths to your OS version, it must be used exactly as it's written**
 
 MSVC 2015 32-bit:
 ```
