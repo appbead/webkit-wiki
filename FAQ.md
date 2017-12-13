@@ -21,8 +21,11 @@ As for GCC 4.8 requirement, this is the first GCC release which supports complet
 * **libpng** and **libjpeg** are optional dependencies in QtWebKit 5.6, but now are promoted to be mandatory. They are needed to build Qt anyway (though their sources are bundled with Qt), and having single code path for PNG and JPEG will allow to have same rendering and performance characteristics independently on how QtWebKit is built.
 * **sqlite** - similar to libraries above, QtWebKit 5.6 can use sqlite sources from Qt installation, but we don't provide this feature
 * **libxml2** and **libxslt** - similar to libraries above, but avoiding them required maintainance of spearate parser code for XML and XSLT. This opens a way to additional bugs, performance issues, and security issues (because it is web-facing code)
+    * Note that you can disable XSLT support at build time to avoid depending on libxslt (-DENABLE_XSLT=OFF cmake option). However, it's a very small library.
+    * On macOS system libxml2 and libxslt are used, similarly to WebKit.framework provided as a part of OS
 * **libhyphen** implements feature which is missing in QtWebKit 5.6 (CSS Hyphenation), it can be disaled using -DUSE_LIBHYPHEN=OFF cmake option)
-* **ICU** was a requirement since Qt 5.0. [1]
+* **ICU** was a requirement since Qt 5.0 [1]. 
+    * Note that QtCore practically requires ICU for decent Unicode support on operating systems different from macOS and Windows. On macOS ICU is shipped as a part of standard OS installation, by default QtWebKit uses this system version, similarly to WebKit.framework provided as a part of OS
 
 ### Why do I have to disable feature X explicitly if library Y was not found? It was disabled automagically with qmake!
 
