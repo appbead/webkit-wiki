@@ -22,11 +22,22 @@ You also need to clone http://code.qt.io/cgit/qt/qt5.git and add `gnuwin32/bin` 
 
 _Optional step:_ You can change the default output build directory (`WebKitBuild`) by specifying environment variable `WEBKIT_OUTPUTDIR`.
 
-Use the following command to build QtWebkit (don't forget to check `CMAKE_PREFIX_PATH`. It must point to your Qt installation directory):
+Due to [#705](../../issues/705) if sources come from a release tarball create a `WebKitLibraries` directory in unpacked sources.
+
+Use the following command to build QtWebkit:
 
 ```
 perl Tools/Scripts/build-webkit --qt --release --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=c:\Qt\Qt5.6.0\5.6\msvc2015"
 ```
+but paying attention to:
+
+- this command dowloads 3rd party dependencies; most of them are statically built but icu is built dynamically so if you have Qt built with icu you should use the same version as precompiled and downloaded into `WebKitLibraries`)
+- update `CMAKE_PREFIX_PATH` - it must point to your Qt installation directory
+- replace `--release` to `--debug` if you want to build a debug build
+- if you want 64bit build add to cmake args appropriate toolchain specification e.g. `-G \"Visual Studio 14 Win64\"` (it is important to prepend quotes with backslashes as options to cmake are already quoted)
+- for debug build, due to libraries genenerated during build exceeding 2GB, it is required to select 64bit toolchain (not to confuse with target architecture) with additional flag to cmake: `-T host=x64` (it is safe to add this also to release builds but an important not is that this option requires cmake in version at least 3.8)
+- if Qt configured without passing option `-opengl dynamic` it is required to add `-DQT_USES_GLES2_ONLY=ON` to cmake args
+- keep compilation path short (path to sources of length 24 works with more than 56 fails due to command line length limit generated during build - generally the shorter the safer)
 
 To build QtWebKit successfully you **must** follow these rules:
 
