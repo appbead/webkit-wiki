@@ -22,7 +22,7 @@ You also need to clone http://code.qt.io/cgit/qt/qt5.git and add `gnuwin32/bin` 
 
 _Optional step:_ You can change the default output build directory (`WebKitBuild`) by specifying environment variable `WEBKIT_OUTPUTDIR`.
 
-Due to [#705](../../issues/705) if sources come from a release tarball create a `WebKitLibraries` directory in unpacked sources.
+Due to [#705](../issues/705) if sources come from a release tarball create a `WebKitLibraries` directory in unpacked sources.
 
 Use the following command to build QtWebkit:
 
