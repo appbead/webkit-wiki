@@ -10,12 +10,16 @@ You need to install:
 * CMake
 * Qt 5 (minimum supported version is 5.2)
 * libpng
-* libjpeg
+* libjpeg or libjpeg-turbo
 
 ### Quick installation of some dependencies
 ```
-brew install libpng cmake
+# For buildng with Qt >= 5.10
+brew install libpng libjpeg-turbo cmake
+# For building with Qt < 5.10
+brew install libpng libjpeg cmake
 ```
+
 ### Optional tools
 
 * [ninja](https://ninja-build.org) - significantly increases the compilation speed.
@@ -31,16 +35,27 @@ brew install ninja
 
 ### Building
 
-If you don't have `qmake` in your `$PATH`, you must provide the path to it via `-DCMAKE_PREFIX_PATH`:
+If you don't have `qmake` in your `$PATH`, you must provide the path to it via `-DQt5_DIR`:
 
 ```
-./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=<path_to_your_Qt_installation>"
+./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DQt5_DIR=<path_to_your_Qt_installation>/lib/cmake/Qt5"
 ```
 
-For example, if you have Qt 5.6 installed in `$HOME/Qt`, then the command will be:
+For example, if you have Qt 5.10 installed in `$HOME/Qt`, then the command will be:
 ```
-./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=/Users/vitaly/Qt/5.6/clang_x64"
+./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=$HOME/Qt/5.10/clang_64/lib/cmake/Qt5"
 ```
+
+Then you need to install resulting binaries. If your build was using ninja, run
+```
+ninja -C WebKitBuild/Release install
+```
+otherwise
+```
+make -C WebKitBuild/Release install
+```
+
+QtWebKit will be installed into your Qt directory, side by side with other Qt modules, and will be available for building your projects.
 
 ### Troubleshoot
 
