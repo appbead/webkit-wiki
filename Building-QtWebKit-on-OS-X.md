@@ -43,7 +43,7 @@ If you don't have `qmake` in your `$PATH`, you must provide the path to it via `
 
 For example, if you have Qt 5.10 installed in `$HOME/Qt`, then the command will be:
 ```
-./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DCMAKE_PREFIX_PATH=$HOME/Qt/5.10/clang_64/lib/cmake/Qt5"
+./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DQt5_DIR=$HOME/Qt/5.10/clang_64/lib/cmake/Qt5"
 ```
 
 Then you need to install resulting binaries. If your build was using ninja, run
