@@ -40,6 +40,12 @@ Tools/jhbuild/jhbuild-wrapper --qt list
 
     find WebKitBuild/DependenciesQT/Source -name '*Qt5*debug' -exec cp {} WebKitBuild/DependenciesQT/Root/lib \;
 
+### Add more modules to JHBuild in a separate moduleset
+
+export WEBKIT_EXTRA_MODULESETS=file:///home/user/my.modules
+
+See https://trac.webkit.org/wiki/WebKitGtkExtendingJHBuild
+
 ### Troubleshoout
 
 #### jhbuild dies without any visible explanation of error
