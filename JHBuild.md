@@ -42,7 +42,7 @@ Tools/jhbuild/jhbuild-wrapper --qt list
 
 ### Add more modules to JHBuild in a separate moduleset
 
-export WEBKIT_EXTRA_MODULESETS=file:///home/user/my.modules
+    export WEBKIT_EXTRA_MODULESETS=file:///home/user/my.modules
 
 See https://trac.webkit.org/wiki/WebKitGtkExtendingJHBuild
 
