@@ -43,12 +43,12 @@ If you don't have `qmake` in your `$PATH`, you must provide the path to it via `
 
 In case of Qt >= 5.10 you may also need to help cmake with finding libjpeg-turbo. Following cmake arguments should be used:
 ```
--DJPEG_LIBRARY=/usr/local/opt/jpeg-turbo/lib/libturbojpeg.0.dylib -DJPEG_INCLUDE_DIR=/usr/local/opt/jpeg-turbo/include
+-DCMAKE_PREFIX_PATH=/usr/local/opt/jpeg-turbo
 ```
 
 For example, if you have Qt 5.10 installed in `$HOME/Qt`, then the command will be:
 ```
-./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DQt5_DIR=$HOME/Qt/5.10/clang_64/lib/cmake/Qt5 -DJPEG_LIBRARY=/usr/local/opt/jpeg-turbo/lib/libturbojpeg.0.dylib -DJPEG_INCLUDE_DIR=/usr/local/opt/jpeg-turbo/include"
+./Tools/Scripts/build-webkit --qt --cmakeargs="-Wno-dev -DQt5_DIR=$HOME/Qt/5.10/clang_64/lib/cmake/Qt5 -DCMAKE_PREFIX_PATH=/usr/local/opt/jpeg-turbo"
 ```
 
 Then you need to install resulting binaries. If your build was using ninja, run
