@@ -11,6 +11,8 @@ https://github.com/annulen/webkit/issues/232
 
 **UPD** https://github.com/daewoong-jang/webkit-android - up-to-date Android port of WebKit with WK2 upport
 
+**UPD2** User `yokto` in IRC reported that they have (at least partially working port). No patches were shared yet though. Also, there is https://github.com/SoftwareMansion/jsc-android-buildscripts which allows to build JSC. Integrating their patches should do most of work needed to get QtWebKit up and running.
+
 Legacy QtWebKit was known to compile for Android (though port was never supported officially). See patches
 * https://codereview.qt-project.org/#/c/68640/
 * https://codereview.qt-project.org/#/c/71548/
