@@ -7,7 +7,7 @@ There is no need to repeat this steps for each build, just do it when you build 
 * Install C++ compiler - this manual works only for **Visual Studio 2015 or 2017** or **MinGW version shipped with Qt SDK**. Using other versions of MinGW is possible but some adjustments to steps below will be needed (feel free to ask if you really need this). As for Visual Studio, **older versions just won't work**
 * Install Perl >= 5.14 (e.g. ActivePerl or StrawberryPerl)
 * Install Python 2.7 and Ruby >= 1.9
-* (optionally, will speed up build a bit) Download Ninja from https://github.com/ninja-build/ninja/releases and put ninja.exe into location that it is present in `%PATH%`
+* Download Ninja from https://github.com/ninja-build/ninja/releases and put ninja.exe into location that it is present in `%PATH%`
 * Install Conan (see https://www.conan.io/downloads)
 * Run 
 ```
