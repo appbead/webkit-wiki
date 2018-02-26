@@ -9,7 +9,7 @@ There is no need to repeat this steps for each build, just do it when you build 
 * Install Python 2.7 and Ruby >= 1.9
 * (optionally, will speed up build a bit) Download Ninja from https://github.com/ninja-build/ninja/releases and put ninja.exe into location that it is present in `%PATH%`
 * Install Conan (see https://www.conan.io/downloads)
-* Run `conan remote add qtproject https://api.bintray.com/conan/qtproject/conan`
+* Run `conan remote add qtproject https://api.bintray.com/conan/qtproject/conan --insert`
 * Clone git repositories:
 ```
 git clone git://code.qt.io/qt/qt5.git
