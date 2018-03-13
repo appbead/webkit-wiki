@@ -1,3 +1,5 @@
+## STATIC BUILD IS COMPLETELY UNSUPPORTED. Use at your own risk
+
 You just point CMAKE_PREFIX_PATH to Qt installation which is static, and it automatically switches to static mode
 
 * Pass `-DENABLE_WEBKIT2=OFF -DENABLE_TOOLS=OFF -DENABLE_TEST_SUPPORT=OFF` to cmake arguments. Note  that building QML API is not supported [1]
