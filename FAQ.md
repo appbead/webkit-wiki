@@ -18,7 +18,7 @@ As for GCC 4.8 requirement, this is the first GCC release which supports complet
 
 ### Why so many dependencies besides Qt?
 
-* **libpng** and **libjpeg** are optional dependencies in QtWebKit 5.6, but now are promoted to be mandatory. They are needed to build Qt anyway (though their sources are bundled with Qt), and having single code path for PNG and JPEG will allow to have same rendering and performance characteristics independently on how QtWebKit is built.
+* **libpng** and **libjpeg** are optional dependencies in QtWebKit 5.6, but now are promoted to be mandatory. They are needed to build Qt anyway (though their sources are bundled with Qt), and having single code path for PNG and JPEG will allow to have same rendering and performance characteristics independently on how QtWebKit is built. Also, APNG format can only be supported when libpng is used directly.
 * **sqlite** - similar to libraries above
     * QtWebKit can use sqlite sources from Qt installation if you set `SQLITE3SRCDIR` environment variable appropriately, however this is not recommended
     * In Qt 4 times it was possible to build QtWebKit with disabled database support, however WebKit upstream removed this possibility many years ago.
