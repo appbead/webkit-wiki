@@ -24,6 +24,12 @@ _Optional step:_ You can change the default output build directory (`WebKitBuild
 
 Due to [#705](../issues/705) if sources come from a release tarball create a `WebKitLibraries` directory in unpacked sources.
 
+Set the Include paths (change the version number 5.6.0 and Qt path to meet your case):
+```
+set QT5INC=C:\Qt\Qt5.6.0\include  
+set INCLUDE=%INCLUDE%;%QT5INC%\QtCore\5.6.0;%QT5INC%\QtGui\5.6.0;%QT5INC%\QtQuick\5.6.0;%QT5INC%\QtQml\5.6.0
+```
+
 Use the following command to build QtWebkit:
 
 ```
@@ -45,6 +51,13 @@ To build QtWebKit successfully you **must** follow these rules:
 - Make sure that path to the `bin` folder of `ActivePerl` listed first in your `PATH` variable. Git on Windows has its own Perl executable which doesn't work with WebKit scripts.
 
 To build JSC only, replace `build-webkit` with `build-jsc`.
+
+# Install QtWebKit
+Use the following command to install QtWebkit:
+
+```
+cmake -DCMAKE_INSTALL_PREFIX=C:\Qt\Qt5.6.0 -P WebKitBuild\Release\cmake_install.cmake
+```
 
 # TODO: Running tests
 
